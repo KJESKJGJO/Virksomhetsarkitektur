@@ -4,21 +4,35 @@
     "no": "Mjøssykehuset — utviklingsaktiviteter",
     "en": "Mjøssykehuset — development activity"
   },
-  "updated": "2026-07-06T05:32:03Z",
+  "updated": "2026-07-12T17:58:28Z",
   "items": [
     {
       "title": {
-        "no": "Reguleringsplan på høring — frist 3. juli 2026",
-        "en": "Zoning plan in public consultation — deadline 3 July 2026"
+        "no": "Fylkesutvalget: ingen innsigelser til reguleringsplanen — men flere rekkefølgekrav",
+        "en": "County committee: no formal objections to the zoning plan — but several sequencing requirements added"
       },
       "summary": {
-        "no": "Ringsaker kommune har lagt forslag til reguleringsplan for Mjøssykehuset i Moelv ut til høring og offentlig ettersyn. Helse Sør-Øst, Sykehuset Innlandet og kommunen holdt informasjonsmøte 4. juni. Uttalefrist 3. juli — siste vindu for å påvirke arealrammer før prosjektet låses.",
-        "en": "Ringsaker municipality has placed the zoning plan for Mjøssykehuset in Moelv on public consultation. Helse Sør-Øst, Sykehuset Innlandet and the municipality hosted an information meeting on 4 June. Deadline 3 July — the last window to influence land-use parameters before the project is locked."
+        "no": "Innlandet fylkesutvalg behandlet 30. juni reguleringsplanen for Mjøssykehuset og fant ingen innsigelser, men vedtok en rekke justeringer: prioritert bygging av ny Mo bru, kartlegging av ansattes kollektivbehov, planfri kryssing til Moskogen og rekkefølgekrav som må være løst før sykehuset settes i drift. Reguleringsplanen ventes vedtatt høsten 2026 — innsigelsesfri behandling fjerner en stor risiko for forsinkelse, men rekkefølgekravene binder ferdigstillelse av infrastruktur til sykehusets åpningsdato.",
+        "en": "On 30 June, Innlandet county committee reviewed the Mjøssykehuset zoning plan and raised no formal objections, but adopted several conditions: prioritised construction of a new Mo bridge, mapping of staff commuting needs, grade-separated crossing to Moskogen, and sequencing requirements tied to the hospital's opening date. The zoning plan is expected to be adopted in autumn 2026 — the absence of objections removes a major delay risk, but the sequencing requirements now link infrastructure completion directly to the hospital's commissioning date."
       },
-      "source": "Ringsaker kommune",
-      "url": "https://www.ringsaker.kommune.no/kunngjoringer",
-      "date": "2026-06-05",
+      "source": "Innlandet fylkeskommune",
+      "url": "https://innlandetfylke.no/nyheter-forsiden/ingen-innsigelser-til-mjossykehuset.66979.aspx",
+      "date": "2026-06-30",
       "impact": "high"
+    },
+    {
+      "title": {
+        "no": "NITO krever tilfluktsrom i Mjøssykehuset før forskrift svekkes",
+        "en": "NITO demands shelter rooms in Mjøssykehuset before regulation is weakened"
+      },
+      "summary": {
+        "no": "NITO advarer om at forslaget til ny tilfluktsromforskrift (høringsfrist 15. oktober 2026) fjerner byggeplikten for nybygg over 1000 kvm og kun åpner for en skjønnsmessig vurdering. Mjøssykehuset ble konkret nevnt av Stortinget i april som eksempel på prosjekt som trenger rask avklaring. Uten avklaring nå kan tilfluktsrom bli vesentlig vanskeligere å bygge inn senere i prosjektet — direkte konsekvens for kravspesifikasjon og kostnadsramme i forprosjektfasen.",
+        "en": "NITO warns that the draft shelter regulation (consultation deadline 15 October 2026) removes the construction duty for new buildings over 1,000 m² and only allows for a discretionary assessment. Parliament specifically named Mjøssykehuset in April as a project needing rapid clarification. Without a decision now, shelter rooms may become significantly harder to incorporate later — a direct consequence for requirements specification and cost framework in the front-end design phase."
+      },
+      "source": "NITO",
+      "url": "https://www.nito.no/aktuelt/nito-i-samfunnet/na-ma-vi-sta-opp-for-tilfluktsrom-pa-mjossykehuset/",
+      "date": "2026-07-07",
+      "impact": "medium"
     },
     {
       "title": {
@@ -26,26 +40,12 @@
         "en": "Sykehusbygg HF procures BIM and information management platform"
       },
       "summary": {
-        "no": "Sykehusbygg HF kunngjorde 22. mai (revidert 4. juni) konkurranse om plattform for helhetlig informasjonsforvaltning og digital kravstyring i byggeprosjekt — sentral styring av BIM-krav, validering og dataflyt. Kontrakt 14.09.2026–15.09.2030, tilbudsfrist 6. juli. Mjøssykehuset er ett av de største bruksområdene.",
-        "en": "Sykehusbygg HF announced (22 May, revised 4 June) a tender for a platform for holistic information management and digital requirements control in construction projects — central governance of BIM requirements, validation and data flow. Contract 14 Sept 2026 to 15 Sept 2030, bid deadline 6 July. Mjøssykehuset is among the largest use cases."
+        "no": "Sykehusbygg HF kunngjorde 22. mai (revidert 4. juni) konkurranse om plattform for helhetlig informasjonsforvaltning og digital kravstyring i byggeprosjekt — sentral styring av BIM-krav, validering og dataflyt. Kontrakt 14.09.2026–15.09.2030, tilbudsfrist var 6. juli. Mjøssykehuset er ett av de største bruksområdene, og valg av leverandør vil legge premisser for digital kravstyring i forprosjektfasen.",
+        "en": "Sykehusbygg HF announced (22 May, revised 4 June) a tender for a platform for holistic information management and digital requirements control in construction projects — central governance of BIM requirements, validation and data flow. Contract 14 Sept 2026 to 15 Sept 2030, bid deadline was 6 July. Mjøssykehuset is among the largest use cases, and the vendor selection will set premises for digital requirements control in the front-end design phase."
       },
       "source": "Doffin / Sykehusbygg HF",
       "url": "https://doffin.no/notices/2026-109170",
       "date": "2026-06-04",
-      "impact": "medium"
-    },
-    {
-      "title": {
-        "no": "Sykehusbygg HF reviderer veileder for nye sykehusbygg",
-        "en": "Sykehusbygg HF revises guideline for new hospital buildings"
-      },
-      "summary": {
-        "no": "Sykehusbygg HF har publisert revidert veileder for tidligfaseplanlegging — oppdaterte krav til arealnormer, beredskap og bærekraft som vil legge føringer for forprosjekt og detaljprosjektering på Mjøssykehuset.",
-        "en": "Sykehusbygg HF has published a revised guideline for early-phase planning — updated requirements for area norms, preparedness and sustainability that will shape the front-end and detailed design of Mjøssykehuset."
-      },
-      "source": "Sykehusbygg HF",
-      "url": "https://www.sykehusbygg.no/nyheter/revidert-veileder-sikrer-sykehusene-for-en-mer-krevende-tid/",
-      "date": "2026-05-26",
       "impact": "medium"
     }
   ]
