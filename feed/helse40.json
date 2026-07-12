@@ -1,0 +1,52 @@
+{
+  "id": "helse40",
+  "title": {
+    "no": "Helse 4.0 — siste signaler",
+    "en": "Health 4.0 — latest signals"
+  },
+  "updated": "2026-07-06T05:32:03Z",
+  "items": [
+    {
+      "title": {
+        "no": "Helsedirektoratet leverer nasjonal ICD-11-strategi",
+        "en": "Norwegian Directorate of Health delivers national ICD-11 strategy"
+      },
+      "summary": {
+        "no": "Forslag til nasjonal oppgraderingsstrategi fra ICD-10 til ICD-11 er levert HOD, med mål om innføring i 2028–29. Direkte konsekvens for kodeverkslag i Helse 4.0 — krever ICD-11-mapping i PatientTwin og forløpsmodellering.",
+        "en": "A national strategy for upgrading from ICD-10 to ICD-11 has been delivered, targeting rollout in 2028–29. Direct impact on the coding layer of Health 4.0 — requires ICD-11 mapping in PatientTwin and pathway modelling."
+      },
+      "source": "Helsedirektoratet",
+      "url": "https://www.helsedirektoratet.no/nyheter",
+      "date": "2026-06-22",
+      "impact": "high"
+    },
+    {
+      "title": {
+        "no": "Høring: ny lov om European Health Data Space (EHDS)",
+        "en": "Consultation: new act on the European Health Data Space (EHDS)"
+      },
+      "summary": {
+        "no": "HOD sender forslag til ny EHDS-lov på høring (frist 28.09.2026), inkludert endringer i pasientjournalloven og helseregisterloven. Setter rammer for sekundærbruk av data — sentralt for digitale tvillinger og horisontal skalering på tvers av sykehus.",
+        "en": "The Ministry of Health has launched a consultation on the EHDS Act (deadline 28 Sept 2026), including changes to the patient record and health registry acts. Sets the framework for secondary use of data — central to digital twins and horizontal scaling across hospitals."
+      },
+      "source": "Regjeringen.no",
+      "url": "https://www.regjeringen.no/no/dokumenter/horingsbrev-forslag-til-ny-lov-om-det-europeiske-helsedataomradet/id3164607/",
+      "date": "2026-06-08",
+      "impact": "high"
+    },
+    {
+      "title": {
+        "no": "Nasjonal KI-tjeneste for kvalitetssikrede helseråd bestilt",
+        "en": "National AI service for quality-assured health advice commissioned"
+      },
+      "summary": {
+        "no": "HOD har bedt Helsedirektoratet om å starte arbeidet med en offentlig KI-tjeneste som gir kvalitetssikrede og persontilpassede helseråd. Definerer nasjonal KI-stack i helse — viktig referansearkitektur for KI-laget i Helse 4.0.",
+        "en": "The Ministry of Health has tasked the Directorate with launching a public AI service for quality-assured, personalised health advice. Defines the national AI stack in healthcare — a key reference architecture for the AI layer in Health 4.0."
+      },
+      "source": "Helsedirektoratet",
+      "url": "https://www.helsedirektoratet.no/nyheter",
+      "date": "2026-06-16",
+      "impact": "medium"
+    }
+  ]
+}

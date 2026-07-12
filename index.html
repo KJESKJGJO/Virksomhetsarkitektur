@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="no" data-lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skjølås Enterprise Architecture — Strategisk arkitektur for helse og virksomhet</title>
+  <meta name="description" content="Skjølås Enterprise Architecture leverer strategisk virksomhetsarkitektur, kapabilitetsplanlegging, Helse 4.0 og digital transformasjon — med dyp spesialisering innen helsesektoren." />
+  <meta property="og:title" content="Skjølås Enterprise Architecture" />
+  <meta property="og:description" content="Strategisk virksomhetsarkitektur for helse og virksomhet." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&f[]=cabinet-grotesk@500,700,800&display=swap" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="alternate" type="application/rss+xml" title="Skjølås EA — Signaler" href="/rss.xml" />
+</head>
+<body>
+  <!-- Background grain & gradient -->
+  <div class="bg-layer" aria-hidden="true">
+    <div class="bg-gradient"></div>
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow--1"></div>
+    <div class="bg-glow bg-glow--2"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Skjølås Enterprise Architecture">
+        <svg viewBox="0 0 40 40" width="32" height="32" fill="none" aria-hidden="true">
+          <path d="M8 32 L20 6 L32 32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 22 L26 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="20" cy="14" r="2" fill="currentColor"/>
+        </svg>
+        <span class="nav__brand">
+          <span class="nav__brand-name">Skjølås</span>
+          <span class="nav__brand-sub">Enterprise Architecture</span>
+        </span>
+      </a>
+      <nav class="nav__links" aria-label="Hovednavigasjon">
+        <a href="#services" data-i18n="nav.services">Tjenester</a>
+        <a href="#case" data-i18n="nav.case">Case</a>
+        <a href="#approach" data-i18n="nav.approach">Tilnærming</a>
+        <a href="#sectors" data-i18n="nav.sectors">Sektorer</a>
+        <a href="#about" data-i18n="nav.about">Om</a>
+        <a href="#follow" data-i18n="nav.follow">Følg</a>
+        <a href="#contact" class="nav__cta" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+      <div class="nav__lang" role="group" aria-label="Språkvalg">
+        <button class="lang-btn is-active" data-lang-switch="no" aria-pressed="true">NO</button>
+        <span aria-hidden="true">/</span>
+        <button class="lang-btn" data-lang-switch="en" aria-pressed="false">EN</button>
+      </div>
+      <button class="nav__toggle" aria-label="Meny" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__eyebrow">
+          <span class="dot"></span>
+          <span data-i18n="hero.eyebrow">Virksomhetsarkitektur · Helse · Digital transformasjon</span>
+        </div>
+        <h1 class="hero__title">
+          <span data-i18n="hero.title.line1">Arkitektur som binder</span>
+          <span class="hero__title-accent" data-i18n="hero.title.line2">strategi til evne.</span>
+        </h1>
+        <p class="hero__lede" data-i18n="hero.lede">
+          Skjølås Enterprise Architecture hjelper helseforetak og komplekse virksomheter med å oversette strategi til kapabiliteter, verdistrømmer og målbar gjennomføring.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary" data-i18n="hero.cta.primary">Start en samtale</a>
+          <a href="#services" class="btn btn--ghost" data-i18n="hero.cta.secondary">Se tjenester →</a>
+        </div>
+        <div class="hero__meta">
+          <div class="hero__meta-item">
+            <span class="hero__meta-num">15+</span>
+            <span class="hero__meta-label" data-i18n="hero.meta.years">års erfaring</span>
+          </div>
+          <div class="hero__meta-item">
+            <span class="hero__meta-num" data-i18n="hero.meta.scope.val">Ledelse · Forretning · Teknologi</span>
+            <span class="hero__meta-label" data-i18n="hero.meta.scope">på tvers av virksomhetsområder</span>
+          </div>
+          <div class="hero__meta-item">
+            <span class="hero__meta-num">TOGAF · BiZZdesign</span>
+            <span class="hero__meta-label" data-i18n="hero.meta.framework">rammeverk og verktøy</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="orbit">
+          <div class="orbit__ring orbit__ring--1"></div>
+          <div class="orbit__ring orbit__ring--2"></div>
+          <div class="orbit__ring orbit__ring--3"></div>
+          <div class="orbit__core"></div>
+          <div class="orbit__node orbit__node--1"></div>
+          <div class="orbit__node orbit__node--2"></div>
+          <div class="orbit__node orbit__node--3"></div>
+          <div class="orbit__node orbit__node--4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow" data-i18n="services.eyebrow">Tjenester</span>
+          <h2 class="section__title" data-i18n="services.title">Fra strategisk hensikt til operativ gjennomføring</h2>
+          <p class="section__lede" data-i18n="services.lede">
+            Seks kjernetjenester som dekker hele arkitekturreisen — fra første kapabilitetskart til ferdig styringsmodell.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card service-card--feature">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            </div>
+            <h3 data-i18n="services.cap.title"></h3>
+            <p class="service-card__pitch" data-i18n="services.cap.desc"></p>
+            <details class="service-card__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.approach.label"></h4>
+                <p data-i18n="services.cap.approach"></p>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.deliverables.label"></h4>
+                <ul class="service-card__list">
+                  <li data-i18n="services.cap.del1"></li>
+                  <li data-i18n="services.cap.del2"></li>
+                  <li data-i18n="services.cap.del3"></li>
+                  <li data-i18n="services.cap.del4"></li>
+                  <li data-i18n="services.cap.del5"></li>
+                </ul>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.outcome.label"></h4>
+                <p data-i18n="services.cap.outcome"></p>
+              </div>
+              <a class="service-card__caselink" href="#case" data-i18n="services.cap.caselink"></a>
+            </details>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-9 4 18 3-9h4"/></svg>
+            </div>
+            <h3 data-i18n="services.vs.title"></h3>
+            <p class="service-card__pitch" data-i18n="services.vs.desc"></p>
+            <details class="service-card__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.approach.label"></h4>
+                <p data-i18n="services.vs.approach"></p>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.deliverables.label"></h4>
+                <ul class="service-card__list">
+                  <li data-i18n="services.vs.del1"></li>
+                  <li data-i18n="services.vs.del2"></li>
+                  <li data-i18n="services.vs.del3"></li>
+                  <li data-i18n="services.vs.del4"></li>
+                  <li data-i18n="services.vs.del5"></li>
+                </ul>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.outcome.label"></h4>
+                <p data-i18n="services.vs.outcome"></p>
+              </div>
+            </details>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 6v6c0 5 3.5 9 8 10 4.5-1 8-5 8-10V6z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3 data-i18n="services.gov.title"></h3>
+            <p class="service-card__pitch" data-i18n="services.gov.desc"></p>
+            <details class="service-card__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.approach.label"></h4>
+                <p data-i18n="services.gov.approach"></p>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.deliverables.label"></h4>
+                <ul class="service-card__list">
+                  <li data-i18n="services.gov.del1"></li>
+                  <li data-i18n="services.gov.del2"></li>
+                  <li data-i18n="services.gov.del3"></li>
+                  <li data-i18n="services.gov.del4"></li>
+                  <li data-i18n="services.gov.del5"></li>
+                </ul>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.outcome.label"></h4>
+                <p data-i18n="services.gov.outcome"></p>
+              </div>
+            </details>
+          </article>
+
+          <article class="service-card service-card--feature">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="12" r="3.5"/><circle cx="16" cy="12" r="3.5"/><path d="M8 5.5V3M16 5.5V3M8 21v-2.5M16 21v-2.5M3 12h1.5M19.5 12H21"/></svg>
+            </div>
+            <h3 data-i18n="services.fhir.title"></h3>
+            <p class="service-card__pitch" data-i18n="services.fhir.desc"></p>
+            <details class="service-card__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.approach.label"></h4>
+                <p data-i18n="services.fhir.approach"></p>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.fhir.pillars.label"></h4>
+                <ul class="service-card__list">
+                  <li data-i18n="services.fhir.pillar1"></li>
+                  <li data-i18n="services.fhir.pillar2"></li>
+                  <li data-i18n="services.fhir.pillar3"></li>
+                  <li data-i18n="services.fhir.pillar4"></li>
+                </ul>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.deliverables.label"></h4>
+                <ul class="service-card__list">
+                  <li data-i18n="services.fhir.del1"></li>
+                  <li data-i18n="services.fhir.del2"></li>
+                  <li data-i18n="services.fhir.del3"></li>
+                  <li data-i18n="services.fhir.del4"></li>
+                  <li data-i18n="services.fhir.del5"></li>
+                </ul>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.fhir.scale.label"></h4>
+                <p data-i18n="services.fhir.scale"></p>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.outcome.label"></h4>
+                <p data-i18n="services.fhir.outcome"></p>
+              </div>
+            </details>
+            <section class="card-feed" data-feed="helse40" aria-live="polite">
+              <div class="card-feed__head">
+                <h4 class="card-feed__label" data-i18n="feed.label"></h4>
+                <span class="card-feed__meta" data-feed-meta></span>
+              </div>
+              <ul class="card-feed__list" data-feed-list>
+                <li class="card-feed__empty" data-i18n="feed.empty"></li>
+              </ul>
+            </section>
+            <a class="service-card__caselink service-card__caselink--soon" href="#case" data-i18n="services.fhir.caselink" aria-disabled="true"></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <h3 data-i18n="services.digital.title"></h3>
+            <p class="service-card__pitch" data-i18n="services.digital.desc"></p>
+            <details class="service-card__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.approach.label"></h4>
+                <p data-i18n="services.digital.approach"></p>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.deliverables.label"></h4>
+                <ul class="service-card__list">
+                  <li data-i18n="services.digital.del1"></li>
+                  <li data-i18n="services.digital.del2"></li>
+                  <li data-i18n="services.digital.del3"></li>
+                  <li data-i18n="services.digital.del4"></li>
+                  <li data-i18n="services.digital.del5"></li>
+                </ul>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.outcome.label"></h4>
+                <p data-i18n="services.digital.outcome"></p>
+              </div>
+            </details>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7h-7L11 5H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/></svg>
+            </div>
+            <h3 data-i18n="services.sourcing.title"></h3>
+            <p class="service-card__pitch" data-i18n="services.sourcing.desc"></p>
+            <details class="service-card__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.approach.label"></h4>
+                <p data-i18n="services.sourcing.approach"></p>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.deliverables.label"></h4>
+                <ul class="service-card__list">
+                  <li data-i18n="services.sourcing.del1"></li>
+                  <li data-i18n="services.sourcing.del2"></li>
+                  <li data-i18n="services.sourcing.del3"></li>
+                  <li data-i18n="services.sourcing.del4"></li>
+                  <li data-i18n="services.sourcing.del5"></li>
+                </ul>
+              </div>
+              <div class="service-card__block">
+                <h4 class="service-card__h4" data-i18n="services.outcome.label"></h4>
+                <p data-i18n="services.sourcing.outcome"></p>
+              </div>
+            </details>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- CASE -->
+    <section class="section" id="case">
+      <div class="container case">
+        <div class="case__copy">
+          <span class="section__eyebrow" data-i18n="case.eyebrow">Case</span>
+          <h2 class="section__title" data-i18n="case.title"></h2>
+          <p class="section__lede" data-i18n="case.lede"></p>
+          <p class="case__body" data-i18n="case.body"></p>
+          <ul class="case__tags" aria-label="Tags">
+            <li data-i18n="case.tag1"></li>
+            <li data-i18n="case.tag2"></li>
+            <li data-i18n="case.tag3"></li>
+          </ul>
+        </div>
+        <figure class="case__video">
+          <video controls preload="metadata" playsinline poster="assets/case/mjossykehuset-poster.jpg">
+            <source src="assets/case/mjossykehuset.webm" type="video/webm" />
+            <source src="assets/case/mjossykehuset.mp4" type="video/mp4" />
+            <p data-i18n="case.video.fallback"></p>
+          </video>
+          <figcaption data-i18n="case.video.caption"></figcaption>
+        </figure>
+        <section class="case-feed card-feed" data-feed="mjossykehuset" aria-live="polite">
+          <div class="card-feed__head">
+            <h4 class="card-feed__label" data-i18n="feed.mjos.label"></h4>
+            <span class="card-feed__meta" data-feed-meta></span>
+          </div>
+          <ul class="card-feed__list" data-feed-list>
+            <li class="card-feed__empty" data-i18n="feed.mjos.empty"></li>
+          </ul>
+        </section>
+      </div>
+    </section>
+
+
+    <!-- APPROACH -->
+    <section class="section section--alt" id="approach">
+      <div class="container">
+        <div class="section__header section__header--left">
+          <span class="section__eyebrow" data-i18n="approach.eyebrow">Tilnærming</span>
+          <h2 class="section__title" data-i18n="approach.title">Pragmatisk arkitektur. Målbar verdi.</h2>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3 data-i18n="approach.s1.title">Forstå</h3>
+            <p data-i18n="approach.s1.desc">Vi starter med strategisk hensikt, interessenter og smertepunkter — ikke med modeller.</p>
+            <details class="step__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <p class="step__body" data-i18n="approach.s1.body"></p>
+              <ul class="step__list">
+                <li data-i18n="approach.s1.li1"></li>
+                <li data-i18n="approach.s1.li2"></li>
+                <li data-i18n="approach.s1.li3"></li>
+                <li data-i18n="approach.s1.li4"></li>
+              </ul>
+            </details>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3 data-i18n="approach.s2.title">Modellere</h3>
+            <p data-i18n="approach.s2.desc">Kapabiliteter, verdistrømmer og dataflyt visualiseres i et felles språk alle nivåer forstår.</p>
+            <details class="step__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <p class="step__body" data-i18n="approach.s2.body"></p>
+              <ul class="step__list">
+                <li data-i18n="approach.s2.li1"></li>
+                <li data-i18n="approach.s2.li2"></li>
+                <li data-i18n="approach.s2.li3"></li>
+                <li data-i18n="approach.s2.li4"></li>
+              </ul>
+            </details>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <h3 data-i18n="approach.s3.title">Prioritere</h3>
+            <p data-i18n="approach.s3.desc">Vi identifiserer hvor investeringer gir størst strategisk uttelling — og hvor man trygt kan vente.</p>
+            <details class="step__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <p class="step__body" data-i18n="approach.s3.body"></p>
+              <ul class="step__list">
+                <li data-i18n="approach.s3.li1"></li>
+                <li data-i18n="approach.s3.li2"></li>
+                <li data-i18n="approach.s3.li3"></li>
+                <li data-i18n="approach.s3.li4"></li>
+              </ul>
+            </details>
+          </li>
+          <li class="step">
+            <span class="step__num">04</span>
+            <h3 data-i18n="approach.s4.title">Gjennomføre</h3>
+            <p data-i18n="approach.s4.desc">Styringsmodell, veikart og leveransekapasitet som faktisk leverer endring — ikke bare dokumenter.</p>
+            <details class="step__details">
+              <summary><span class="summary-more" data-i18n="services.more"></span><span class="summary-less" data-i18n="services.less"></span></summary>
+              <p class="step__body" data-i18n="approach.s4.body"></p>
+              <ul class="step__list">
+                <li data-i18n="approach.s4.li1"></li>
+                <li data-i18n="approach.s4.li2"></li>
+                <li data-i18n="approach.s4.li3"></li>
+                <li data-i18n="approach.s4.li4"></li>
+              </ul>
+            </details>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SECTORS -->
+    <section class="section" id="sectors">
+      <div class="container">
+        <div class="sectors">
+          <div class="sectors__copy">
+            <span class="section__eyebrow" data-i18n="sectors.eyebrow">Sektorer</span>
+            <h2 class="section__title" data-i18n="sectors.title">Spesialisert i helse. Anvendelig på tvers.</h2>
+            <p class="section__lede" data-i18n="sectors.lede">
+              Vår dypeste kompetanse er innen helsesektoren — men metodikken er bransjeuavhengig. Vi har levert arkitekturarbeid for offentlige virksomheter, regulerte industrier og store private aktører.
+            </p>
+            <ul class="checklist">
+              <li data-i18n="sectors.li1">Helseforetak, kommuner og helsetjenesteleverandører</li>
+              <li data-i18n="sectors.li2">Offentlig sektor og forvaltning</li>
+              <li data-i18n="sectors.li3">Forsikring, finans og regulerte tjenester</li>
+              <li data-i18n="sectors.li4">Industri og teknologivirksomheter i transformasjon</li>
+            </ul>
+          </div>
+          <div class="sectors__visual">
+            <div class="stat-card">
+              <span class="stat-card__num">FHIR R4</span>
+              <span class="stat-card__label" data-i18n="sectors.stat1">Helseinformatikk-standarder</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">TOGAF · ArchiMate</span>
+              <span class="stat-card__label" data-i18n="sectors.stat2">Arkitekturrammeverk</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">CE · DPIA · ROS</span>
+              <span class="stat-card__label" data-i18n="sectors.stat3">Compliance & risiko</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-card__num">BPMN · UML</span>
+              <span class="stat-card__label" data-i18n="sectors.stat4">Modelleringsspråk</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--alt" id="about">
+      <div class="container about">
+        <div class="about__copy">
+          <span class="section__eyebrow" data-i18n="about.eyebrow">Om</span>
+          <h2 class="section__title" data-i18n="about.title">Selvstendig rådgivning. Senior gjennomføring.</h2>
+          <p data-i18n="about.p1">
+            Skjølås Enterprise Architecture er et uavhengig konsulentselskap som leverer strategisk virksomhetsarkitektur og digital transformasjon. Vi jobber tett med ledelse, fagmiljø og leverandører — og setter våre spor i form av tydeligere beslutninger og raskere gjennomføring.
+          </p>
+          <p data-i18n="about.p2">
+            Vi tror på pragmatisme over perfeksjonisme, på modeller som tjener mennesker, og på arkitektur som forklarer hvorfor — ikke bare hvordan.
+          </p>
+          <div class="about__values">
+            <div class="value">
+              <h4 data-i18n="about.v1.title">Klarhet</h4>
+              <p data-i18n="about.v1.desc">Komplekse landskap forklart enkelt — uten å forenkle bort substansen.</p>
+            </div>
+            <div class="value">
+              <h4 data-i18n="about.v2.title">Uavhengighet</h4>
+              <p data-i18n="about.v2.desc">Ingen leverandørbindinger. Råd som tjener oppdragsgivers interesser — alltid.</p>
+            </div>
+            <div class="value">
+              <h4 data-i18n="about.v3.title">Gjennomføring</h4>
+              <p data-i18n="about.v3.desc">Arkitektur måles i endring, ikke i dokumenter. Vi blir til jobben er gjort.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__copy">
+          <span class="section__eyebrow" data-i18n="contact.eyebrow">Kontakt</span>
+          <h2 class="section__title" data-i18n="contact.title">La oss starte en samtale.</h2>
+          <p data-i18n="contact.lede">
+            Vurderer dere et arkitekturløft, et helsedataprosjekt eller en strategisk gjennomgang? Send en uforpliktende henvendelse — vi svarer innen én virkedag.
+          </p>
+          <ul class="contact__list">
+            <li>
+              <span class="contact__list-label" data-i18n="contact.based">Lokalisert i</span>
+              <span>Gjøvik, Innlandet · Norge</span>
+            </li>
+            <li>
+              <span class="contact__list-label" data-i18n="contact.response">Responstid</span>
+              <span data-i18n="contact.response.val">Innen 1 virkedag</span>
+            </li>
+            <li>
+              <span class="contact__list-label" data-i18n="contact.lang">Arbeidsspråk</span>
+              <span data-i18n="contact.lang.val">Norsk · Engelsk</span>
+            </li>
+            <li>
+              <span class="contact__list-label" data-i18n="contact.linkedin">LinkedIn</span>
+              <a class="contact__linkedin" href="https://www.linkedin.com/in/kjellskjolas/" target="_blank" rel="noopener" aria-label="Kjell Skjølås på LinkedIn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+                <span>in/kjellskjolas</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name" data-i18n="form.name">Navn</label>
+            <input type="text" id="name" name="name" required autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="email" data-i18n="form.email">E-post</label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="company" data-i18n="form.company">Virksomhet</label>
+            <input type="text" id="company" name="company" autocomplete="organization" />
+          </div>
+          <div class="field">
+            <label for="topic" data-i18n="form.topic">Tema</label>
+            <select id="topic" name="topic">
+              <option value="capability" data-i18n="form.topic.cap">Kapabilitetsmodellering</option>
+              <option value="health" data-i18n="form.topic.health">Helse 4.0 / digitale tvillinger</option>
+              <option value="governance" data-i18n="form.topic.gov">Governance & styring</option>
+              <option value="digital" data-i18n="form.topic.digital">Digital transformasjon</option>
+              <option value="other" data-i18n="form.topic.other">Annet</option>
+            </select>
+          </div>
+          <div class="field field--full">
+            <label for="message" data-i18n="form.message">Melding</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <div class="field field--full form-actions">
+            <button type="submit" class="btn btn--primary" data-i18n="form.submit">Send henvendelse</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- FOLLOW -->
+    <section class="section section--alt" id="follow">
+      <div class="container follow">
+        <div class="follow__copy">
+          <span class="section__eyebrow" data-i18n="follow.eyebrow">Følg</span>
+          <h2 class="section__title" data-i18n="follow.title"></h2>
+          <p class="section__lede" data-i18n="follow.lede"></p>
+        </div>
+        <div class="follow__channels">
+          <div class="follow__channel follow__channel--rss">
+            <span class="follow__channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.5" fill="currentColor"/></svg>
+            </span>
+            <div class="follow__channel-body">
+              <span class="follow__channel-title" data-i18n="follow.rss.title">RSS</span>
+              <span class="follow__channel-desc" data-i18n="follow.rss.desc"></span>
+              <div class="follow__rss-url">
+                <code id="rss-url">https://skjolas.no/rss.xml</code>
+                <button class="follow__rss-copy" type="button" data-copy="https://skjolas.no/rss.xml" data-i18n="follow.rss.copy" data-i18n-copied="follow.rss.copied">Kopier</button>
+              </div>
+              <div class="follow__rss-readers">
+                <span class="follow__rss-readers-label" data-i18n="follow.rss.readers"></span>
+                <a href="https://feedly.com/i/subscription/feed/https://skjolas.no/rss.xml" target="_blank" rel="noopener">Feedly</a>
+                <a href="https://netnewswire.com" target="_blank" rel="noopener">NetNewsWire</a>
+                <a href="https://reederapp.com" target="_blank" rel="noopener">Reeder</a>
+                <a href="https://inoreader.com" target="_blank" rel="noopener">Inoreader</a>
+              </div>
+              <a class="follow__rss-preview" href="/rss.xml" target="_blank" rel="noopener" data-i18n="follow.rss.preview"></a>
+            </div>
+          </div>
+          <a class="follow__channel" href="https://www.linkedin.com/in/kjellskjolas/" target="_blank" rel="noopener">
+            <span class="follow__channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            </span>
+            <span class="follow__channel-body">
+              <span class="follow__channel-title">LinkedIn</span>
+              <span class="follow__channel-desc" data-i18n="follow.li.desc"></span>
+            </span>
+            <span class="follow__channel-cta" data-i18n="follow.li.cta"></span>
+          </a>
+          <div class="follow__channel follow__channel--soon" aria-disabled="true">
+            <span class="follow__channel-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14"/><path d="M3 7l9 6 9-6"/></svg>
+            </span>
+            <span class="follow__channel-body">
+              <span class="follow__channel-title" data-i18n="follow.email.title">E-postvarsling</span>
+              <span class="follow__channel-desc" data-i18n="follow.email.desc"></span>
+            </span>
+            <span class="follow__channel-cta" data-i18n="follow.email.cta"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <svg viewBox="0 0 40 40" width="28" height="28" fill="none" aria-hidden="true">
+          <path d="M8 32 L20 6 L32 32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M14 22 L26 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="20" cy="14" r="2" fill="currentColor"/>
+        </svg>
+        <span>Skjølås Enterprise Architecture</span>
+      </div>
+      <p class="footer__copy">
+        © <span id="year"></span> Skjølås Enterprise Architecture · <span data-i18n="footer.tag">Strategisk arkitektur · Helse · Digital transformasjon</span>
+      </p>
+      <a class="footer__rss" href="/rss.xml" target="_blank" rel="noopener" aria-label="RSS-feed">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.5" fill="currentColor"/></svg>
+        <span>RSS</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/feed.js"></script>
+</body>
+</html>
