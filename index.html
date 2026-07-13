@@ -340,44 +340,86 @@
           <figcaption data-i18n="case.video.caption"></figcaption>
         </figure>
 
-        <!-- VERDISTRØMSANALYSE — LEVERANSER -->
-        <section class="case-deliverables" aria-labelledby="case-deliverables-title">
-          <div class="case-deliverables__head">
-            <span class="section__eyebrow" data-i18n="case.deliverables.eyebrow">Verdistrømsanalyse</span>
-            <h3 id="case-deliverables-title" class="case-deliverables__title" data-i18n="case.deliverables.title"></h3>
-            <p class="case-deliverables__lede" data-i18n="case.deliverables.lede"></p>
-            <p class="case-deliverables__body" data-i18n="case.deliverables.body"></p>
+        <!-- VERDISTRØMSANALYSE — A/B/C-MAPPING -->
+        <section class="case-packages" aria-labelledby="case-packages-title">
+          <div class="case-packages__head">
+            <span class="section__eyebrow" data-i18n="case.packages.eyebrow">Verdistrømsanalyse</span>
+            <h3 id="case-packages-title" class="case-packages__title" data-i18n="case.packages.title"></h3>
+            <p class="case-packages__lede" data-i18n="case.packages.lede"></p>
           </div>
-          <ul class="case-deliverables__list">
-            <li class="case-deliverables__item">
-              <span class="case-deliverables__kind" data-i18n="case.deliverables.d1.kind"></span>
-              <h4 class="case-deliverables__name" data-i18n="case.deliverables.d1.title"></h4>
-              <p class="case-deliverables__desc" data-i18n="case.deliverables.d1.desc"></p>
-              <a class="case-deliverables__link" href="assets/case/verdistrom/Metodenotat-Verdistromsanalyse-Mjossykehuset.md" download>
-                <span data-i18n="case.deliverables.d1.link"></span>
-                <span class="case-deliverables__link-meta">MD · 12 KB</span>
-              </a>
-            </li>
-            <li class="case-deliverables__item">
-              <span class="case-deliverables__kind" data-i18n="case.deliverables.d2.kind"></span>
-              <h4 class="case-deliverables__name" data-i18n="case.deliverables.d2.title"></h4>
-              <p class="case-deliverables__desc" data-i18n="case.deliverables.d2.desc"></p>
-              <a class="case-deliverables__link" href="assets/case/verdistrom/Verdistromsmodell-Mjossykehuset.xlsx" download>
-                <span data-i18n="case.deliverables.d2.link"></span>
-                <span class="case-deliverables__link-meta">XLSX · 43 KB</span>
-              </a>
-            </li>
-            <li class="case-deliverables__item">
-              <span class="case-deliverables__kind" data-i18n="case.deliverables.d3.kind"></span>
-              <h4 class="case-deliverables__name" data-i18n="case.deliverables.d3.title"></h4>
-              <p class="case-deliverables__desc" data-i18n="case.deliverables.d3.desc"></p>
-              <a class="case-deliverables__link" href="assets/case/verdistrom/Verdistrommer-Mjossykehuset.pptx" download>
-                <span data-i18n="case.deliverables.d3.link"></span>
-                <span class="case-deliverables__link-meta">PPTX · 756 KB</span>
-              </a>
-            </li>
-          </ul>
-          <p class="case-deliverables__footnote" data-i18n="case.deliverables.footnote"></p>
+
+          <div class="case-packages__grid">
+            <article class="case-package case-package--a">
+              <header class="case-package__head">
+                <span class="case-package__letter">A</span>
+                <h4 class="case-package__title" data-i18n="case.packages.a.title"></h4>
+              </header>
+              <p class="case-package__body" data-i18n="case.packages.a.body"></p>
+              <ul class="case-package__streams" aria-label="Verdistrømmer i pakke A">
+                <li><span class="case-package__vs">VS1</span><span class="case-package__vs-label" data-i18n="case.packages.vs1"></span></li>
+                <li><span class="case-package__vs">VS2</span><span class="case-package__vs-label" data-i18n="case.packages.vs2"></span></li>
+                <li><span class="case-package__vs">VS4</span><span class="case-package__vs-label" data-i18n="case.packages.vs4"></span><span class="case-package__vs-tag" data-i18n="case.packages.tag.primary"></span></li>
+                <li><span class="case-package__vs">VS5</span><span class="case-package__vs-label" data-i18n="case.packages.vs5"></span></li>
+              </ul>
+            </article>
+
+            <article class="case-package case-package--b">
+              <header class="case-package__head">
+                <span class="case-package__letter">B</span>
+                <h4 class="case-package__title" data-i18n="case.packages.b.title"></h4>
+              </header>
+              <p class="case-package__body" data-i18n="case.packages.b.body"></p>
+              <ul class="case-package__streams" aria-label="Verdistrømmer i pakke B">
+                <li><span class="case-package__vs">VS3</span><span class="case-package__vs-label" data-i18n="case.packages.vs3"></span></li>
+              </ul>
+            </article>
+
+            <article class="case-package case-package--c">
+              <header class="case-package__head">
+                <span class="case-package__letter">C</span>
+                <h4 class="case-package__title" data-i18n="case.packages.c.title"></h4>
+              </header>
+              <p class="case-package__body" data-i18n="case.packages.c.body"></p>
+              <ul class="case-package__streams" aria-label="Verdistrømmer i pakke C">
+                <li><span class="case-package__vs">VS6</span><span class="case-package__vs-label" data-i18n="case.packages.vs6"></span></li>
+                <li><span class="case-package__vs">VS7</span><span class="case-package__vs-label" data-i18n="case.packages.vs7"></span></li>
+                <li><span class="case-package__vs">VS4</span><span class="case-package__vs-label" data-i18n="case.packages.vs4"></span><span class="case-package__vs-tag case-package__vs-tag--sec" data-i18n="case.packages.tag.secondary"></span></li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="case-packages__cross" role="note">
+            <span class="case-packages__cross-label" data-i18n="case.packages.cross.label"></span>
+            <span class="case-packages__cross-text" data-i18n="case.packages.cross.text"></span>
+          </div>
+
+          <div class="case-packages__downloads">
+            <p class="case-packages__downloads-label" data-i18n="case.packages.downloads.label"></p>
+            <ul class="case-packages__downloads-list">
+              <li>
+                <a href="assets/case/verdistrom/Metodenotat-Verdistromsanalyse-Mjossykehuset.md" download>
+                  <span class="case-packages__dl-kind">MD</span>
+                  <span class="case-packages__dl-name" data-i18n="case.packages.dl.method"></span>
+                  <span class="case-packages__dl-size">12 KB</span>
+                </a>
+              </li>
+              <li>
+                <a href="assets/case/verdistrom/Verdistromsmodell-Mjossykehuset.xlsx" download>
+                  <span class="case-packages__dl-kind">XLSX</span>
+                  <span class="case-packages__dl-name" data-i18n="case.packages.dl.excel"></span>
+                  <span class="case-packages__dl-size">43 KB</span>
+                </a>
+              </li>
+              <li>
+                <a href="assets/case/verdistrom/Verdistrommer-Mjossykehuset.pptx" download>
+                  <span class="case-packages__dl-kind">PPTX</span>
+                  <span class="case-packages__dl-name" data-i18n="case.packages.dl.pptx"></span>
+                  <span class="case-packages__dl-size">756 KB</span>
+                </a>
+              </li>
+            </ul>
+            <p class="case-packages__downloads-note" data-i18n="case.packages.downloads.note"></p>
+          </div>
         </section>
 
         <section class="case-feed card-feed" data-feed="mjossykehuset" aria-live="polite">

@@ -1400,11 +1400,12 @@ p { margin: 0; }
   }
 }
 
+
 /* ============================================
-   CASE DELIVERABLES — Verdistrømsanalyse
-   Dark premium, ingen avrundede hjørner
+   CASE PACKAGES — A/B/C-mapping (Verdistrømsanalyse)
+   Mørkt premium, ingen avrundede hjørner
    ============================================ */
-.case-deliverables {
+.case-packages {
   grid-column: 1 / -1;
   margin-top: 2.5rem;
   padding: 2rem 2rem 1.75rem;
@@ -1414,16 +1415,16 @@ p { margin: 0; }
   border-left: 1px solid var(--line);
   border-right: 1px solid var(--line);
 }
-.case-deliverables__head {
+.case-packages__head {
   max-width: 68ch;
   margin-bottom: 1.75rem;
 }
-.case-deliverables__head .section__eyebrow {
+.case-packages__head .section__eyebrow {
   color: var(--accent-2);
   margin-bottom: 0.75rem;
   display: inline-block;
 }
-.case-deliverables__title {
+.case-packages__title {
   font-family: var(--font-display);
   font-size: clamp(1.5rem, 2.4vw, 2rem);
   line-height: 1.2;
@@ -1431,96 +1432,235 @@ p { margin: 0; }
   margin: 0 0 1rem;
   font-weight: 600;
 }
-.case-deliverables__lede {
-  font-size: 1.02rem;
+.case-packages__lede {
+  font-size: 1rem;
   line-height: 1.6;
   color: var(--ink-1);
-  margin: 0 0 0.85rem;
-}
-.case-deliverables__body {
-  font-size: 0.95rem;
-  line-height: 1.65;
-  color: var(--ink-2);
   margin: 0;
 }
-.case-deliverables__list {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1.5rem;
+
+/* --- Grid med A/B/C --- */
+.case-packages__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.case-packages__grid::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 33.333%;
+  width: 1rem;
+  height: 2px;
+  background: var(--accent);
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+}
+.case-packages__grid::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 66.666%;
+  width: 1rem;
+  height: 2px;
+  background: var(--accent);
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
 }
 @media (max-width: 900px) {
-  .case-deliverables__list { grid-template-columns: 1fr; }
-  .case-deliverables { padding: 1.5rem 1.25rem 1.25rem; }
+  .case-packages__grid { grid-template-columns: 1fr; }
+  .case-packages__grid::before,
+  .case-packages__grid::after { display: none; }
+  .case-packages { padding: 1.5rem 1.25rem 1.25rem; }
 }
-.case-deliverables__item {
+
+.case-package {
   background: var(--bg-1);
   border: 1px solid var(--line);
-  padding: 1.25rem 1.25rem 1rem;
+  padding: 1.25rem 1.25rem 1.1rem;
   display: flex;
   flex-direction: column;
-  transition: border-color 0.2s var(--ease), background 0.2s var(--ease);
+  transition: border-color 0.2s var(--ease);
 }
-.case-deliverables__item:hover {
+.case-package:hover {
   border-color: var(--line-strong);
-  background: var(--bg-elev);
 }
-.case-deliverables__kind {
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 0.6rem;
+.case-package__head {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 0.85rem;
 }
-.case-deliverables__name {
+.case-package__letter {
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--ink-0);
+  background: var(--accent-deep);
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.case-package--c .case-package__letter {
+  background: var(--accent);
+  color: var(--bg-0);
+}
+.case-package__title {
+  font-family: var(--font-display);
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.3;
   color: var(--ink-0);
-  margin: 0 0 0.6rem;
+  margin: 0;
 }
-.case-deliverables__desc {
+.case-package__body {
   font-size: 0.88rem;
   line-height: 1.55;
   color: var(--ink-2);
-  margin: 0 0 1.1rem;
-  flex-grow: 1;
+  margin: 0 0 1rem;
+  min-height: 3.2em;
 }
-.case-deliverables__link {
+.case-package__streams {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--line);
+  padding-top: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.case-package__streams li {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-  padding: 0.65rem 0.9rem;
-  background: transparent;
-  border: 1px solid var(--accent);
+  gap: 0.65rem;
+  font-size: 0.87rem;
+}
+.case-package__vs {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  background: rgba(212, 175, 110, 0.08);
+  border: 1px solid var(--line-strong);
+  padding: 0.15rem 0.5rem;
+  min-width: 2.6rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+.case-package__vs-label {
+  color: var(--ink-1);
+  flex-grow: 1;
+}
+.case-package__vs-tag {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--accent-deep);
+}
+.case-package__vs-tag--sec {
+  color: var(--ink-3);
+  border-color: var(--line-strong);
+}
+
+/* --- Tverrgående --- */
+.case-packages__cross {
+  margin: 1rem 0 1.75rem;
+  padding: 0.85rem 1.15rem;
+  background: var(--bg-1);
+  border-left: 3px solid var(--accent);
+  display: flex;
+  gap: 0.85rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.case-packages__cross-label {
+  font-family: var(--font-body);
+  font-weight: 700;
   color: var(--accent-2);
   font-size: 0.85rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background 0.2s var(--ease), color 0.2s var(--ease);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  flex-shrink: 0;
 }
-.case-deliverables__link:hover {
-  background: var(--accent-glow);
+.case-packages__cross-text {
+  color: var(--ink-1);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+/* --- Filnedlasting nederst (diskret) --- */
+.case-packages__downloads {
+  border-top: 1px solid var(--line);
+  padding-top: 1.25rem;
+}
+.case-packages__downloads-label {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  margin: 0 0 0.85rem;
+}
+.case-packages__downloads-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+}
+@media (max-width: 720px) {
+  .case-packages__downloads-list { grid-template-columns: 1fr; }
+}
+.case-packages__downloads-list a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--bg-1);
+  border: 1px solid var(--line);
+  color: var(--ink-1);
+  text-decoration: none;
+  font-size: 0.87rem;
+  transition: border-color 0.2s var(--ease), background 0.2s var(--ease), color 0.2s var(--ease);
+}
+.case-packages__downloads-list a:hover {
+  border-color: var(--accent);
+  background: var(--bg-elev);
   color: var(--ink-0);
 }
-.case-deliverables__link-meta {
+.case-packages__dl-kind {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  padding: 0.15rem 0.45rem;
+  border: 1px solid var(--line-strong);
+  flex-shrink: 0;
+}
+.case-packages__dl-name {
+  flex-grow: 1;
+}
+.case-packages__dl-size {
   color: var(--ink-3);
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
 }
-.case-deliverables__link:hover .case-deliverables__link-meta {
-  color: var(--ink-2);
-}
-.case-deliverables__footnote {
+.case-packages__downloads-note {
   font-size: 0.85rem;
   color: var(--ink-2);
   font-style: italic;
   margin: 0;
-  padding-top: 1rem;
-  border-top: 1px solid var(--line);
+  line-height: 1.55;
 }
