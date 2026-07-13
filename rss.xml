@@ -7,7 +7,7 @@
     <atom:link href="https://skjolas.no/rss.xml" rel="self" type="application/rss+xml" />
     <description>Ukentlige signaler innen helse-EA, kodeverk, FHIR, digitale tvillinger og Mjøssykehuset. Oppdateres hver mandag morgen.</description>
     <language>no</language>
-    <lastBuildDate>Sun, 12 Jul 2026 17:59:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 05:33:55 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>[Mjøssykehuset] NITO krever tilfluktsrom i Mjøssykehuset før forskrift svekkes / NITO demands shelter rooms in Mjøssykehuset before regulation is weakened</title>
@@ -24,6 +24,14 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       <category>Mjøssykehuset</category>
       <description><![CDATA[<p>Innlandet fylkesutvalg behandlet 30. juni reguleringsplanen for Mjøssykehuset og fant ingen innsigelser, men vedtok en rekke justeringer: prioritert bygging av ny Mo bru, kartlegging av ansattes kollektivbehov, planfri kryssing til Moskogen og rekkefølgekrav som må være løst før sykehuset settes i drift. Reguleringsplanen ventes vedtatt høsten 2026 — innsigelsesfri behandling fjerner en stor risiko for forsinkelse, men rekkefølgekravene binder ferdigstillelse av infrastruktur til sykehusets åpningsdato.</p><p><em>On 30 June, Innlandet county committee reviewed the Mjøssykehuset zoning plan and raised no formal objections, but adopted several conditions: prioritised construction of a new Mo bridge, mapping of staff commuting needs, grade-separated crossing to Moskogen, and sequencing requirements tied to the hospital&#x27;s opening date. The zoning plan is expected to be adopted in autumn 2026 — the absence of objections removes a major delay risk, but the sequencing requirements now link infrastructure completion directly to the hospital&#x27;s commissioning date.</em></p><p><strong>Kilde / Source:</strong> Innlandet fylkeskommune</p><p><strong>Impact:</strong> high</p>]]></description>
+    </item>
+    <item>
+      <title>[Mjøssykehuset] Sykehusbygg HF + HSØ: gjennomføringsstrategi vedtatt (samspill, oppdeling, adkomstvei 2027) / Sykehusbygg HF + South-Eastern Norway RHA: delivery strategy adopted (partnering model, segmentation, access road from 2027)</title>
+      <link>https://www.helse-sorost.no/nyheter/onsker-samspill-om-mjossykehuset/</link>
+      <guid isPermaLink="false">https://www.helse-sorost.no/nyheter/onsker-samspill-om-mjossykehuset/#2026-06-26</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+      <category>Mjøssykehuset</category>
+      <description><![CDATA[<p>Styringsgruppen vedtok 26. juni en gjennomføringsstrategi som deler utbyggingen i flere delprosjekter, med totalentreprise med samspill for de mest komplekse byggene (behandlingsbygg, psykiatri, sengebygg) og ordinære totalentrepriser for mindre komplekse delprosjekter. Planen skisserer oppstart allerede i 2027 med ny adkomstvei direkte fra E6 og forutsetter godkjent reguleringsplan høsten 2026. Dette reduserer gjennomføringsrisiko, men gjør tidlig kontrakts-/samspillsstyring og digital kravstyring kritisk.</p><p><em>On 26 June the steering group adopted a delivery strategy splitting the build into multiple subprojects, using partnering design-build (totalentreprise med samspill) for the most complex buildings (treatment, psychiatry, wards) and ordinary design-build for less complex parts. The plan outlines starting already in 2027 with a new access road directly from the E6 and assumes zoning approval in autumn 2026. This reduces delivery risk but makes early contract governance and digital requirements control critical.</em></p><p><strong>Kilde / Source:</strong> Helse Sør-Øst RHF</p><p><strong>Impact:</strong> high</p>]]></description>
     </item>
     <item>
       <title>[Helse 4.0] Helsedirektoratet leverer nasjonal ICD-11-strategi / Norwegian Directorate of Health delivers national ICD-11 strategy</title>
@@ -48,14 +56,6 @@
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
       <category>Helse 4.0</category>
       <description><![CDATA[<p>HOD sender forslag til ny EHDS-lov på høring (frist 28.09.2026), inkludert endringer i pasientjournalloven og helseregisterloven. Setter rammer for sekundærbruk av data — sentralt for digitale tvillinger og horisontal skalering på tvers av sykehus.</p><p><em>The Ministry of Health has launched a consultation on the EHDS Act (deadline 28 Sept 2026), including changes to the patient record and health registry acts. Sets the framework for secondary use of data — central to digital twins and horizontal scaling across hospitals.</em></p><p><strong>Kilde / Source:</strong> Regjeringen.no</p><p><strong>Impact:</strong> high</p>]]></description>
-    </item>
-    <item>
-      <title>[Mjøssykehuset] Sykehusbygg HF anskaffer BIM- og informasjonsforvaltningsplattform / Sykehusbygg HF procures BIM and information management platform</title>
-      <link>https://doffin.no/notices/2026-109170</link>
-      <guid isPermaLink="false">https://doffin.no/notices/2026-109170#2026-06-04</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Mjøssykehuset</category>
-      <description><![CDATA[<p>Sykehusbygg HF kunngjorde 22. mai (revidert 4. juni) konkurranse om plattform for helhetlig informasjonsforvaltning og digital kravstyring i byggeprosjekt — sentral styring av BIM-krav, validering og dataflyt. Kontrakt 14.09.2026–15.09.2030, tilbudsfrist var 6. juli. Mjøssykehuset er ett av de største bruksområdene, og valg av leverandør vil legge premisser for digital kravstyring i forprosjektfasen.</p><p><em>Sykehusbygg HF announced (22 May, revised 4 June) a tender for a platform for holistic information management and digital requirements control in construction projects — central governance of BIM requirements, validation and data flow. Contract 14 Sept 2026 to 15 Sept 2030, bid deadline was 6 July. Mjøssykehuset is among the largest use cases, and the vendor selection will set premises for digital requirements control in the front-end design phase.</em></p><p><strong>Kilde / Source:</strong> Doffin / Sykehusbygg HF</p><p><strong>Impact:</strong> medium</p>]]></description>
     </item>
   </channel>
 </rss>
