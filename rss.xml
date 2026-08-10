@@ -7,8 +7,32 @@
     <atom:link href="https://skjolas.no/rss.xml" rel="self" type="application/rss+xml" />
     <description>Ukentlige signaler innen helse-EA, kodeverk, FHIR, digitale tvillinger og Mjøssykehuset. Oppdateres hver mandag morgen.</description>
     <language>no</language>
-    <lastBuildDate>Mon, 03 Aug 2026 05:31:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 05:33:42 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>[Helse 4.0] Norsk helsenett på Arendalsuka: digital samhandling, KI og helseberedskap / Norsk helsenett at Arendalsuka: digital interoperability, AI and health preparedness</title>
+      <link>https://www.nhn.no/nyheter/norsk-helsenett-tilbake-pa-arendalsuka</link>
+      <guid isPermaLink="false">https://www.nhn.no/nyheter/norsk-helsenett-tilbake-pa-arendalsuka#2026-08-10</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Helse 4.0</category>
+      <description><![CDATA[<p>Norsk helsenett deltar fra 10. august med programpunkter om status for digitaliseringen, 72 timers digital helseberedskap, KI, digital suverenitet og hvordan nasjonale samhandlingsløsninger skal gi ønsket effekt. Samlingen kobler interoperabilitet, robusthet og kontroll over den nasjonale grunnmuren. Konsekvens for Helse 4.0: kartlegg FHIR/API-avhengigheter, identitetsflyt og beredskapsbaner som arkitekturkrav i alle nye tvillingkomponenter.</p><p><em>From 10 August, Norsk helsenett is taking part in Arendalsuka sessions on health-sector digitalisation, 72-hour digital health preparedness, AI, digital sovereignty and ensuring that national interoperability services deliver their intended benefits. The agenda links interoperability, resilience and control of the national digital foundation. Consequence for Health 4.0: map FHIR/API dependencies, identity flows and contingency paths as architecture requirements for every new twin component.</em></p><p><strong>Kilde / Source:</strong> Norsk helsenett</p><p><strong>Impact:</strong> medium</p>]]></description>
+    </item>
+    <item>
+      <title>[Helse 4.0] Helsedirektoratet på Arendalsuka 2026: KI, digitalisering og beredskap / Norwegian Directorate of Health at Arendalsuka 2026: AI, digitalisation and resilience</title>
+      <link>https://www.helsedirektoratet.no/nyheter/helsedirektoratet-pa-arendalsuka-2026</link>
+      <guid isPermaLink="false">https://www.helsedirektoratet.no/nyheter/helsedirektoratet-pa-arendalsuka-2026#2026-08-07</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Helse 4.0</category>
+      <description><![CDATA[<p>Helsedirektoratet publiserte 7. august programmet for 53 arrangementer under Arendalsuka, med temaer som digitalisering, kunstig intelligens, cybersikkerhet og digital helseberedskap. Det er et tydelig signal om at nasjonal helsearkitektur må håndtere KI og motstandsdyktighet samlet. Konsekvens for Helse 4.0: legg inn et eksplisitt resilience- og governance-lag i piloten før horisontal skalering.</p><p><em>On 7 August, the Norwegian Directorate of Health published its programme for 53 Arendalsuka events covering digitalisation, artificial intelligence, cyber security and digital health preparedness. This signals that national health architecture must address AI and resilience together. Consequence for Health 4.0: add an explicit resilience and governance layer to the pilot before horizontal scaling.</em></p><p><strong>Kilde / Source:</strong> Helsedirektoratet</p><p><strong>Impact:</strong> medium</p>]]></description>
+    </item>
+    <item>
+      <title>[Helse 4.0] Grunndata-infrastruktur: vedlikehold gjennomført uten forventet nedetid / Master-data infrastructure: maintenance completed with no expected downtime</title>
+      <link>https://status.nhn.no/</link>
+      <guid isPermaLink="false">https://status.nhn.no/#2026-08-06</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Helse 4.0</category>
+      <description><![CDATA[<p>Norsk helsenett varslet 6. august vedlikehold av Grunndata-infrastruktur, blant annet Adresseregisteret, Helsepersonellregisteret, Legestillingsregisteret, Fastlegeregisteret og RESH; endringen ble meldt fullført 7. august. Selv uten forventet nedetid viser tiltaket hvor avhengig nasjonal samhandling er av felles masterdata. Konsekvens for Helse 4.0: gjør datakvalitet, vedlikeholdsvinduer og feilhåndtering i RBAC- og FHIR-integrasjoner til eksplisitte ikke-funksjonelle krav.</p><p><em>On 6 August, Norsk helsenett announced maintenance of the master-data infrastructure, including the Address Register, Health Personnel Register, Doctor Positions Register, GP Register and RESH; the change was reported completed on 7 August. Even with no downtime expected, the change highlights national interoperability’s dependence on shared master data. Consequence for Health 4.0: make data quality, maintenance windows and failure handling in RBAC and FHIR integrations explicit non-functional requirements.</em></p><p><strong>Kilde / Source:</strong> Norsk helsenett Status</p><p><strong>Impact:</strong> medium</p>]]></description>
+    </item>
     <item>
       <title>[Mjøssykehuset] NITO krever tilfluktsrom i Mjøssykehuset før forskrift svekkes / NITO demands shelter rooms in Mjøssykehuset before regulation is weakened</title>
       <link>https://www.nito.no/aktuelt/nito-i-samfunnet/na-ma-vi-sta-opp-for-tilfluktsrom-pa-mjossykehuset/</link>
@@ -32,30 +56,6 @@
       <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
       <category>Mjøssykehuset</category>
       <description><![CDATA[<p>Styringsgruppen vedtok 26. juni en gjennomføringsstrategi som deler utbyggingen i flere delprosjekter, med totalentreprise med samspill for de mest komplekse byggene (behandlingsbygg, psykiatri, sengebygg) og ordinære totalentrepriser for mindre komplekse delprosjekter. Planen skisserer oppstart allerede i 2027 med ny adkomstvei direkte fra E6 og forutsetter godkjent reguleringsplan høsten 2026. Dette reduserer gjennomføringsrisiko, men gjør tidlig kontrakts-/samspillsstyring og digital kravstyring kritisk.</p><p><em>On 26 June the steering group adopted a delivery strategy splitting the build into multiple subprojects, using partnering design-build (totalentreprise med samspill) for the most complex buildings (treatment, psychiatry, wards) and ordinary design-build for less complex parts. The plan outlines starting already in 2027 with a new access road directly from the E6 and assumes zoning approval in autumn 2026. This reduces delivery risk but makes early contract governance and digital requirements control critical.</em></p><p><strong>Kilde / Source:</strong> Helse Sør-Øst RHF</p><p><strong>Impact:</strong> high</p>]]></description>
-    </item>
-    <item>
-      <title>[Helse 4.0] Helsedirektoratet leverer nasjonal ICD-11-strategi / Norwegian Directorate of Health delivers national ICD-11 strategy</title>
-      <link>https://www.helsedirektoratet.no/nyheter</link>
-      <guid isPermaLink="false">https://www.helsedirektoratet.no/nyheter#2026-06-22</guid>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Helse 4.0</category>
-      <description><![CDATA[<p>Forslag til nasjonal oppgraderingsstrategi fra ICD-10 til ICD-11 er levert HOD, med mål om innføring i 2028–29. Direkte konsekvens for kodeverkslag i Helse 4.0 — krever ICD-11-mapping i PatientTwin og forløpsmodellering.</p><p><em>A national strategy for upgrading from ICD-10 to ICD-11 has been delivered, targeting rollout in 2028–29. Direct impact on the coding layer of Health 4.0 — requires ICD-11 mapping in PatientTwin and pathway modelling.</em></p><p><strong>Kilde / Source:</strong> Helsedirektoratet</p><p><strong>Impact:</strong> high</p>]]></description>
-    </item>
-    <item>
-      <title>[Helse 4.0] Nasjonal KI-tjeneste for kvalitetssikrede helseråd bestilt / National AI service for quality-assured health advice commissioned</title>
-      <link>https://www.helsedirektoratet.no/nyheter</link>
-      <guid isPermaLink="false">https://www.helsedirektoratet.no/nyheter#2026-06-16</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Helse 4.0</category>
-      <description><![CDATA[<p>HOD har bedt Helsedirektoratet om å starte arbeidet med en offentlig KI-tjeneste som gir kvalitetssikrede og persontilpassede helseråd. Definerer nasjonal KI-stack i helse — viktig referansearkitektur for KI-laget i Helse 4.0.</p><p><em>The Ministry of Health has tasked the Directorate with launching a public AI service for quality-assured, personalised health advice. Defines the national AI stack in healthcare — a key reference architecture for the AI layer in Health 4.0.</em></p><p><strong>Kilde / Source:</strong> Helsedirektoratet</p><p><strong>Impact:</strong> medium</p>]]></description>
-    </item>
-    <item>
-      <title>[Helse 4.0] Høring: ny lov om European Health Data Space (EHDS) / Consultation: new act on the European Health Data Space (EHDS)</title>
-      <link>https://www.regjeringen.no/no/dokumenter/horingsbrev-forslag-til-ny-lov-om-det-europeiske-helsedataomradet/id3164607/</link>
-      <guid isPermaLink="false">https://www.regjeringen.no/no/dokumenter/horingsbrev-forslag-til-ny-lov-om-det-europeiske-helsedataomradet/id3164607/#2026-06-08</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Helse 4.0</category>
-      <description><![CDATA[<p>HOD sender forslag til ny EHDS-lov på høring (frist 28.09.2026), inkludert endringer i pasientjournalloven og helseregisterloven. Setter rammer for sekundærbruk av data — sentralt for digitale tvillinger og horisontal skalering på tvers av sykehus.</p><p><em>The Ministry of Health has launched a consultation on the EHDS Act (deadline 28 Sept 2026), including changes to the patient record and health registry acts. Sets the framework for secondary use of data — central to digital twins and horizontal scaling across hospitals.</em></p><p><strong>Kilde / Source:</strong> Regjeringen.no</p><p><strong>Impact:</strong> high</p>]]></description>
     </item>
   </channel>
 </rss>
