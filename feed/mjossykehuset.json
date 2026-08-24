@@ -4,8 +4,22 @@
     "no": "Mjøssykehuset — utviklingsaktiviteter",
     "en": "Mjøssykehuset — development activity"
   },
-  "updated": "2026-08-10T05:33:42Z",
+  "updated": "2026-08-24T05:35:00Z",
   "items": [
+    {
+      "title": {
+        "no": "Helse Sør-Øst oppdaterer porteføljeoversikten for Mjøssykehuset",
+        "en": "South-Eastern Norway RHA updates the Mjøssykehuset portfolio overview"
+      },
+      "summary": {
+        "no": "Helse Sør-Øst oppdaterte 18. august oversikten over nye sykehus- og utviklingsprosjekter. Mjøssykehuset står fortsatt som prosjektet der spesialiserte funksjoner i somatikk, psykisk helsevern og tverrfaglig rusbehandling skal samles, og oversikten peker også på rammeverk for IKT-styring og utstyrsanskaffelser i byggeprosjekter. Konsekvens for prosjektet: bruk porteføljeoversikten som styringskilde og sikre at IKT- og utstyrsleveranser kobles til prosjektets krav- og kontraktsstruktur.",
+        "en": "On 18 August, the South-Eastern Norway RHA updated its overview of new hospital and development projects. Mjøssykehuset remains the project where specialised somatic, mental-health and interdisciplinary substance-abuse services are to be consolidated, and the overview also points to frameworks for ICT governance and equipment procurement in construction projects. Consequence for the project: use the portfolio overview as a governance reference and link ICT and equipment deliveries to the project requirements and contract structure."
+      },
+      "source": "Helse Sør-Øst RHF",
+      "url": "https://www.helse-sorost.no/om-oss/vart-oppdrag/hva-gjor-vi/utviklingsplaner-og-store-utviklings-og-byggeprosjekter",
+      "date": "2026-08-18",
+      "impact": "medium"
+    },
     {
       "title": {
         "no": "Fylkesutvalget: ingen innsigelser til reguleringsplanen — men flere rekkefølgekrav",
@@ -33,20 +47,6 @@
       "url": "https://www.nito.no/aktuelt/nito-i-samfunnet/na-ma-vi-sta-opp-for-tilfluktsrom-pa-mjossykehuset/",
       "date": "2026-07-07",
       "impact": "medium"
-    },
-    {
-      "title": {
-        "no": "Sykehusbygg HF + HSØ: gjennomføringsstrategi vedtatt (samspill, oppdeling, adkomstvei 2027)",
-        "en": "Sykehusbygg HF + South-Eastern Norway RHA: delivery strategy adopted (partnering model, segmentation, access road from 2027)"
-      },
-      "summary": {
-        "no": "Styringsgruppen vedtok 26. juni en gjennomføringsstrategi som deler utbyggingen i flere delprosjekter, med totalentreprise med samspill for de mest komplekse byggene (behandlingsbygg, psykiatri, sengebygg) og ordinære totalentrepriser for mindre komplekse delprosjekter. Planen skisserer oppstart allerede i 2027 med ny adkomstvei direkte fra E6 og forutsetter godkjent reguleringsplan høsten 2026. Dette reduserer gjennomføringsrisiko, men gjør tidlig kontrakts-/samspillsstyring og digital kravstyring kritisk.",
-        "en": "On 26 June the steering group adopted a delivery strategy splitting the build into multiple subprojects, using partnering design-build (totalentreprise med samspill) for the most complex buildings (treatment, psychiatry, wards) and ordinary design-build for less complex parts. The plan outlines starting already in 2027 with a new access road directly from the E6 and assumes zoning approval in autumn 2026. This reduces delivery risk but makes early contract governance and digital requirements control critical."
-      },
-      "source": "Helse Sør-Øst RHF",
-      "url": "https://www.helse-sorost.no/nyheter/onsker-samspill-om-mjossykehuset/",
-      "date": "2026-06-26",
-      "impact": "high"
     }
   ]
 }

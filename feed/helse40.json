@@ -4,48 +4,48 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-08-10T05:33:42Z",
+  "updated": "2026-08-24T05:35:00Z",
   "items": [
     {
       "title": {
-        "no": "Helsedirektoratet på Arendalsuka 2026: KI, digitalisering og beredskap",
-        "en": "Norwegian Directorate of Health at Arendalsuka 2026: AI, digitalisation and resilience"
+        "no": "Norsk helsenett varsler vedlikehold i Norsk kvalitetsregister for HIV",
+        "en": "Norsk helsenett schedules maintenance for the Norwegian HIV quality registry"
       },
       "summary": {
-        "no": "Helsedirektoratet publiserte 7. august programmet for 53 arrangementer under Arendalsuka, med temaer som digitalisering, kunstig intelligens, cybersikkerhet og digital helseberedskap. Det er et tydelig signal om at nasjonal helsearkitektur må håndtere KI og motstandsdyktighet samlet. Konsekvens for Helse 4.0: legg inn et eksplisitt resilience- og governance-lag i piloten før horisontal skalering.",
-        "en": "On 7 August, the Norwegian Directorate of Health published its programme for 53 Arendalsuka events covering digitalisation, artificial intelligence, cyber security and digital health preparedness. This signals that national health architecture must address AI and resilience together. Consequence for Health 4.0: add an explicit resilience and governance layer to the pilot before horizontal scaling."
-      },
-      "source": "Helsedirektoratet",
-      "url": "https://www.helsedirektoratet.no/nyheter/helsedirektoratet-pa-arendalsuka-2026",
-      "date": "2026-08-07",
-      "impact": "medium"
-    },
-    {
-      "title": {
-        "no": "Norsk helsenett på Arendalsuka: digital samhandling, KI og helseberedskap",
-        "en": "Norsk helsenett at Arendalsuka: digital interoperability, AI and health preparedness"
-      },
-      "summary": {
-        "no": "Norsk helsenett deltar fra 10. august med programpunkter om status for digitaliseringen, 72 timers digital helseberedskap, KI, digital suverenitet og hvordan nasjonale samhandlingsløsninger skal gi ønsket effekt. Samlingen kobler interoperabilitet, robusthet og kontroll over den nasjonale grunnmuren. Konsekvens for Helse 4.0: kartlegg FHIR/API-avhengigheter, identitetsflyt og beredskapsbaner som arkitekturkrav i alle nye tvillingkomponenter.",
-        "en": "From 10 August, Norsk helsenett is taking part in Arendalsuka sessions on health-sector digitalisation, 72-hour digital health preparedness, AI, digital sovereignty and ensuring that national interoperability services deliver their intended benefits. The agenda links interoperability, resilience and control of the national digital foundation. Consequence for Health 4.0: map FHIR/API dependencies, identity flows and contingency paths as architecture requirements for every new twin component."
-      },
-      "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/norsk-helsenett-tilbake-pa-arendalsuka",
-      "date": "2026-08-10",
-      "impact": "medium"
-    },
-    {
-      "title": {
-        "no": "Grunndata-infrastruktur: vedlikehold gjennomført uten forventet nedetid",
-        "en": "Master-data infrastructure: maintenance completed with no expected downtime"
-      },
-      "summary": {
-        "no": "Norsk helsenett varslet 6. august vedlikehold av Grunndata-infrastruktur, blant annet Adresseregisteret, Helsepersonellregisteret, Legestillingsregisteret, Fastlegeregisteret og RESH; endringen ble meldt fullført 7. august. Selv uten forventet nedetid viser tiltaket hvor avhengig nasjonal samhandling er av felles masterdata. Konsekvens for Helse 4.0: gjør datakvalitet, vedlikeholdsvinduer og feilhåndtering i RBAC- og FHIR-integrasjoner til eksplisitte ikke-funksjonelle krav.",
-        "en": "On 6 August, Norsk helsenett announced maintenance of the master-data infrastructure, including the Address Register, Health Personnel Register, Doctor Positions Register, GP Register and RESH; the change was reported completed on 7 August. Even with no downtime expected, the change highlights national interoperability’s dependence on shared master data. Consequence for Health 4.0: make data quality, maintenance windows and failure handling in RBAC and FHIR integrations explicit non-functional requirements."
+        "no": "Norsk helsenett varsler produksjonssetting av norhiv v5.1.86198 24. august kl. 12:30–13:30 CEST. Det kan bli rundt ti minutters nedetid ved oppstart og ustabilitet i perioden. Konsekvens for Helse 4.0: gjør vedlikeholdsvinduer, retries og datakontroll eksplisitte krav i FHIR-integrasjoner mot nasjonale registre.",
+        "en": "Norsk helsenett scheduled deployment of norhiv v5.1.86198 for 24 August, 12:30–13:30 CEST. Around ten minutes of downtime may occur at the start, with possible instability during the window. Consequence for Health 4.0: make maintenance windows, retries and data reconciliation explicit requirements for FHIR integrations with national registries."
       },
       "source": "Norsk helsenett Status",
       "url": "https://status.nhn.no/",
-      "date": "2026-08-06",
+      "date": "2026-08-24",
+      "impact": "medium"
+    },
+    {
+      "title": {
+        "no": "Ekstern hendelse hos Digitaliseringsdirektoratet påvirker flere tjenester",
+        "en": "External Digitalisation Agency incident affects multiple services"
+      },
+      "summary": {
+        "no": "Norsk helsenetts statusside viser en uavklart ekstern hendelse hos Digitaliseringsdirektoratet med problemer i flere tjenester. Hendelsen viser at nasjonale helseforløp kan være avhengige av identitets- og felleskomponenter utenfor helsesektoren. Konsekvens for Helse 4.0: modeller ID-porten-/felleskomponentavhengigheter, fallback og observability som del av RBAC- og samhandlingsarkitekturen.",
+        "en": "Norsk helsenett’s status page shows an unresolved external incident at the Norwegian Digitalisation Agency affecting multiple services. The incident demonstrates that national health pathways may depend on identity and shared components outside the health sector. Consequence for Health 4.0: model ID-porten/shared-component dependencies, fallback and observability as part of the RBAC and interoperability architecture."
+      },
+      "source": "Norsk helsenett Status",
+      "url": "https://status.nhn.no/",
+      "date": "2026-08-24",
+      "impact": "high"
+    },
+    {
+      "title": {
+        "no": "SyntPop hadde driftsavbrudd, men tjenesten er stabil igjen",
+        "en": "SyntPop experienced an outage but has stabilised again"
+      },
+      "summary": {
+        "no": "Norsk helsenett meldte 17. august om driftsavbrudd i SyntPop, med innloggingsproblemer som senere ble løst og tjenesten satt under overvåking. Syntetiske data er en viktig test- og utviklingsmekanisme når helsedata skal brukes uten å eksponere reelle pasienter. Konsekvens for Helse 4.0: etabler SLA-er, testdata-proveniens og en degradert arbeidsflyt for syntetiske datasett før KI- og tvillingkomponenter skaleres.",
+        "en": "On 17 August, Norsk helsenett reported an outage in SyntPop; login problems were later resolved and the service was placed under monitoring. Synthetic data is an important test and development mechanism when health data must be used without exposing real patients. Consequence for Health 4.0: establish SLAs, test-data provenance and degraded-mode workflows for synthetic datasets before scaling AI and twin components."
+      },
+      "source": "Norsk helsenett Status",
+      "url": "https://status.nhn.no/",
+      "date": "2026-08-17",
       "impact": "medium"
     }
   ]
