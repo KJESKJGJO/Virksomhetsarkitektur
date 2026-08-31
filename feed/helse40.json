@@ -4,49 +4,49 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-08-24T05:35:00Z",
+  "updated": "2026-08-31T05:35:12Z",
   "items": [
     {
       "title": {
-        "no": "Norsk helsenett varsler vedlikehold i Norsk kvalitetsregister for HIV",
-        "en": "Norsk helsenett schedules maintenance for the Norwegian HIV quality registry"
+        "no": "KI Norge rundt 2026: 68 KI-løsninger kartlagt i spesialisthelsetjenesten",
+        "en": "AI around Norway 2026: 68 AI solutions mapped in specialist care"
       },
       "summary": {
-        "no": "Norsk helsenett varsler produksjonssetting av norhiv v5.1.86198 24. august kl. 12:30–13:30 CEST. Det kan bli rundt ti minutters nedetid ved oppstart og ustabilitet i perioden. Konsekvens for Helse 4.0: gjør vedlikeholdsvinduer, retries og datakontroll eksplisitte krav i FHIR-integrasjoner mot nasjonale registre.",
-        "en": "Norsk helsenett scheduled deployment of norhiv v5.1.86198 for 24 August, 12:30–13:30 CEST. Around ten minutes of downtime may occur at the start, with possible instability during the window. Consequence for Health 4.0: make maintenance windows, retries and data reconciliation explicit requirements for FHIR integrations with national registries."
+        "no": "Helsedirektoratet publiserte 24. august et første nasjonalt øyeblikksbilde av KI-bruk i spesialisthelsetjenesten. Kartleggingen viser 68 unike løsninger i bruk eller under innføring, særlig innen bildebehandling, diagnostikk og beslutningsstøtte, og peker på stort potensial for deling på tvers av helseforetak. Konsekvens for Helse 4.0: gjør løsningskatalog, effektmåling, regulatorisk status og gjenbrukbare integrasjonsmønstre til en obligatorisk del av tvillingplattformen før horisontal skalering.",
+        "en": "On 24 August, the Norwegian Directorate of Health published a first national snapshot of AI use in specialist care. The mapping identifies 68 unique solutions in use or being introduced, especially in imaging, diagnostics and decision support, and points to significant potential for cross-trust sharing. Consequence for Health 4.0: make a solution catalogue, benefits measurement, regulatory status and reusable integration patterns mandatory parts of the twin platform before horizontal scaling."
       },
-      "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/",
-      "date": "2026-08-24",
-      "impact": "medium"
-    },
-    {
-      "title": {
-        "no": "Ekstern hendelse hos Digitaliseringsdirektoratet påvirker flere tjenester",
-        "en": "External Digitalisation Agency incident affects multiple services"
-      },
-      "summary": {
-        "no": "Norsk helsenetts statusside viser en uavklart ekstern hendelse hos Digitaliseringsdirektoratet med problemer i flere tjenester. Hendelsen viser at nasjonale helseforløp kan være avhengige av identitets- og felleskomponenter utenfor helsesektoren. Konsekvens for Helse 4.0: modeller ID-porten-/felleskomponentavhengigheter, fallback og observability som del av RBAC- og samhandlingsarkitekturen.",
-        "en": "Norsk helsenett’s status page shows an unresolved external incident at the Norwegian Digitalisation Agency affecting multiple services. The incident demonstrates that national health pathways may depend on identity and shared components outside the health sector. Consequence for Health 4.0: model ID-porten/shared-component dependencies, fallback and observability as part of the RBAC and interoperability architecture."
-      },
-      "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/",
+      "source": "Helsedirektoratet",
+      "url": "https://www.helsedirektoratet.no/rapporter/ki-norge-rundt-2026-oyeblikksbilde-av-kunstig-intelligens-i-norsk-spesialisthelsetjeneste",
       "date": "2026-08-24",
       "impact": "high"
     },
     {
       "title": {
-        "no": "SyntPop hadde driftsavbrudd, men tjenesten er stabil igjen",
-        "en": "SyntPop experienced an outage but has stabilised again"
+        "no": "HelseID-fullmakter for leverandører flyttes til Helsenettet.no",
+        "en": "HelseID delegations for suppliers move to Helsenettet.no"
       },
       "summary": {
-        "no": "Norsk helsenett meldte 17. august om driftsavbrudd i SyntPop, med innloggingsproblemer som senere ble løst og tjenesten satt under overvåking. Syntetiske data er en viktig test- og utviklingsmekanisme når helsedata skal brukes uten å eksponere reelle pasienter. Konsekvens for Helse 4.0: etabler SLA-er, testdata-proveniens og en degradert arbeidsflyt for syntetiske datasett før KI- og tvillingkomponenter skaleres.",
-        "en": "On 17 August, Norsk helsenett reported an outage in SyntPop; login problems were later resolved and the service was placed under monitoring. Synthetic data is an important test and development mechanism when health data must be used without exposing real patients. Consequence for Health 4.0: establish SLAs, test-data provenance and degraded-mode workflows for synthetic datasets before scaling AI and twin components."
+        "no": "Fra 25. august skal nye leverandørfullmakter tilknyttet HelseID opprettes og vedlikeholdes på Helsenettet.no, mens eksisterende fullmakter fungerer inntil videre. Endringen gjelder administrasjon, oppsett og endring av kundetjenester via HelseID Selvbetjening og er fremskyndet etter hendelser hos Digitaliseringsdirektoratet. Konsekvens for Helse 4.0: modellér delegering, livssyklus og sporbarhet for leverandørtilgang som eksplisitte RBAC- og governance-objekter i alle FHIR/API-integrasjoner.",
+        "en": "From 25 August, new supplier delegations connected to HelseID must be created and maintained on Helsenettet.no, while existing delegations continue to work for now. The change covers administration, setup and modification of customer services through HelseID Self-Service and was accelerated after incidents at the Norwegian Digitalisation Agency. Consequence for Health 4.0: model delegation, lifecycle and traceability for supplier access as explicit RBAC and governance objects in all FHIR/API integrations."
+      },
+      "source": "Norsk helsenett",
+      "url": "https://www.nhn.no/nyheter/endring-for-leverandorer-delegering-fra-helsevirksomheter-til-leverandorer-opprettes-pa-helsenettet.no",
+      "date": "2026-08-25",
+      "impact": "high"
+    },
+    {
+      "title": {
+        "no": "Ekstern hendelse hos Digitaliseringsdirektoratet påvirket flere tjenester",
+        "en": "External incident at the Digitalisation Agency affected multiple services"
+      },
+      "summary": {
+        "no": "Norsk helsenett varslet 25. august om en ekstern hendelse hos Digitaliseringsdirektoratet som påvirket flere tjenester; hendelsen ble markert løst 28. august etter at Digdir meldte at angrepet så ut til å ha opphørt. NHN opplyste at tiltakene ga normal drift med lite vedvarende konsekvenser, men hendelsen synliggjør avhengigheten til nasjonale identitets- og felleskomponenter. Konsekvens for Helse 4.0: bygg inn fallback, avhengighetskart og ende-til-ende overvåking for ID- og samhandlingskomponenter før KI- og tvillingforløp skaleres.",
+        "en": "On 25 August, Norsk helsenett reported an external incident at the Norwegian Digitalisation Agency affecting multiple services; it was marked resolved on 28 August after Digdir said the attack appeared to have stopped. NHN reported normal operations with little lasting impact after mitigations, but the incident exposes dependencies on national identity and shared components. Consequence for Health 4.0: build fallback, dependency maps and end-to-end monitoring for identity and interoperability components before AI and twin pathways scale."
       },
       "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/",
-      "date": "2026-08-17",
-      "impact": "medium"
+      "url": "https://status.nhn.no/incidents/2ch26kgq7p6z",
+      "date": "2026-08-25",
+      "impact": "high"
     }
   ]
 }
