@@ -4,48 +4,48 @@
     "no": "Mjøssykehuset — utviklingsaktiviteter",
     "en": "Mjøssykehuset — development activity"
   },
-  "updated": "2026-08-31T05:35:12Z",
+  "updated": "2026-09-07T05:35:32Z",
   "items": [
     {
       "title": {
-        "no": "Helse Sør-Øst oppdaterer porteføljeoversikten for Mjøssykehuset",
-        "en": "South-Eastern Norway RHA updates the Mjøssykehuset portfolio overview"
+        "no": "Reguleringsplanen er fortsatt en kritisk milepæl for 2028-byggestart",
+        "en": "The zoning plan remains a critical milestone for the 2028 construction start"
       },
       "summary": {
-        "no": "Helse Sør-Øst oppdaterte 18. august oversikten over nye sykehus- og utviklingsprosjekter. Mjøssykehuset står fortsatt som prosjektet der spesialiserte funksjoner i somatikk, psykisk helsevern og tverrfaglig rusbehandling skal samles, og oversikten peker også på rammeverk for IKT-styring og utstyrsanskaffelser i byggeprosjekter. Konsekvens for prosjektet: bruk porteføljeoversikten som styringskilde og sikre at IKT- og utstyrsleveranser kobles til prosjektets krav- og kontraktsstruktur.",
-        "en": "On 18 August, the South-Eastern Norway RHA updated its overview of new hospital and development projects. Mjøssykehuset remains the project where specialised somatic, mental-health and interdisciplinary substance-abuse services are to be consolidated, and the overview also points to frameworks for ICT governance and equipment procurement in construction projects. Consequence for the project: use the portfolio overview as a governance reference and link ICT and equipment deliveries to the project requirements and contract structure."
+        "no": "Helse Sør-Østs oppdaterte prosjektinformasjon legger fortsatt til grunn at reguleringsplanen skal vedtas høsten 2026, med forventet byggestart i 2028. Planen er del av forprosjektet og må avklares før prosjektet kan gå videre mot investeringsbeslutning og anleggsfase. Konsekvens for prosjektet: hold planvedtaket som en styrende avhengighet i hovedplanen, og synkroniser prosjektering, grunnerverv, infrastruktur og kontraktsstrategi mot vedtaksdatoen.",
+        "en": "Helse Sør-Øst’s updated project information still assumes that the zoning plan will be adopted in autumn 2026, with construction expected to start in 2028. The plan is part of the front-end project work and must be clarified before the project can move toward an investment decision and construction phase. Consequence for the project: keep the zoning decision as a controlling dependency in the master schedule and align design, land, infrastructure and contracting strategy with the decision date."
       },
       "source": "Helse Sør-Øst RHF",
-      "url": "https://www.helse-sorost.no/om-oss/vart-oppdrag/hva-gjor-vi/utviklingsplaner-og-store-utviklings-og-byggeprosjekter",
-      "date": "2026-08-18",
-      "impact": "medium"
-    },
-    {
-      "title": {
-        "no": "Fylkesutvalget: ingen innsigelser til reguleringsplanen — men flere rekkefølgekrav",
-        "en": "County committee: no formal objections to the zoning plan — but several sequencing requirements added"
-      },
-      "summary": {
-        "no": "Innlandet fylkesutvalg behandlet 30. juni reguleringsplanen for Mjøssykehuset og fant ingen innsigelser, men vedtok en rekke justeringer: prioritert bygging av ny Mo bru, kartlegging av ansattes kollektivbehov, planfri kryssing til Moskogen og rekkefølgekrav som må være løst før sykehuset settes i drift. Reguleringsplanen ventes vedtatt høsten 2026 — innsigelsesfri behandling fjerner en stor risiko for forsinkelse, men rekkefølgekravene binder ferdigstillelse av infrastruktur til sykehusets åpningsdato.",
-        "en": "On 30 June, Innlandet county committee reviewed the Mjøssykehuset zoning plan and raised no formal objections, but adopted several conditions: prioritised construction of a new Mo bridge, mapping of staff commuting needs, grade-separated crossing to Moskogen, and sequencing requirements tied to the hospital's opening date. The zoning plan is expected to be adopted in autumn 2026 — the absence of objections removes a major delay risk, but the sequencing requirements now link infrastructure completion directly to the hospital's commissioning date."
-      },
-      "source": "Innlandet fylkeskommune",
-      "url": "https://innlandetfylke.no/nyheter-forsiden/ingen-innsigelser-til-mjossykehuset.66979.aspx",
-      "date": "2026-06-30",
+      "url": "https://www.helse-sorost.no/nyheter/reguleringsplan-for-mjossykehuset/",
+      "date": "2026-09-04",
       "impact": "high"
     },
     {
       "title": {
-        "no": "NITO krever tilfluktsrom i Mjøssykehuset før forskrift svekkes",
-        "en": "NITO demands shelter rooms in Mjøssykehuset before regulation is weakened"
+        "no": "Forprosjektet styres med 17,8 mrd. kroner i ramme og 16,9 mrd. i styringsmål",
+        "en": "The front-end project is governed by a NOK 17.8bn framework and a NOK 16.9bn control target"
       },
       "summary": {
-        "no": "NITO advarer om at forslaget til ny tilfluktsromforskrift (høringsfrist 15. oktober 2026) fjerner byggeplikten for nybygg over 1000 kvm og kun åpner for en skjønnsmessig vurdering. Mjøssykehuset ble konkret nevnt av Stortinget i april som eksempel på prosjekt som trenger rask avklaring. Uten avklaring nå kan tilfluktsrom bli vesentlig vanskeligere å bygge inn senere i prosjektet — direkte konsekvens for kravspesifikasjon og kostnadsramme i forprosjektfasen.",
-        "en": "NITO warns that the draft shelter regulation (consultation deadline 15 October 2026) removes the construction duty for new buildings over 1,000 m² and only allows for a discretionary assessment. Parliament specifically named Mjøssykehuset in April as a project needing rapid clarification. Without a decision now, shelter rooms may become significantly harder to incorporate later — a direct consequence for requirements specification and cost framework in the front-end design phase."
+        "no": "Helse Sør-Øst beskriver forprosjektet som startet 1. januar 2026, med krav til kostnadskontroll, standardisering og digitalisering. Styringsrammen er satt til 17,8 milliarder kroner, mens prosjektdirektørens styringsmål er 16,9 milliarder kroner. Konsekvens for prosjektet: lås digitale og ikke-byggnære IKT-leveranser til samme kostnads- og beslutningsstruktur som bygg, og spor avvik som egne styringssignaler før de påvirker fremdrift eller kontrakter.",
+        "en": "Helse Sør-Øst describes the front-end project that started on 1 January 2026, with requirements for cost control, standardisation and digitalisation. The control framework is NOK 17.8 billion, while the project director’s control target is NOK 16.9 billion. Consequence for the project: bind digital and non-building ICT deliveries to the same cost and decision structure as the construction work, and track deviations as explicit control signals before they affect schedule or contracts."
       },
-      "source": "NITO",
-      "url": "https://www.nito.no/aktuelt/nito-i-samfunnet/na-ma-vi-sta-opp-for-tilfluktsrom-pa-mjossykehuset/",
-      "date": "2026-07-07",
+      "source": "Helse Sør-Øst RHF",
+      "url": "https://www.helse-sorost.no/nyheter/oppstart-av-forprosjekt-for-mjossykehuset/",
+      "date": "2026-09-04",
+      "impact": "high"
+    },
+    {
+      "title": {
+        "no": "Sykehusinnkjøp starter regional anskaffelse av IKT-konsulentkapasitet",
+        "en": "Sykehusinnkjøp starts a regional procurement of ICT consultancy capacity"
+      },
+      "summary": {
+        "no": "Sykehusinnkjøp HF kunngjorde 2. september en kommende ramme for IKT-konsulenter på vegne av de fire regionale helseforetakene. Anskaffelsen skal dekke periodiske kapasitets- og kompetansebehov, og blir dermed en mulig leveransekanal for komplekse moderniserings- og byggeprogrammer. Konsekvens for prosjektet: koble Mjøssykehusets behov for integrasjon, data, BIM/digital samhandling, sikkerhet og testledelse til kravbildet før anskaffelsen konkretiseres.",
+        "en": "On 2 September, Sykehusinnkjøp HF announced a forthcoming framework for ICT consultants on behalf of the four regional health authorities. The procurement is intended to cover periodic capacity and competence needs and can therefore become a delivery channel for complex modernisation and construction programmes. Consequence for the project: connect Mjøssykehuset’s needs for integration, data, BIM/digital collaboration, security and test management to the requirements before the procurement is finalised."
+      },
+      "source": "Doffin / Sykehusinnkjøp HF",
+      "url": "https://doffin.no/notices/2026-113794",
+      "date": "2026-09-02",
       "impact": "medium"
     }
   ]

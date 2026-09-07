@@ -4,48 +4,48 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-08-31T05:35:12Z",
+  "updated": "2026-09-07T05:35:32Z",
   "items": [
     {
       "title": {
-        "no": "KI Norge rundt 2026: 68 KI-løsninger kartlagt i spesialisthelsetjenesten",
-        "en": "AI around Norway 2026: 68 AI solutions mapped in specialist care"
+        "no": "Hjemmekontor 1.0 avvikles 1. oktober 2026",
+        "en": "Remote Office 1.0 will be discontinued on 1 October 2026"
       },
       "summary": {
-        "no": "Helsedirektoratet publiserte 24. august et første nasjonalt øyeblikksbilde av KI-bruk i spesialisthelsetjenesten. Kartleggingen viser 68 unike løsninger i bruk eller under innføring, særlig innen bildebehandling, diagnostikk og beslutningsstøtte, og peker på stort potensial for deling på tvers av helseforetak. Konsekvens for Helse 4.0: gjør løsningskatalog, effektmåling, regulatorisk status og gjenbrukbare integrasjonsmønstre til en obligatorisk del av tvillingplattformen før horisontal skalering.",
-        "en": "On 24 August, the Norwegian Directorate of Health published a first national snapshot of AI use in specialist care. The mapping identifies 68 unique solutions in use or being introduced, especially in imaging, diagnostics and decision support, and points to significant potential for cross-trust sharing. Consequence for Health 4.0: make a solution catalogue, benefits measurement, regulatory status and reusable integration patterns mandatory parts of the twin platform before horizontal scaling."
-      },
-      "source": "Helsedirektoratet",
-      "url": "https://www.helsedirektoratet.no/rapporter/ki-norge-rundt-2026-oyeblikksbilde-av-kunstig-intelligens-i-norsk-spesialisthelsetjeneste",
-      "date": "2026-08-24",
-      "impact": "high"
-    },
-    {
-      "title": {
-        "no": "HelseID-fullmakter for leverandører flyttes til Helsenettet.no",
-        "en": "HelseID delegations for suppliers move to Helsenettet.no"
-      },
-      "summary": {
-        "no": "Fra 25. august skal nye leverandørfullmakter tilknyttet HelseID opprettes og vedlikeholdes på Helsenettet.no, mens eksisterende fullmakter fungerer inntil videre. Endringen gjelder administrasjon, oppsett og endring av kundetjenester via HelseID Selvbetjening og er fremskyndet etter hendelser hos Digitaliseringsdirektoratet. Konsekvens for Helse 4.0: modellér delegering, livssyklus og sporbarhet for leverandørtilgang som eksplisitte RBAC- og governance-objekter i alle FHIR/API-integrasjoner.",
-        "en": "From 25 August, new supplier delegations connected to HelseID must be created and maintained on Helsenettet.no, while existing delegations continue to work for now. The change covers administration, setup and modification of customer services through HelseID Self-Service and was accelerated after incidents at the Norwegian Digitalisation Agency. Consequence for Health 4.0: model delegation, lifecycle and traceability for supplier access as explicit RBAC and governance objects in all FHIR/API integrations."
+        "no": "Norsk helsenett varsler at virksomheter som fortsatt bruker Hjemmekontor 1.0 må bestille og ta i bruk Hjemmekontor 2.0 før 1. oktober, ellers opphører tilgangen til hjemmekontortjenesten. Overgangen krever at brukere og tilgang settes opp i den nye løsningen. Konsekvens for Helse 4.0: behandle endringen som en avhengighet i RBAC- og driftsarkitekturen, med eksplisitt migreringsstatus, beredskapssti og kontroll på fjernaksess til kliniske arbeidsflater.",
+        "en": "Norsk helsenett says organisations still using Remote Office 1.0 must order and activate Remote Office 2.0 before 1 October, otherwise access to the remote-office service will stop. The transition requires users and access to be configured in the new solution. Consequence for Health 4.0: treat the change as a dependency in the RBAC and operations architecture, with explicit migration status, a fallback path and controlled remote access to clinical workspaces."
       },
       "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/endring-for-leverandorer-delegering-fra-helsevirksomheter-til-leverandorer-opprettes-pa-helsenettet.no",
-      "date": "2026-08-25",
-      "impact": "high"
+      "url": "https://www.nhn.no/nyheter/hjemmekontor1.0-avvikles-fra-1.oktober",
+      "date": "2026-09-04",
+      "impact": "medium"
     },
     {
       "title": {
-        "no": "Ekstern hendelse hos Digitaliseringsdirektoratet påvirket flere tjenester",
-        "en": "External incident at the Digitalisation Agency affected multiple services"
+        "no": "ePROM: ny versjon settes i produksjon 9. september",
+        "en": "ePROM: new version scheduled for production on 9 September"
       },
       "summary": {
-        "no": "Norsk helsenett varslet 25. august om en ekstern hendelse hos Digitaliseringsdirektoratet som påvirket flere tjenester; hendelsen ble markert løst 28. august etter at Digdir meldte at angrepet så ut til å ha opphørt. NHN opplyste at tiltakene ga normal drift med lite vedvarende konsekvenser, men hendelsen synliggjør avhengigheten til nasjonale identitets- og felleskomponenter. Konsekvens for Helse 4.0: bygg inn fallback, avhengighetskart og ende-til-ende overvåking for ID- og samhandlingskomponenter før KI- og tvillingforløp skaleres.",
-        "en": "On 25 August, Norsk helsenett reported an external incident at the Norwegian Digitalisation Agency affecting multiple services; it was marked resolved on 28 August after Digdir said the attack appeared to have stopped. NHN reported normal operations with little lasting impact after mitigations, but the incident exposes dependencies on national identity and shared components. Consequence for Health 4.0: build fallback, dependency maps and end-to-end monitoring for identity and interoperability components before AI and twin pathways scale."
+        "no": "Norsk helsenett Status varsler produksjonssetting av en ny ePROM-versjon 9. september kl. 10.00–11.00 CEST, med mulig ustabilitet i tidsrommet. Meldingen viser at planlagte endringer i nasjonale helsetjenester må følges som operative avhengigheter. Konsekvens for Helse 4.0: legg vedlikeholdsvinduer, versjonsendringer og tjenestetilgjengelighet inn i tvillingens driftsmodell og i test-/utrullingsporten for nye integrasjoner.",
+        "en": "Norsk helsenett Status announces a new ePROM version going into production on 9 September from 10:00–11:00 CEST, with possible instability during the window. The notice illustrates that planned changes in national health services must be tracked as operational dependencies. Consequence for Health 4.0: include maintenance windows, version changes and service availability in the twin operations model and in the test and rollout gate for new integrations."
       },
       "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/incidents/2ch26kgq7p6z",
-      "date": "2026-08-25",
+      "url": "https://status.nhn.no/",
+      "date": "2026-09-05",
+      "impact": "medium"
+    },
+    {
+      "title": {
+        "no": "Ny ramme for IKT-konsulenttjenester til helseforetakene",
+        "en": "New framework for ICT consultancy services to the health trusts"
+      },
+      "summary": {
+        "no": "Sykehusinnkjøp HF kunngjorde 2. september på vegne av de fire regionale helseforetakene en kommende anskaffelse av IKT-konsulenttjenester. Formålet er å sikre tilgang til riktig kompetanse og kapasitet når behov oppstår, blant annet for å dekke periodevise kapasitets- og kompetansegap. Konsekvens for Helse 4.0: bruk anskaffelsen som en skaleringsmulighet, men gjør FHIR, kodeverk, datamodellering, personvern, sikkerhet og arkitektur-governance til målbare kompetanse- og leveransekrav.",
+        "en": "On 2 September, Sykehusinnkjøp HF announced on behalf of the four regional health authorities a forthcoming procurement of ICT consultancy services. The purpose is to secure the right competence and capacity when needed, including to cover periodic capacity and skills gaps. Consequence for Health 4.0: use the procurement as a scaling opportunity, but make FHIR, terminologies, data modelling, privacy, security and architecture governance measurable competence and delivery requirements."
+      },
+      "source": "Doffin / Sykehusinnkjøp HF",
+      "url": "https://doffin.no/notices/2026-113794",
+      "date": "2026-09-02",
       "impact": "high"
     }
   ]
