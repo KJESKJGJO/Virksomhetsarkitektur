@@ -4,49 +4,49 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-09-07T05:35:32Z",
+  "updated": "2026-09-14T05:36:52Z",
   "items": [
     {
       "title": {
-        "no": "Hjemmekontor 1.0 avvikles 1. oktober 2026",
-        "en": "Remote Office 1.0 will be discontinued on 1 October 2026"
+        "no": "Norsk helsenett blir partner i Health2B",
+        "en": "Norsk helsenett becomes a Health2B partner"
       },
       "summary": {
-        "no": "Norsk helsenett varsler at virksomheter som fortsatt bruker Hjemmekontor 1.0 må bestille og ta i bruk Hjemmekontor 2.0 før 1. oktober, ellers opphører tilgangen til hjemmekontortjenesten. Overgangen krever at brukere og tilgang settes opp i den nye løsningen. Konsekvens for Helse 4.0: behandle endringen som en avhengighet i RBAC- og driftsarkitekturen, med eksplisitt migreringsstatus, beredskapssti og kontroll på fjernaksess til kliniske arbeidsflater.",
-        "en": "Norsk helsenett says organisations still using Remote Office 1.0 must order and activate Remote Office 2.0 before 1 October, otherwise access to the remote-office service will stop. The transition requires users and access to be configured in the new solution. Consequence for Health 4.0: treat the change as a dependency in the RBAC and operations architecture, with explicit migration status, a fallback path and controlled remote access to clinical workspaces."
+        "no": "Norsk helsenett gikk 10. september inn som partner i Health2B, en offentlig–privat–ideell arena der helsetjenesten, offentlig sektor, næringsliv og forskningsmiljøer utvikler og prøver ut løsninger sammen. NHN beskriver at partnerskapet skal korte veien fra behov og idé til løsninger som kan kobles på nasjonal infrastruktur, med kompetanse på samhandling, sikkerhet og utprøving. Konsekvens for Helse 4.0: etabler en standardisert onboarding-port for nye tvilling- og KI-komponenter med krav til FHIR/API, identitet og RBAC, personvern, sikkerhet, test og operasjonelt eierskap før skalering.",
+        "en": "On 10 September, Norsk helsenett became a partner in Health2B, a public–private–non-profit arena where healthcare, the public sector, industry and research communities develop and test solutions together. NHN says the partnership should shorten the path from needs and ideas to solutions that can connect to national infrastructure, with expertise in interoperability, security and experimentation. Consequence for Health 4.0: establish a standard onboarding gate for new twin and AI components covering FHIR/API, identity and RBAC, privacy, security, testing and operational ownership before scaling."
       },
       "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/hjemmekontor1.0-avvikles-fra-1.oktober",
-      "date": "2026-09-04",
-      "impact": "medium"
+      "url": "https://www.nhn.no/nyheter/norsk-helsenett-blir-partner-i-health2b",
+      "date": "2026-09-10",
+      "impact": "high"
     },
     {
       "title": {
-        "no": "ePROM: ny versjon settes i produksjon 9. september",
-        "en": "ePROM: new version scheduled for production on 9 September"
+        "no": "Nasjonale krav for helseteknologi samles rundt samhandling og sikkerhet",
+        "en": "National health-technology requirements focus on interoperability and security"
       },
       "summary": {
-        "no": "Norsk helsenett Status varsler produksjonssetting av en ny ePROM-versjon 9. september kl. 10.00–11.00 CEST, med mulig ustabilitet i tidsrommet. Meldingen viser at planlagte endringer i nasjonale helsetjenester må følges som operative avhengigheter. Konsekvens for Helse 4.0: legg vedlikeholdsvinduer, versjonsendringer og tjenestetilgjengelighet inn i tvillingens driftsmodell og i test-/utrullingsporten for nye integrasjoner.",
-        "en": "Norsk helsenett Status announces a new ePROM version going into production on 9 September from 10:00–11:00 CEST, with possible instability during the window. The notice illustrates that planned changes in national health services must be tracked as operational dependencies. Consequence for Health 4.0: include maintenance windows, version changes and service availability in the twin operations model and in the test and rollout gate for new integrations."
+        "no": "Helsedirektoratets oppdaterte oversikt beskriver krav til digital samhandling, standarder, helseregisterrapportering, informasjonssikkerhet og personvern for leverandører av helseteknologi. Siden omtaler også et selvdeklareringsskjema som KS og Helsedirektoratet utvikler, samt kommende krav knyttet til European Health Data Space. Konsekvens for Helse 4.0: gjør kravoversikten til en arkitektur- og anskaffelsesport for FHIR, kodeverk, datakvalitet, GDPR, sikkerhet og dokumentert integrasjonsstatus i den horisontale skaleringen.",
+        "en": "The Norwegian Directorate of Health’s updated overview describes requirements for digital interoperability, standards, health-registry reporting, information security and privacy for health-technology suppliers. It also covers a supplier self-declaration form being developed by KS and the Directorate, as well as forthcoming European Health Data Space requirements. Consequence for Health 4.0: use the overview as an architecture and procurement gate for FHIR, terminologies, data quality, GDPR, security and documented integration status during horizontal scaling."
+      },
+      "source": "Helsedirektoratet",
+      "url": "https://www.helsedirektoratet.no/digitalisering-og-e-helse/veilednings-og-godkjenningsordning-for-helseteknologi/oversikt-over-nasjonale-krav-for-leverandorer-av-helseteknologi",
+      "date": "2026-09-11",
+      "impact": "high"
+    },
+    {
+      "title": {
+        "no": "SFM-endring i underliggende infrastruktur flyttet til 15. september",
+        "en": "SFM underlying-infrastructure change moved to 15 September"
+      },
+      "summary": {
+        "no": "Norsk helsenett Status viser at en planlagt endring i underliggende infrastruktur for Sentral forskrivningsmodul er flyttet fra 10. til 15. september kl. 20.00–21.00 CEST. Meldingen illustrerer at nasjonale tjenester kan få endrede vedlikeholdsvinduer tett på produksjon. Konsekvens for Helse 4.0: modeller vedlikeholdsvinduer, versjonsendringer, avhengigheter og tjenestetilgjengelighet som operative signaler i tvillingen og i test-/utrullingsporten for nye integrasjoner.",
+        "en": "Norsk helsenett Status shows that a planned change to the underlying infrastructure for the Central Prescription Module was moved from 10 to 15 September, 20:00–21:00 CEST. The notice illustrates how maintenance windows for national services can change close to production. Consequence for Health 4.0: model maintenance windows, version changes, dependencies and service availability as operational signals in the twin and in the test and rollout gate for new integrations."
       },
       "source": "Norsk helsenett Status",
       "url": "https://status.nhn.no/",
-      "date": "2026-09-05",
+      "date": "2026-09-11",
       "impact": "medium"
-    },
-    {
-      "title": {
-        "no": "Ny ramme for IKT-konsulenttjenester til helseforetakene",
-        "en": "New framework for ICT consultancy services to the health trusts"
-      },
-      "summary": {
-        "no": "Sykehusinnkjøp HF kunngjorde 2. september på vegne av de fire regionale helseforetakene en kommende anskaffelse av IKT-konsulenttjenester. Formålet er å sikre tilgang til riktig kompetanse og kapasitet når behov oppstår, blant annet for å dekke periodevise kapasitets- og kompetansegap. Konsekvens for Helse 4.0: bruk anskaffelsen som en skaleringsmulighet, men gjør FHIR, kodeverk, datamodellering, personvern, sikkerhet og arkitektur-governance til målbare kompetanse- og leveransekrav.",
-        "en": "On 2 September, Sykehusinnkjøp HF announced on behalf of the four regional health authorities a forthcoming procurement of ICT consultancy services. The purpose is to secure the right competence and capacity when needed, including to cover periodic capacity and skills gaps. Consequence for Health 4.0: use the procurement as a scaling opportunity, but make FHIR, terminologies, data modelling, privacy, security and architecture governance measurable competence and delivery requirements."
-      },
-      "source": "Doffin / Sykehusinnkjøp HF",
-      "url": "https://doffin.no/notices/2026-113794",
-      "date": "2026-09-02",
-      "impact": "high"
     }
   ]
 }

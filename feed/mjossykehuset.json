@@ -4,48 +4,48 @@
     "no": "Mjøssykehuset — utviklingsaktiviteter",
     "en": "Mjøssykehuset — development activity"
   },
-  "updated": "2026-09-07T05:35:32Z",
+  "updated": "2026-09-14T05:36:52Z",
   "items": [
     {
       "title": {
-        "no": "Reguleringsplanen er fortsatt en kritisk milepæl for 2028-byggestart",
-        "en": "The zoning plan remains a critical milestone for the 2028 construction start"
+        "no": "Ringsaker beskriver et taktskifte og etablerer leverandørprogram",
+        "en": "Ringsaker describes a step change and establishes a supplier programme"
       },
       "summary": {
-        "no": "Helse Sør-Østs oppdaterte prosjektinformasjon legger fortsatt til grunn at reguleringsplanen skal vedtas høsten 2026, med forventet byggestart i 2028. Planen er del av forprosjektet og må avklares før prosjektet kan gå videre mot investeringsbeslutning og anleggsfase. Konsekvens for prosjektet: hold planvedtaket som en styrende avhengighet i hovedplanen, og synkroniser prosjektering, grunnerverv, infrastruktur og kontraktsstrategi mot vedtaksdatoen.",
-        "en": "Helse Sør-Øst’s updated project information still assumes that the zoning plan will be adopted in autumn 2026, with construction expected to start in 2028. The plan is part of the front-end project work and must be clarified before the project can move toward an investment decision and construction phase. Consequence for the project: keep the zoning decision as a controlling dependency in the master schedule and align design, land, infrastructure and contracting strategy with the decision date."
+        "no": "Ringsaker kommune oppsummerte 11. september næringskonferansen 8. september som et taktskifte fra planer til gjennomføring. Kommunen skal blant annet legge til rette for areal, infrastruktur, bolig og næring, og har startet et leverandørprogram som skal gjøre lokale og regionale bedrifter bedre rustet til å konkurrere om leveranser; arbeidet skjer i dialog med Helse Sør-Øst og Sykehusbygg. Konsekvens for prosjektet: koble leverandørprogrammet til anskaffelses- og kontraktsstrategien, med tydelige milepæler for marked, kvalifikasjon, kapasitet og lokal/regional leveranseevne.",
+        "en": "On 11 September, Ringsaker municipality described the 8 September business conference as a step change from plans to implementation. The municipality will facilitate land, infrastructure, housing and business development, and has started a supplier programme to prepare local and regional companies to compete for deliveries; the work is coordinated with Helse Sør-Øst and Sykehusbygg. Consequence for the project: link the supplier programme to the procurement and contracting strategy, with clear milestones for market engagement, qualification, capacity and local/regional delivery capability."
       },
-      "source": "Helse Sør-Øst RHF",
-      "url": "https://www.helse-sorost.no/nyheter/reguleringsplan-for-mjossykehuset/",
-      "date": "2026-09-04",
+      "source": "Ringsaker kommune",
+      "url": "https://www.ringsaker.kommune.no/nyheter/nyheter/2026-09-11-mjossykehuset-et-taktskifte-for-hele-regionen",
+      "date": "2026-09-11",
       "impact": "high"
     },
     {
       "title": {
-        "no": "Forprosjektet styres med 17,8 mrd. kroner i ramme og 16,9 mrd. i styringsmål",
-        "en": "The front-end project is governed by a NOK 17.8bn framework and a NOK 16.9bn control target"
+        "no": "Sykehusbyggs plattform for informasjonsforvaltning starter 14. september",
+        "en": "Sykehusbygg’s information-management platform starts on 14 September"
       },
       "summary": {
-        "no": "Helse Sør-Øst beskriver forprosjektet som startet 1. januar 2026, med krav til kostnadskontroll, standardisering og digitalisering. Styringsrammen er satt til 17,8 milliarder kroner, mens prosjektdirektørens styringsmål er 16,9 milliarder kroner. Konsekvens for prosjektet: lås digitale og ikke-byggnære IKT-leveranser til samme kostnads- og beslutningsstruktur som bygg, og spor avvik som egne styringssignaler før de påvirker fremdrift eller kontrakter.",
-        "en": "Helse Sør-Øst describes the front-end project that started on 1 January 2026, with requirements for cost control, standardisation and digitalisation. The control framework is NOK 17.8 billion, while the project director’s control target is NOK 16.9 billion. Consequence for the project: bind digital and non-building ICT deliveries to the same cost and decision structure as the construction work, and track deviations as explicit control signals before they affect schedule or contracts."
+        "no": "Doffin-kunngjøringen for Sykehusbyggs plattform for helhetlig informasjonsforvaltning og digital kravstyring oppgir oppstart 14. september 2026 og kontraktsperiode til 15. september 2030, med opsjon på år 3 og 4. Plattformen skal standardisere arbeidsmetodikk og BIM-krav, forbedre datakvalitet gjennom livsløpet og automatisere modellering, validering og dataflyt. Konsekvens for prosjektet: koble Mjøssykehusets informasjonskrav, BIM-/digital-tvillingleveranser og valideringsregime til plattformen fra oppstart, med sporbare leveransemilepæler før byggestart.",
+        "en": "The Doffin notice for Sykehusbygg’s platform for integrated information management and digital requirements management specifies a start on 14 September 2026 and a contract period through 15 September 2030, with options for years 3 and 4. The platform is intended to standardise working methods and BIM requirements, improve lifecycle data quality, and automate modelling, validation and data flow. Consequence for the project: connect Mjøssykehuset’s information requirements, BIM/digital-twin deliverables and validation regime to the platform from its start, with traceable delivery milestones before construction begins."
       },
-      "source": "Helse Sør-Øst RHF",
-      "url": "https://www.helse-sorost.no/nyheter/oppstart-av-forprosjekt-for-mjossykehuset/",
-      "date": "2026-09-04",
+      "source": "Doffin / Sykehusbygg HF",
+      "url": "https://doffin.no/notices/2026-109170",
+      "date": "2026-09-14",
       "impact": "high"
     },
     {
       "title": {
-        "no": "Sykehusinnkjøp starter regional anskaffelse av IKT-konsulentkapasitet",
-        "en": "Sykehusinnkjøp starts a regional procurement of ICT consultancy capacity"
+        "no": "Sykehusbygg oppdaterer kunnskapsgrunnlag for normalsengeområder",
+        "en": "Sykehusbygg updates the knowledge base for standard inpatient areas"
       },
       "summary": {
-        "no": "Sykehusinnkjøp HF kunngjorde 2. september en kommende ramme for IKT-konsulenter på vegne av de fire regionale helseforetakene. Anskaffelsen skal dekke periodiske kapasitets- og kompetansebehov, og blir dermed en mulig leveransekanal for komplekse moderniserings- og byggeprogrammer. Konsekvens for prosjektet: koble Mjøssykehusets behov for integrasjon, data, BIM/digital samhandling, sikkerhet og testledelse til kravbildet før anskaffelsen konkretiseres.",
-        "en": "On 2 September, Sykehusinnkjøp HF announced a forthcoming framework for ICT consultants on behalf of the four regional health authorities. The procurement is intended to cover periodic capacity and competence needs and can therefore become a delivery channel for complex modernisation and construction programmes. Consequence for the project: connect Mjøssykehuset’s needs for integration, data, BIM/digital collaboration, security and test management to the requirements before the procurement is finalised."
+        "no": "Sykehusbygg HF gjennomførte 10. september webinar om oppdatert kunnskapsgrunnlag for normalsengeområder i somatikken. Temaene omfatter størrelse og organisering av sengeområder, ensengsrom, korridorer, arbeidsstasjoner, siktlinjer, gangavstander, logistikk og støtterom — beslutninger som er direkte relevante i funksjons- og konseptutviklingen av et nytt akuttsykehus. Konsekvens for prosjektet: legg kunnskapsgrunnlaget inn som beslutningsunderlag i forprosjektet, og spor valg av romprogram, logistikk og standardisering mot kostnad, drift, smittevern og fremtidig fleksibilitet.",
+        "en": "Sykehusbygg HF held a webinar on 10 September about an updated knowledge base for standard inpatient areas in somatic hospitals. Topics included size and organisation of inpatient areas, single rooms, corridors, workstations, sightlines, walking distances, logistics and support rooms—decisions directly relevant to the functional and conceptual development of a new acute hospital. Consequence for the project: use the knowledge base as decision support in the front-end project and trace room-programme, logistics and standardisation choices to cost, operations, infection control and future flexibility."
       },
-      "source": "Doffin / Sykehusinnkjøp HF",
-      "url": "https://doffin.no/notices/2026-113794",
-      "date": "2026-09-02",
+      "source": "Sykehusbygg HF",
+      "url": "https://www.sykehusbygg.no/kunnskapsportal/webinarer-og-foredrag/",
+      "date": "2026-09-10",
       "impact": "medium"
     }
   ]
