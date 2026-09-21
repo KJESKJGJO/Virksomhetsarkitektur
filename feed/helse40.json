@@ -4,48 +4,48 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-09-14T05:36:52Z",
+  "updated": "2026-09-21T05:35:53Z",
   "items": [
     {
       "title": {
-        "no": "Norsk helsenett blir partner i Health2B",
-        "en": "Norsk helsenett becomes a Health2B partner"
+        "no": "Oslo tilbyr gravide digitalt helsekort",
+        "en": "Oslo offers pregnant women a digital health card"
       },
       "summary": {
-        "no": "Norsk helsenett gikk 10. september inn som partner i Health2B, en offentlig–privat–ideell arena der helsetjenesten, offentlig sektor, næringsliv og forskningsmiljøer utvikler og prøver ut løsninger sammen. NHN beskriver at partnerskapet skal korte veien fra behov og idé til løsninger som kan kobles på nasjonal infrastruktur, med kompetanse på samhandling, sikkerhet og utprøving. Konsekvens for Helse 4.0: etabler en standardisert onboarding-port for nye tvilling- og KI-komponenter med krav til FHIR/API, identitet og RBAC, personvern, sikkerhet, test og operasjonelt eierskap før skalering.",
-        "en": "On 10 September, Norsk helsenett became a partner in Health2B, a public–private–non-profit arena where healthcare, the public sector, industry and research communities develop and test solutions together. NHN says the partnership should shorten the path from needs and ideas to solutions that can connect to national infrastructure, with expertise in interoperability, security and experimentation. Consequence for Health 4.0: establish a standard onboarding gate for new twin and AI components covering FHIR/API, identity and RBAC, privacy, security, testing and operational ownership before scaling."
+        "no": "Norsk helsenett meldte 17. september at Oslo kommune har tatt i bruk Digitalt helsekort for gravide ved alle helsestasjoner. Tjenesten gir helsepersonell tilgang til opplysninger på tvers av helseinstitusjoner via journalsystem-API, mens den gravide får innsyn gjennom Helsenorge; papirkortet må fortsatt brukes i overgangsperioden. Konsekvens for Helse 4.0: bruk utrullingen som referansearkitektur for samtykke, identitet, API-basert deling og trinnvis skalering av digitale tvillinger på tvers av virksomheter.",
+        "en": "On 17 September, Norsk helsenett reported that Oslo municipality has introduced the Digital Health Card for Pregnant Women at all municipal health stations. The service gives clinicians cross-institution access through a journal-system API while the pregnant woman accesses her information through Helsenorge; the paper card remains in use during the transition. Consequence for Health 4.0: use the rollout as a reference architecture for consent, identity, API-based sharing and stepwise scaling of digital twins across organisations."
       },
       "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/norsk-helsenett-blir-partner-i-health2b",
-      "date": "2026-09-10",
+      "url": "https://www.nhn.no/nyheter/na-tilbys-gravide-i-oslo-digitalt-helsekort",
+      "date": "2026-09-17",
       "impact": "high"
     },
     {
       "title": {
-        "no": "Nasjonale krav for helseteknologi samles rundt samhandling og sikkerhet",
-        "en": "National health-technology requirements focus on interoperability and security"
+        "no": "Nesten 70 KI-verktøy er i bruk eller under innføring i spesialisthelsetjenesten",
+        "en": "Nearly 70 AI tools are in use or being introduced in specialist healthcare"
       },
       "summary": {
-        "no": "Helsedirektoratets oppdaterte oversikt beskriver krav til digital samhandling, standarder, helseregisterrapportering, informasjonssikkerhet og personvern for leverandører av helseteknologi. Siden omtaler også et selvdeklareringsskjema som KS og Helsedirektoratet utvikler, samt kommende krav knyttet til European Health Data Space. Konsekvens for Helse 4.0: gjør kravoversikten til en arkitektur- og anskaffelsesport for FHIR, kodeverk, datakvalitet, GDPR, sikkerhet og dokumentert integrasjonsstatus i den horisontale skaleringen.",
-        "en": "The Norwegian Directorate of Health’s updated overview describes requirements for digital interoperability, standards, health-registry reporting, information security and privacy for health-technology suppliers. It also covers a supplier self-declaration form being developed by KS and the Directorate, as well as forthcoming European Health Data Space requirements. Consequence for Health 4.0: use the overview as an architecture and procurement gate for FHIR, terminologies, data quality, GDPR, security and documented integration status during horizontal scaling."
+        "no": "Helsedirektoratets løpende nyhetsflate løfter fram en nasjonal kartlegging av nesten 70 KI-verktøy i bruk eller under innføring i spesialisthelsetjenesten. Kartleggingen viser et behov for å dele erfaringer og bygge trygg, standardisert innføring på tvers av regioner, med særlig tyngde i bildebehandling, diagnostikk, beslutningsstøtte og dokumentasjon. Konsekvens for Helse 4.0: gjør KI-komponenter til versjonerte, styrte tjenester med felles datamodeller, kvalitetsspor, menneskelig kontroll og målbare gevinster før horisontal skalering.",
+        "en": "The Norwegian Directorate of Health’s current news feed highlights a national mapping of nearly 70 AI tools in use or being introduced in specialist healthcare. The mapping points to a need for cross-regional experience sharing and safe, standardised adoption, especially in imaging, diagnostics, decision support and documentation. Consequence for Health 4.0: treat AI components as versioned, governed services with shared data models, quality traceability, human oversight and measurable benefits before horizontal scaling."
       },
       "source": "Helsedirektoratet",
-      "url": "https://www.helsedirektoratet.no/digitalisering-og-e-helse/veilednings-og-godkjenningsordning-for-helseteknologi/oversikt-over-nasjonale-krav-for-leverandorer-av-helseteknologi",
-      "date": "2026-09-11",
+      "url": "https://www.helsedirektoratet.no/",
+      "date": "2026-09-19",
       "impact": "high"
     },
     {
       "title": {
-        "no": "SFM-endring i underliggende infrastruktur flyttet til 15. september",
-        "en": "SFM underlying-infrastructure change moved to 15 September"
+        "no": "SFM får planlagt oppdatering av støttetjenester 21. september",
+        "en": "SFM has a planned support-services update on 21 September"
       },
       "summary": {
-        "no": "Norsk helsenett Status viser at en planlagt endring i underliggende infrastruktur for Sentral forskrivningsmodul er flyttet fra 10. til 15. september kl. 20.00–21.00 CEST. Meldingen illustrerer at nasjonale tjenester kan få endrede vedlikeholdsvinduer tett på produksjon. Konsekvens for Helse 4.0: modeller vedlikeholdsvinduer, versjonsendringer, avhengigheter og tjenestetilgjengelighet som operative signaler i tvillingen og i test-/utrullingsporten for nye integrasjoner.",
-        "en": "Norsk helsenett Status shows that a planned change to the underlying infrastructure for the Central Prescription Module was moved from 10 to 15 September, 20:00–21:00 CEST. The notice illustrates how maintenance windows for national services can change close to production. Consequence for Health 4.0: model maintenance windows, version changes, dependencies and service availability as operational signals in the twin and in the test and rollout gate for new integrations."
+        "no": "Norsk helsenett Status viser en planlagt oppdatering av støttetjenester for Sentral forskrivningsmodul 21. september kl. 21.00–22.00 CEST. Vedlikeholdsvinduet er et konkret signal om at nasjonale avhengigheter må håndteres som del av produksjons- og utrullingsstyringen. Konsekvens for Helse 4.0: modeller vedlikehold, versjoner, avhengigheter og tjenestetilgjengelighet i driftslaget for tvillingen, og bruk dette i test- og rollback-porten for nye integrasjoner.",
+        "en": "Norsk helsenett Status lists a planned support-services update for the Central Prescription Module on 21 September from 21:00–22:00 CEST. The maintenance window is a concrete reminder that national dependencies must be managed as part of production and rollout control. Consequence for Health 4.0: model maintenance, versions, dependencies and service availability in the twin’s operations layer, and use them in the test and rollback gate for new integrations."
       },
       "source": "Norsk helsenett Status",
       "url": "https://status.nhn.no/",
-      "date": "2026-09-11",
+      "date": "2026-09-21",
       "impact": "medium"
     }
   ]
