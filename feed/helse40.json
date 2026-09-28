@@ -4,48 +4,48 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-09-21T05:35:53Z",
+  "updated": "2026-09-28T05:32:55Z",
   "items": [
     {
       "title": {
-        "no": "Oslo tilbyr gravide digitalt helsekort",
-        "en": "Oslo offers pregnant women a digital health card"
+        "no": "Norsk helsenett utvider videotjenestene til kommuner og fylkeskommuner",
+        "en": "Norsk Health Network expands video services to municipalities and counties"
       },
       "summary": {
-        "no": "Norsk helsenett meldte 17. september at Oslo kommune har tatt i bruk Digitalt helsekort for gravide ved alle helsestasjoner. Tjenesten gir helsepersonell tilgang til opplysninger på tvers av helseinstitusjoner via journalsystem-API, mens den gravide får innsyn gjennom Helsenorge; papirkortet må fortsatt brukes i overgangsperioden. Konsekvens for Helse 4.0: bruk utrullingen som referansearkitektur for samtykke, identitet, API-basert deling og trinnvis skalering av digitale tvillinger på tvers av virksomheter.",
-        "en": "On 17 September, Norsk helsenett reported that Oslo municipality has introduced the Digital Health Card for Pregnant Women at all municipal health stations. The service gives clinicians cross-institution access through a journal-system API while the pregnant woman accesses her information through Helsenorge; the paper card remains in use during the transition. Consequence for Health 4.0: use the rollout as a reference architecture for consent, identity, API-based sharing and stepwise scaling of digital twins across organisations."
+        "no": "Norsk helsenetts nyhetsoversikt datert 25. september løfter videotjenester for kommuner og fylkeskommuner. Tjenestene dekker blant annet videokonsultasjon, video i samtale og virtuelle møterom; videokonsultasjon kan brukes på tvers av tjenesteområder, mens enkelte forløp er integrert med Helsenorge og EPJ-støtte. Konsekvens for Helse 4.0: modeller video som en sikker, modulær samhandlingskapabilitet i tvillingarkitekturen, med tydelig skille mellom identitet, arbeidsflyt, kliniske data og videokanalen før horisontal skalering.",
+        "en": "Norsk Health Network's news overview dated 25 September highlights video services for municipalities and counties. The services cover video consultations, video in conversations and virtual meeting rooms; video consultations can be used across service areas, while some workflows are integrated with Helsenorge and supported by EHR integration. Consequence for Health 4.0: model video as a secure, modular collaboration capability in the twin architecture, clearly separating identity, workflow, clinical data and the video channel before horizontal scaling."
       },
       "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/na-tilbys-gravide-i-oslo-digitalt-helsekort",
-      "date": "2026-09-17",
+      "url": "https://www.nhn.no/nyheter",
+      "date": "2026-09-25",
       "impact": "high"
     },
     {
       "title": {
-        "no": "Nesten 70 KI-verktøy er i bruk eller under innføring i spesialisthelsetjenesten",
-        "en": "Nearly 70 AI tools are in use or being introduced in specialist healthcare"
+        "no": "EHDS-lovforslaget har norsk høringsfrist 28. september",
+        "en": "The EHDS bill proposal has a Norwegian consultation deadline of 28 September"
       },
       "summary": {
-        "no": "Helsedirektoratets løpende nyhetsflate løfter fram en nasjonal kartlegging av nesten 70 KI-verktøy i bruk eller under innføring i spesialisthelsetjenesten. Kartleggingen viser et behov for å dele erfaringer og bygge trygg, standardisert innføring på tvers av regioner, med særlig tyngde i bildebehandling, diagnostikk, beslutningsstøtte og dokumentasjon. Konsekvens for Helse 4.0: gjør KI-komponenter til versjonerte, styrte tjenester med felles datamodeller, kvalitetsspor, menneskelig kontroll og målbare gevinster før horisontal skalering.",
-        "en": "The Norwegian Directorate of Health’s current news feed highlights a national mapping of nearly 70 AI tools in use or being introduced in specialist healthcare. The mapping points to a need for cross-regional experience sharing and safe, standardised adoption, especially in imaging, diagnostics, decision support and documentation. Consequence for Health 4.0: treat AI components as versioned, governed services with shared data models, quality traceability, human oversight and measurable benefits before horizontal scaling."
+        "no": "Helse- og omsorgsdepartementet har sendt forslag til ny lov om det europeiske helsedataområdet på høring, med frist 28. september 2026. Forslaget gjennomfører EHDS-reglene i norsk rett og kobler sammen felles regler, standarder og infrastrukturer for innbyggerkontroll, primærbruk og sekundærbruk av helsedata. Konsekvens for Helse 4.0: bruk EHDS som en styrende arkitekturforutsetning for samtykke, tilgangsstyring, interoperabilitet og sekundærbruk når digitale tvillinger skaleres mellom sykdomsforløp og sykehus.",
+        "en": "The Ministry of Health and Care Services has circulated a proposal for a new law on the European Health Data Space, with a deadline of 28 September 2026. The proposal implements EHDS rules in Norwegian law and connects common rules, standards and infrastructures for citizen control, primary use and secondary use of health data. Consequence for Health 4.0: treat EHDS as an architectural constraint for consent, access control, interoperability and secondary use as digital twins scale across disease pathways and hospitals."
       },
-      "source": "Helsedirektoratet",
-      "url": "https://www.helsedirektoratet.no/",
-      "date": "2026-09-19",
+      "source": "Helse- og omsorgsdepartementet",
+      "url": "https://www.regjeringen.no/no/dokumenter/horingsbrev-forslag-til-ny-lov-om-det-europeiske-helsedataomradet/id3164607/",
+      "date": "2026-09-28",
       "impact": "high"
     },
     {
       "title": {
-        "no": "SFM får planlagt oppdatering av støttetjenester 21. september",
-        "en": "SFM has a planned support-services update on 21 September"
+        "no": "Kjernejournal hadde planlagt vedlikehold 27.–28. september",
+        "en": "Kjernejournal had planned maintenance on 27–28 September"
       },
       "summary": {
-        "no": "Norsk helsenett Status viser en planlagt oppdatering av støttetjenester for Sentral forskrivningsmodul 21. september kl. 21.00–22.00 CEST. Vedlikeholdsvinduet er et konkret signal om at nasjonale avhengigheter må håndteres som del av produksjons- og utrullingsstyringen. Konsekvens for Helse 4.0: modeller vedlikehold, versjoner, avhengigheter og tjenestetilgjengelighet i driftslaget for tvillingen, og bruk dette i test- og rollback-porten for nye integrasjoner.",
-        "en": "Norsk helsenett Status lists a planned support-services update for the Central Prescription Module on 21 September from 21:00–22:00 CEST. The maintenance window is a concrete reminder that national dependencies must be managed as part of production and rollout control. Consequence for Health 4.0: model maintenance, versions, dependencies and service availability in the twin’s operations layer, and use them in the test and rollback gate for new integrations."
+        "no": "Norsk helsenett varslet vedlikehold av Kjernejournal 27. september kl. 21.00–02.00, med lesemodus i Kjernejournal Portal og redusert mulighet til å oppdatere informasjon. Vedlikeholdsvinduet viser at nasjonale kildetjenester kan ha tidsavgrenset funksjonalitet selv når øvrig drift er normal. Konsekvens for Helse 4.0: gjør driftsstatus, lesemodus, datakvalitet og rollback til eksplisitte tilstander i tvillingens operasjonelle modell og testport.",
+        "en": "Norsk Health Network announced Kjernejournal maintenance from 21:00 to 02:00 on 27–28 September, with read-only mode in the Kjernejournal Portal and reduced ability to update information. The maintenance window shows that national source services can have time-limited functionality even when other services operate normally. Consequence for Health 4.0: represent service status, read-only mode, data quality and rollback as explicit states in the twin's operational model and release gate."
       },
       "source": "Norsk helsenett Status",
       "url": "https://status.nhn.no/",
-      "date": "2026-09-21",
+      "date": "2026-09-27",
       "impact": "medium"
     }
   ]
