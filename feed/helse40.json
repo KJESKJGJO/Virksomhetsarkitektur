@@ -4,48 +4,48 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-10-05T05:33:11Z",
+  "updated": "2026-10-12T05:37:03Z",
   "items": [
     {
       "title": {
-        "no": "Over 5 000 gravide har fått digitalt helsekort på Helsenorge",
-        "en": "More than 5,000 pregnant people now have a digital health card on Helsenorge"
+        "no": "Enklere å ta i bruk velferdsteknologisk knutepunkt (VKP) i kommunene",
+        "en": "Easier municipal adoption of the Welfare Technology Hub (VKP)"
       },
       "summary": {
-        "no": "Norsk helsenett opplyser at over 5 000 gravide nå har digitalt helsekort, med opplysninger delt mellom fastlege, helsestasjon og sykehusenes journalsystemer; 144 av 357 kommuner og 327 av 1 330 fastlegekontor har tatt løsningen i bruk. Målet er nasjonal utbredelse innen 2027, og papirkortet fases først ut når alle tjenestene rundt den gravide bruker den digitale versjonen. Konsekvens for Helse 4.0: bruk helsekortet som et konkret mønster for versjonerte, samtykkebaserte forløpsdata og mål innføringsgrad hos alle aktører før en digital tvilling gjør delt informasjon til operativ sannhet.",
-        "en": "Norsk Health Network reports that more than 5,000 pregnant people now have a digital health card, with information shared between GPs, health centres and hospital EHRs; 144 of 357 municipalities and 327 of 1,330 GP offices have adopted it. National rollout is targeted for 2027, and the paper card will only be phased out once all services involved use the digital version. Health 4.0 consequence: use the card as a concrete pattern for versioned, consent-based pathway data and measure adoption across every actor before a digital twin treats shared information as operational truth."
+        "no": "Norsk helsenett beskriver modernisering av VKP gjennom API-baserte informasjonstjenester: nye journalsystemer må bruke de nye grensesnittene, og leverandører må håndtere gammel og ny løsning parallelt i overgangen. NHN opplyser at bruken har vokst fra litt over 30 kommuner i 2024 til over 100 i 2026, og at sluttdato for dagens VKP skal kunngjøres mot slutten av 2026. Konsekvens for Helse 4.0: utform en versjonert integrasjons- og migreringsarkitektur med tydelige grensesnitt, eierskap til datalogikk og avstemming mellom gammel og ny tjeneste.",
+        "en": "Norsk Health Network describes a modernized VKP built around API-based information services: new EHR systems must use the new interfaces, and suppliers must support the old and new solutions in parallel during transition. NHN says adoption has grown from just over 30 municipalities in 2024 to more than 100 in 2026, and that it will announce an end date for the current VKP toward the end of 2026. Health 4.0 consequence: design a versioned integration and migration architecture with explicit interfaces, ownership of data logic, and reconciliation between old and new services."
       },
       "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/over-5-000-gravide-har-fatt-digitalt-helsekort-pa-helsenorge",
-      "date": "2026-10-01",
+      "url": "https://www.nhn.no/nyheter/enklere-a-ta-i-bruk-velferdsteknologisk-knutepunkt-vkp-i-kommunene",
+      "date": "2026-10-09",
       "impact": "high"
     },
     {
       "title": {
-        "no": "Prismodell for nasjonale e-helseløsninger i 2027 sendt på høring",
-        "en": "2027 pricing model for national e-health services sent for consultation"
+        "no": "HelseID 6.9 øker maksimal lengde på scopes til 3 000 tegn",
+        "en": "HelseID 6.9 raises the maximum scope length to 3,000 characters"
       },
       "summary": {
-        "no": "Helse- og omsorgsdepartementet har sendt prismodellen for nasjonale e-helseløsninger i 2027 på høring; hovedfordelingen mellom kommuner, regionale helseforetak og øvrige aktører videreføres, mens Pasientens prøvesvar foreslås inn i forskriftsfestet finansiering fra 2027. Høringsfristen er 4. desember, og departementet skal deretter ta endelig stilling til overføring av Pasientens prøvesvar til forvaltning og betalingsplikt. Konsekvens for Helse 4.0: før kostnads- og driftsavhengigheter for nasjonale tjenester inn i arkitekturens interessent- og ansvarsmodell, og behandle finansiering og tjenestestatus som styrende forutsetninger ved skalering.",
-        "en": "The Ministry of Health and Care Services has opened consultation on the 2027 pricing model for national e-health services; the main cost allocation between municipalities, regional health authorities and other actors is retained, while Patient Test Results is proposed for regulated funding from 2027. The consultation closes on 4 December, after which the Ministry will decide whether Patient Test Results is ready to transfer into operations with a payment obligation. Health 4.0 consequence: include national-service operating costs and dependencies in the architecture’s stakeholder and accountability model, and treat funding and service status as constraints when scaling."
+        "no": "NHN satte HelseID-versjon 6.9 i produksjon 8. oktober uten forventet nedetid; blant endringene er økt maksimal lengde på scopes til 3 000 tegn. Dette endrer en konkret grense i identitetslaget som integrasjoner og token-validering kan være avhengige av. Konsekvens for Helse 4.0: verifiser scope-krav, RBAC-policyer og tokenhåndtering i integrasjonstestene før flere systemer kobles på.",
+        "en": "NHN deployed HelseID version 6.9 to production on 8 October with no downtime expected; changes include raising the maximum scope length to 3,000 characters. This changes a specific identity-layer limit on which integrations and token validation may depend. Health 4.0 consequence: verify scope requirements, RBAC policies, and token handling in integration tests before connecting more systems."
       },
-      "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/prismodell-for-nasjonale-e-helselosninger-sendt-pa-horing",
-      "date": "2026-09-29",
+      "source": "Norsk helsenett Status",
+      "url": "https://status.nhn.no/incidents/ghwf0239j8sd",
+      "date": "2026-10-08",
       "impact": "medium"
     },
     {
       "title": {
-        "no": "Planlagt ruteroppdatering gir inntil 30 minutters avbrudd per lokasjon",
-        "en": "Planned router updates may cause outages of up to 30 minutes per location"
+        "no": "Grunndata byttet TLS-sertifikatutsteder til Let's Encrypt",
+        "en": "Grunndata switched its TLS certificate issuer to Let's Encrypt"
       },
       "summary": {
-        "no": "Norsk helsenett varsler puljevis programvareoppdatering av kunderutere for Helsenettforbindelse via Internett fra 5. til 8. oktober kl. 17–22, med inntil 30 minutters tjenesteavbrudd per lokasjon ved omstart. Varslet ble oppdatert 2. oktober og viser at selv nasjonal nettverksinfrastruktur kan ha planlagte lokale brudd. Konsekvens for Helse 4.0: modeller nettverksutilgjengelighet som en eksplisitt datakvalitets- og driftsstatus, med kølagring, tidsstempling og avstemming før data fra berørte lokasjoner oppdaterer tvillingens tilstand.",
-        "en": "Norsk Health Network scheduled phased software updates for customer routers on Helsenettforbindelse via Internett from 5 to 8 October, 17:00–22:00, with service interruptions of up to 30 minutes per location during restarts. The notice was updated on 2 October and illustrates that national network infrastructure can still have planned local outages. Health 4.0 consequence: represent network unavailability as an explicit data-quality and operational state, with queuing, timestamps and reconciliation before data from affected locations updates the twin."
+        "no": "Norsk helsenett fullførte 7. oktober overgangen fra Buypass til Let's Encrypt for TLS- sertifikatene på ws.nhn.no og register.nhn.no; aktive forbindelser kunne bli avbrutt, men nedetid var ikke forventet. NHN ber virksomheter med streng sertifikatkjede-kontroll om å godkjenne Let's Encrypt-kjeden og anbefaler tillit til rotsertifikatet fremfor pinning av mellomsertifikater. Konsekvens for Helse 4.0: dokumenter rotsertifikater og test TLS- fornying i alle integrasjonsmiljøer, uten å forveksle transportsertifikater med EDI-/meldingstjenestenes virksomhetssertifikater.",
+        "en": "Norsk Health Network completed the switch from Buypass to Let's Encrypt for TLS certificates on ws.nhn.no and register.nhn.no on 7 October; active connections could be interrupted, but downtime was not expected. NHN advises organizations with strict certificate-chain controls to approve the Let's Encrypt chain and recommends trusting the root certificate rather than pinning intermediate certificates. Health 4.0 consequence: document root certificates and test TLS renewal in every integration environment, while keeping transport certificates distinct from business certificates used by EDI and message services."
       },
       "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/incidents/06snfj4541kf",
-      "date": "2026-10-02",
+      "url": "https://status.nhn.no/incidents/sm8mhhcpmglf",
+      "date": "2026-10-07",
       "impact": "medium"
     }
   ]
