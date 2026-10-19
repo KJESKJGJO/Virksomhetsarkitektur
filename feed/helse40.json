@@ -4,48 +4,48 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-10-12T05:37:03Z",
+  "updated": "2026-10-19T05:36:14Z",
   "items": [
     {
       "title": {
-        "no": "Enklere å ta i bruk velferdsteknologisk knutepunkt (VKP) i kommunene",
-        "en": "Easier municipal adoption of the Welfare Technology Hub (VKP)"
+        "no": "Risiko for tapte Persontjenesten-oppdateringer ved lokal hendelseskø",
+        "en": "Risk of missed Person Service updates from local event queues"
       },
       "summary": {
-        "no": "Norsk helsenett beskriver modernisering av VKP gjennom API-baserte informasjonstjenester: nye journalsystemer må bruke de nye grensesnittene, og leverandører må håndtere gammel og ny løsning parallelt i overgangen. NHN opplyser at bruken har vokst fra litt over 30 kommuner i 2024 til over 100 i 2026, og at sluttdato for dagens VKP skal kunngjøres mot slutten av 2026. Konsekvens for Helse 4.0: utform en versjonert integrasjons- og migreringsarkitektur med tydelige grensesnitt, eierskap til datalogikk og avstemming mellom gammel og ny tjeneste.",
-        "en": "Norsk Health Network describes a modernized VKP built around API-based information services: new EHR systems must use the new interfaces, and suppliers must support the old and new solutions in parallel during transition. NHN says adoption has grown from just over 30 municipalities in 2024 to more than 100 in 2026, and that it will announce an end date for the current VKP toward the end of 2026. Health 4.0 consequence: design a versioned integration and migration architecture with explicit interfaces, ownership of data logic, and reconciliation between old and new services."
+        "no": "NHN avdekket risiko for at forsinkede Persontjenesten-hendelser kunne bli distribuert i feil rekkefølge, slik at virksomheter med lokale kopier kunne miste oppdateringer. NHN sendte 584 og deretter 27 984 hendelser på nytt 12. oktober, samt ytterligere 4 905 15. oktober; permanent feilretting pågår, men NHN ventet ikke flere masseutsendinger. Direkteoppslag i Persontjenesten var ikke berørt. Konsekvens for Helse 4.0: ikke baser lokal pasient- eller personkontekst utelukkende på hendelsesrekkefølge; oppdag sekvenshull, gjør replay idempotent og avstem lokale kopier mot autoritativt oppslag.",
+        "en": "NHN identified a risk that delayed Person Service events could be distributed out of order, causing organizations with local copies to miss updates. NHN resent 584 and then 27,984 events on 12 October, followed by a further 4,905 on 15 October; a permanent fix is in progress, although NHN did not expect further bulk resends. Direct lookups in Person Service were unaffected. Health 4.0 consequence: do not rely exclusively on event ordering for local patient or person context; detect sequence gaps, make replay idempotent, and reconcile local copies against authoritative lookups."
       },
-      "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/enklere-a-ta-i-bruk-velferdsteknologisk-knutepunkt-vkp-i-kommunene",
-      "date": "2026-10-09",
+      "source": "Norsk helsenett Status",
+      "url": "https://status.nhn.no/incidents/w260nsqzbvj8",
+      "date": "2026-10-16",
       "impact": "high"
     },
     {
       "title": {
-        "no": "HelseID 6.9 øker maksimal lengde på scopes til 3 000 tegn",
-        "en": "HelseID 6.9 raises the maximum scope length to 3,000 characters"
+        "no": "Pasientens journaldokumenter hadde driftsavbrudd; rundt halvparten av kallene feilet",
+        "en": "Patient Journal Documents suffered an outage; about half of calls failed"
       },
       "summary": {
-        "no": "NHN satte HelseID-versjon 6.9 i produksjon 8. oktober uten forventet nedetid; blant endringene er økt maksimal lengde på scopes til 3 000 tegn. Dette endrer en konkret grense i identitetslaget som integrasjoner og token-validering kan være avhengige av. Konsekvens for Helse 4.0: verifiser scope-krav, RBAC-policyer og tokenhåndtering i integrasjonstestene før flere systemer kobles på.",
-        "en": "NHN deployed HelseID version 6.9 to production on 8 October with no downtime expected; changes include raising the maximum scope length to 3,000 characters. This changes a specific identity-layer limit on which integrations and token validation may depend. Health 4.0 consequence: verify scope requirements, RBAC policies, and token handling in integration tests before connecting more systems."
+        "no": "Pasientens journaldokumenter var delvis utilgjengelig 13. oktober, og NHN målte feil i omtrent 50 prosent av kallene; oppslag i journaldokumenter via Kjernejournal var også berørt i den første perioden. En ny driftsforstyrrelse samme kveld ble rettet, og NHN bekreftet 15. oktober at tjenesten hadde fungert normalt siden kl. 21 den 13. oktober. Konsekvens for Helse 4.0: bygg inn tidsavbrudd, kontrollert retry og overvåking av ende-til-ende-tilgjengelighet for dokumentbaserte steg i pakkeforløpet.",
+        "en": "Patient Journal Documents was partially unavailable on 13 October, with NHN observing failures in about 50% of calls; lookups of journal documents through Kjernejournal were also affected during the first period. A further disruption that evening was fixed, and on 15 October NHN confirmed that the service had operated normally since 21:00 on 13 October. Health 4.0 consequence: build timeouts, controlled retries, and end-to-end availability monitoring into document-based steps of the care pathway."
       },
       "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/incidents/ghwf0239j8sd",
-      "date": "2026-10-08",
+      "url": "https://status.nhn.no/incidents/xmzmcns9f79d",
+      "date": "2026-10-15",
       "impact": "medium"
     },
     {
       "title": {
-        "no": "Grunndata byttet TLS-sertifikatutsteder til Let's Encrypt",
-        "en": "Grunndata switched its TLS certificate issuer to Let's Encrypt"
+        "no": "HelseID bytter signeringssertifikat 20. oktober",
+        "en": "HelseID signing certificate rotation on 20 October"
       },
       "summary": {
-        "no": "Norsk helsenett fullførte 7. oktober overgangen fra Buypass til Let's Encrypt for TLS- sertifikatene på ws.nhn.no og register.nhn.no; aktive forbindelser kunne bli avbrutt, men nedetid var ikke forventet. NHN ber virksomheter med streng sertifikatkjede-kontroll om å godkjenne Let's Encrypt-kjeden og anbefaler tillit til rotsertifikatet fremfor pinning av mellomsertifikater. Konsekvens for Helse 4.0: dokumenter rotsertifikater og test TLS- fornying i alle integrasjonsmiljøer, uten å forveksle transportsertifikater med EDI-/meldingstjenestenes virksomhetssertifikater.",
-        "en": "Norsk Health Network completed the switch from Buypass to Let's Encrypt for TLS certificates on ws.nhn.no and register.nhn.no on 7 October; active connections could be interrupted, but downtime was not expected. NHN advises organizations with strict certificate-chain controls to approve the Let's Encrypt chain and recommends trusting the root certificate rather than pinning intermediate certificates. Health 4.0 consequence: document root certificates and test TLS renewal in every integration environment, while keeping transport certificates distinct from business certificates used by EDI and message services."
+        "no": "NHN varslet 13. oktober at HelseID bytter signeringssertifikat i produksjon tirsdag 20. oktober kl. 12–13. Det nye sertifikatet ble lagt på JWK-endepunktet 19. oktober som nøkkel nummer to før selve byttet. Konsekvens for Helse 4.0: oppdater JWK-nøkler automatisk, test signaturvalidering med begge nøklene i overlappsperioden og unngå hardkoding eller pinning av ett enkelt sertifikat.",
+        "en": "NHN announced on 13 October that HelseID would replace its production signing certificate on Tuesday 20 October, 12:00–13:00. The new certificate was added to the JWK endpoint as a second key on 19 October ahead of the switch. Health 4.0 consequence: refresh JWK keys automatically, test signature validation with both keys during the overlap, and avoid hard-coding or pinning a single certificate."
       },
       "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/incidents/sm8mhhcpmglf",
-      "date": "2026-10-07",
+      "url": "https://status.nhn.no/incidents/4fxjpss8b0ys",
+      "date": "2026-10-13",
       "impact": "medium"
     }
   ]
