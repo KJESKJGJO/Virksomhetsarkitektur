@@ -4,7 +4,7 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-10-19T05:36:14Z",
+  "updated": "2026-10-19T05:43:37Z",
   "items": [
     {
       "title": {
@@ -40,8 +40,8 @@
         "en": "HelseID signing certificate rotation on 20 October"
       },
       "summary": {
-        "no": "NHN varslet 13. oktober at HelseID bytter signeringssertifikat i produksjon tirsdag 20. oktober kl. 12–13. Det nye sertifikatet ble lagt på JWK-endepunktet 19. oktober som nøkkel nummer to før selve byttet. Konsekvens for Helse 4.0: oppdater JWK-nøkler automatisk, test signaturvalidering med begge nøklene i overlappsperioden og unngå hardkoding eller pinning av ett enkelt sertifikat.",
-        "en": "NHN announced on 13 October that HelseID would replace its production signing certificate on Tuesday 20 October, 12:00–13:00. The new certificate was added to the JWK endpoint as a second key on 19 October ahead of the switch. Health 4.0 consequence: refresh JWK keys automatically, test signature validation with both keys during the overlap, and avoid hard-coding or pinning a single certificate."
+        "no": "NHN varslet 13. oktober at HelseID bytter signeringssertifikat i produksjon tirsdag 20. oktober kl. 12–13. Det nye sertifikatet skal publiseres på JWK-endepunktet 19. oktober kl. 10:00 CEST som nøkkel nummer to før selve byttet. Konsekvens for Helse 4.0: oppdater JWK-nøkler automatisk, test signaturvalidering med begge nøklene i overlappsperioden og unngå hardkoding eller pinning av ett enkelt sertifikat.",
+        "en": "NHN announced on 13 October that HelseID would replace its production signing certificate on Tuesday 20 October, 12:00–13:00. The new certificate is scheduled to be published on the JWK endpoint as a second key at 10:00 CEST on 19 October, ahead of the switch. Health 4.0 consequence: refresh JWK keys automatically, test signature validation with both keys during the overlap, and avoid hard-coding or pinning a single certificate."
       },
       "source": "Norsk helsenett Status",
       "url": "https://status.nhn.no/incidents/4fxjpss8b0ys",
