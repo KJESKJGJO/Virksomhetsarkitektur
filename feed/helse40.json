@@ -4,7 +4,7 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-10-26T05:39:38Z",
+  "updated": "2026-10-26T05:42:03Z",
   "items": [
     {
       "title": {
@@ -22,8 +22,8 @@
     },
     {
       "title": {
-        "no": "Pasientens journaldokumenter hadde driftsavbrudd; rundt halvparten av kallene feilet",
-        "en": "Patient Journal Documents suffered an outage; about half of calls failed"
+        "no": "EU4Health åpner nye utlysninger for EHDS-data og KI",
+        "en": "EU4Health opens new calls for EHDS data and AI"
       },
       "summary": {
         "no": "Helsedirektoratet meldte 22. oktober at EU4Healths arbeidsprogram for 2026 åpner utlysninger for sekundærbruk av helsedata i EHDS (€14,3 mill.) og KI for operasjonalisering av EHDS (€3 mill.). Norske fagmiljøer, virksomheter og forskningsmiljøer kan delta i europeiske samarbeidsprosjekter; artikkelen oppgir ikke søknadsfrister eller fullstendige kvalifikasjonskrav. Konsekvens for Helse 4.0: kartlegg pilotens datastyring og interoperabilitet mot EHDS-mønstre, og vurder relevante partnerskap før konkrete utlysninger lukkes.",

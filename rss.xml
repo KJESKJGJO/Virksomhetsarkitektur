@@ -7,7 +7,7 @@
     <atom:link href="https://skjolas.no/rss.xml" rel="self" type="application/rss+xml" />
     <description>Ukentlige signaler innen helse-EA, kodeverk, FHIR, digitale tvillinger og Mjøssykehuset. Oppdateres hver mandag morgen.</description>
     <language>no</language>
-    <lastBuildDate>Mon, 26 Oct 2026 05:41:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 05:42:19 +0000</lastBuildDate>
     <ttl>60</ttl>
     <item>
       <title>[Helse 4.0] Risiko for tapte Persontjenesten-oppdateringer ved lokal hendelseskø / Risk of missed Person Service updates from local event queues</title>
@@ -18,7 +18,7 @@
       <description><![CDATA[<p>NHN fant at forsinkede Persontjenesten-hendelser kunne komme i feil rekkefølge og gi manglende oppdateringer i lokale kopier. Rotårsaksrettingen ble satt i produksjon 22. oktober; 23. oktober gjorde NHN et siste databasesøk og sendte alle treff på nytt før saken ble erklært løst. Direkteoppslag var ikke berørt. Konsekvens for Helse 4.0: oppdag sekvenshull, gjør replay idempotent og avstem lokale kopier mot autoritative oppslag, også etter at leverandøren melder en feilretting.</p><p><em>NHN found that delayed Person Service events could arrive out of order and leave local copies with missed updates. The root-cause fix went into production on 22 October; on 23 October NHN ran a final database search, resent all matches, and declared the incident resolved. Direct lookups were not affected. Health 4.0 consequence: detect sequence gaps, make replay idempotent, and reconcile local copies against authoritative lookups, including after a provider reports a fix.</em></p><p><strong>Kilde / Source:</strong> Norsk helsenett Status</p><p><strong>Impact:</strong> high</p>]]></description>
     </item>
     <item>
-      <title>[Helse 4.0] Pasientens journaldokumenter hadde driftsavbrudd; rundt halvparten av kallene feilet / Patient Journal Documents suffered an outage; about half of calls failed</title>
+      <title>[Helse 4.0] EU4Health åpner nye utlysninger for EHDS-data og KI / EU4Health opens new calls for EHDS data and AI</title>
       <link>https://www.helsedirektoratet.no/nyheter/nye-eu-midler-til-helse-bred-satsing-pa-fremtidens-helseberedskap</link>
       <guid isPermaLink="false">https://www.helsedirektoratet.no/nyheter/nye-eu-midler-til-helse-bred-satsing-pa-fremtidens-helseberedskap#2026-10-22</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
@@ -26,7 +26,7 @@
       <description><![CDATA[<p>Helsedirektoratet meldte 22. oktober at EU4Healths arbeidsprogram for 2026 åpner utlysninger for sekundærbruk av helsedata i EHDS (€14,3 mill.) og KI for operasjonalisering av EHDS (€3 mill.). Norske fagmiljøer, virksomheter og forskningsmiljøer kan delta i europeiske samarbeidsprosjekter; artikkelen oppgir ikke søknadsfrister eller fullstendige kvalifikasjonskrav. Konsekvens for Helse 4.0: kartlegg pilotens datastyring og interoperabilitet mot EHDS-mønstre, og vurder relevante partnerskap før konkrete utlysninger lukkes.</p><p><em>On 22 October, the Norwegian Directorate of Health reported that the EU4Health 2026 work programme has calls for secondary use of health data in the EHDS (€14.3m) and AI to operationalise the EHDS (€3m). Norwegian professional communities, businesses, and research environments can participate in European collaborative projects; the article does not provide application deadlines or complete eligibility criteria. Health 4.0 consequence: map the pilot&#x27;s data governance and interoperability to EHDS patterns and assess relevant partnerships before specific calls close.</em></p><p><strong>Kilde / Source:</strong> Helsedirektoratet</p><p><strong>Impact:</strong> medium</p>]]></description>
     </item>
     <item>
-      <title>[Mjøssykehuset] E6-adkomst og tilknytning til Moelv sentrum og stasjon er sentrale planpremisser / E6 access and links to Moelv centre and station remain key planning assumptions</title>
+      <title>[Mjøssykehuset] Risikoen for regionale byggeprosjekter økte; Mjø-tiltak har frist 31. oktober / Regional construction-project risk increased; Mjø actions are due 31 October</title>
       <link>https://www.helse-sorost.no/4a9697/siteassets/documents/styret/styremoter/2026/1022/120-2026-vedlegg-risikovurdering-etter-andre-tertial-2026.pdf</link>
       <guid isPermaLink="false">https://www.helse-sorost.no/4a9697/siteassets/documents/styret/styremoter/2026/1022/120-2026-vedlegg-risikovurdering-etter-andre-tertial-2026.pdf#2026-10-22</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
@@ -50,7 +50,7 @@
       <description><![CDATA[<p>Helse Sør-Øst kunngjorde 7. oktober den første anskaffelsen av byggherrerådgiver, arkitekt og rådgivende ingeniører, som skal sikre helhet på tvers av ni delprosjekter. En digital tilbudskonferanse var planlagt 19. oktober; byggestart er planlagt i 2028 og åpning i 2032–2033, forutsatt avklaringer i reguleringen. Konsekvens for prosjektet: samordne informasjonskrav, BIM og tekniske grensesnitt i rådgiverleveransene før designgrunnlaget låses.</p><p><em>On 7 October, Helse Sør-Øst announced the first procurement for a builder&#x27;s adviser, architect, and consulting engineers, intended to ensure coherence across nine subprojects. A digital tender conference was scheduled for 19 October; construction is planned for 2028 and opening for 2032–2033, subject to zoning clarifications. Project consequence: align information requirements, BIM, and technical interfaces across advisory deliverables before the design basis is locked.</em></p><p><strong>Kilde / Source:</strong> Helse Sør-Øst RHF</p><p><strong>Impact:</strong> high</p>]]></description>
     </item>
     <item>
-      <title>[Mjøssykehuset] Nesten alle 14 innsigelsene til Mjøssykehuset skal være løst / Nearly all 14 objections to Mjøssykehuset have reportedly been resolved</title>
+      <title>[Mjøssykehuset] Reguleringsplanen legger til rette for sykehuset og E6-adkomst / Zoning plan enables the hospital and E6 access</title>
       <link>https://www.helse-sorost.no/nyheter/reguleringsplan-for-mjossykehuset/</link>
       <guid isPermaLink="false">https://www.helse-sorost.no/nyheter/reguleringsplan-for-mjossykehuset/#2026-05-28</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
