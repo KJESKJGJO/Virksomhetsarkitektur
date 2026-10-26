@@ -4,7 +4,7 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-10-19T05:43:37Z",
+  "updated": "2026-10-26T05:39:38Z",
   "items": [
     {
       "title": {
@@ -12,12 +12,12 @@
         "en": "Risk of missed Person Service updates from local event queues"
       },
       "summary": {
-        "no": "NHN avdekket risiko for at forsinkede Persontjenesten-hendelser kunne bli distribuert i feil rekkefølge, slik at virksomheter med lokale kopier kunne miste oppdateringer. NHN sendte 584 og deretter 27 984 hendelser på nytt 12. oktober, samt ytterligere 4 905 15. oktober; permanent feilretting pågår, men NHN ventet ikke flere masseutsendinger. Direkteoppslag i Persontjenesten var ikke berørt. Konsekvens for Helse 4.0: ikke baser lokal pasient- eller personkontekst utelukkende på hendelsesrekkefølge; oppdag sekvenshull, gjør replay idempotent og avstem lokale kopier mot autoritativt oppslag.",
-        "en": "NHN identified a risk that delayed Person Service events could be distributed out of order, causing organizations with local copies to miss updates. NHN resent 584 and then 27,984 events on 12 October, followed by a further 4,905 on 15 October; a permanent fix is in progress, although NHN did not expect further bulk resends. Direct lookups in Person Service were unaffected. Health 4.0 consequence: do not rely exclusively on event ordering for local patient or person context; detect sequence gaps, make replay idempotent, and reconcile local copies against authoritative lookups."
+        "no": "NHN fant at forsinkede Persontjenesten-hendelser kunne komme i feil rekkefølge og gi manglende oppdateringer i lokale kopier. Rotårsaksrettingen ble satt i produksjon 22. oktober; 23. oktober gjorde NHN et siste databasesøk og sendte alle treff på nytt før saken ble erklært løst. Direkteoppslag var ikke berørt. Konsekvens for Helse 4.0: oppdag sekvenshull, gjør replay idempotent og avstem lokale kopier mot autoritative oppslag, også etter at leverandøren melder en feilretting.",
+        "en": "NHN found that delayed Person Service events could arrive out of order and leave local copies with missed updates. The root-cause fix went into production on 22 October; on 23 October NHN ran a final database search, resent all matches, and declared the incident resolved. Direct lookups were not affected. Health 4.0 consequence: detect sequence gaps, make replay idempotent, and reconcile local copies against authoritative lookups, including after a provider reports a fix."
       },
       "source": "Norsk helsenett Status",
       "url": "https://status.nhn.no/incidents/w260nsqzbvj8",
-      "date": "2026-10-16",
+      "date": "2026-10-23",
       "impact": "high"
     },
     {
@@ -26,12 +26,12 @@
         "en": "Patient Journal Documents suffered an outage; about half of calls failed"
       },
       "summary": {
-        "no": "Pasientens journaldokumenter var delvis utilgjengelig 13. oktober, og NHN målte feil i omtrent 50 prosent av kallene; oppslag i journaldokumenter via Kjernejournal var også berørt i den første perioden. En ny driftsforstyrrelse samme kveld ble rettet, og NHN bekreftet 15. oktober at tjenesten hadde fungert normalt siden kl. 21 den 13. oktober. Konsekvens for Helse 4.0: bygg inn tidsavbrudd, kontrollert retry og overvåking av ende-til-ende-tilgjengelighet for dokumentbaserte steg i pakkeforløpet.",
-        "en": "Patient Journal Documents was partially unavailable on 13 October, with NHN observing failures in about 50% of calls; lookups of journal documents through Kjernejournal were also affected during the first period. A further disruption that evening was fixed, and on 15 October NHN confirmed that the service had operated normally since 21:00 on 13 October. Health 4.0 consequence: build timeouts, controlled retries, and end-to-end availability monitoring into document-based steps of the care pathway."
+        "no": "Helsedirektoratet meldte 22. oktober at EU4Healths arbeidsprogram for 2026 åpner utlysninger for sekundærbruk av helsedata i EHDS (€14,3 mill.) og KI for operasjonalisering av EHDS (€3 mill.). Norske fagmiljøer, virksomheter og forskningsmiljøer kan delta i europeiske samarbeidsprosjekter; artikkelen oppgir ikke søknadsfrister eller fullstendige kvalifikasjonskrav. Konsekvens for Helse 4.0: kartlegg pilotens datastyring og interoperabilitet mot EHDS-mønstre, og vurder relevante partnerskap før konkrete utlysninger lukkes.",
+        "en": "On 22 October, the Norwegian Directorate of Health reported that the EU4Health 2026 work programme has calls for secondary use of health data in the EHDS (€14.3m) and AI to operationalise the EHDS (€3m). Norwegian professional communities, businesses, and research environments can participate in European collaborative projects; the article does not provide application deadlines or complete eligibility criteria. Health 4.0 consequence: map the pilot's data governance and interoperability to EHDS patterns and assess relevant partnerships before specific calls close."
       },
-      "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/incidents/xmzmcns9f79d",
-      "date": "2026-10-15",
+      "source": "Helsedirektoratet",
+      "url": "https://www.helsedirektoratet.no/nyheter/nye-eu-midler-til-helse-bred-satsing-pa-fremtidens-helseberedskap",
+      "date": "2026-10-22",
       "impact": "medium"
     },
     {
@@ -40,12 +40,12 @@
         "en": "HelseID signing certificate rotation on 20 October"
       },
       "summary": {
-        "no": "NHN varslet 13. oktober at HelseID bytter signeringssertifikat i produksjon tirsdag 20. oktober kl. 12–13. Det nye sertifikatet skal publiseres på JWK-endepunktet 19. oktober kl. 10:00 CEST som nøkkel nummer to før selve byttet. Konsekvens for Helse 4.0: oppdater JWK-nøkler automatisk, test signaturvalidering med begge nøklene i overlappsperioden og unngå hardkoding eller pinning av ett enkelt sertifikat.",
-        "en": "NHN announced on 13 October that HelseID would replace its production signing certificate on Tuesday 20 October, 12:00–13:00. The new certificate is scheduled to be published on the JWK endpoint as a second key at 10:00 CEST on 19 October, ahead of the switch. Health 4.0 consequence: refresh JWK keys automatically, test signature validation with both keys during the overlap, and avoid hard-coding or pinning a single certificate."
+        "no": "NHN byttet signeringssertifikat i HelseID-produksjon 20. oktober; etter endringen meldte NHN problemer ved bruk av Kjernejournal. Feilene ble identifisert og rettet, og endringen ble markert fullført kl. 13:29 CEST. Konsekvens for Helse 4.0: hent JWK-nøkler dynamisk, test signaturvalidering med overlappende nøkler og overvåk autentisering ende-til-ende gjennom sertifikatrotasjoner.",
+        "en": "NHN changed the HelseID production signing certificate on 20 October; after the change, NHN reported problems using Kjernejournal. The errors were identified and corrected, and the change was marked complete at 13:29 CEST. Health 4.0 consequence: retrieve JWK keys dynamically, test signature validation with overlapping keys, and monitor end-to-end authentication through certificate rotations."
       },
       "source": "Norsk helsenett Status",
       "url": "https://status.nhn.no/incidents/4fxjpss8b0ys",
-      "date": "2026-10-13",
+      "date": "2026-10-20",
       "impact": "medium"
     }
   ]
