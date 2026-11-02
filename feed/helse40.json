@@ -4,48 +4,48 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-10-26T05:42:03Z",
+  "updated": "2026-11-02T05:35:19Z",
   "items": [
     {
       "title": {
-        "no": "Risiko for tapte Persontjenesten-oppdateringer ved lokal hendelseskø",
-        "en": "Risk of missed Person Service updates from local event queues"
+        "no": "NHN varsler behov for kvanteresistent kryptografi i helsesektoren",
+        "en": "NHN highlights the need for quantum-resistant cryptography in healthcare"
       },
       "summary": {
-        "no": "NHN fant at forsinkede Persontjenesten-hendelser kunne komme i feil rekkefølge og gi manglende oppdateringer i lokale kopier. Rotårsaksrettingen ble satt i produksjon 22. oktober; 23. oktober gjorde NHN et siste databasesøk og sendte alle treff på nytt før saken ble erklært løst. Direkteoppslag var ikke berørt. Konsekvens for Helse 4.0: oppdag sekvenshull, gjør replay idempotent og avstem lokale kopier mot autoritative oppslag, også etter at leverandøren melder en feilretting.",
-        "en": "NHN found that delayed Person Service events could arrive out of order and leave local copies with missed updates. The root-cause fix went into production on 22 October; on 23 October NHN ran a final database search, resent all matches, and declared the incident resolved. Direct lookups were not affected. Health 4.0 consequence: detect sequence gaps, make replay idempotent, and reconcile local copies against authoritative lookups, including after a provider reports a fix."
+        "no": "Norsk helsenett beskriver hvordan helsedata med lang beskyttelsestid kan bli utsatt for «samle nå, dekrypter senere»-risiko, og peker på post-kvantekryptografi (PQC) som hovedspor for migrering. NHN viser også til at en QKD-pilot ikke erstatter bred kryptografisk modernisering; avhengigheter må kartlegges og løsninger testes før trusselen blir akutt. Konsekvens for Helse 4.0: kartlegg kryptografibruk i API-er, identitet, signering og datalagring, og prioriter krypto-agilitet etter helsedataenes levetid fremfor å behandle QKD som en isolert løsning.",
+        "en": "Norsk helsenett explains how health data with long protection requirements may face a “harvest now, decrypt later” risk, and identifies post-quantum cryptography (PQC) as the main migration path. NHN also notes that a QKD pilot is not a substitute for broad cryptographic modernization; dependencies must be inventoried and solutions tested before the threat becomes acute. Health 4.0 consequence: inventory cryptography across APIs, identity, signing, and storage, and prioritize crypto-agility according to health-data lifetimes rather than treating QKD as a standalone solution."
       },
-      "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/incidents/w260nsqzbvj8",
-      "date": "2026-10-23",
+      "source": "Norsk helsenett",
+      "url": "https://www.nhn.no/nyheter/kvantetrusselen-truer-sikkerheten-til-dagens-systemer-slik-forbereder-norsk-helsenett-seg",
+      "date": "2026-10-26",
       "impact": "high"
     },
     {
       "title": {
-        "no": "EU4Health åpner nye utlysninger for EHDS-data og KI",
-        "en": "EU4Health opens new calls for EHDS data and AI"
+        "no": "14 samhandlingspiloter peker på betingelser for skalering",
+        "en": "14 care-coordination pilots identify conditions for scaling"
       },
       "summary": {
-        "no": "Helsedirektoratet meldte 22. oktober at EU4Healths arbeidsprogram for 2026 åpner utlysninger for sekundærbruk av helsedata i EHDS (€14,3 mill.) og KI for operasjonalisering av EHDS (€3 mill.). Norske fagmiljøer, virksomheter og forskningsmiljøer kan delta i europeiske samarbeidsprosjekter; artikkelen oppgir ikke søknadsfrister eller fullstendige kvalifikasjonskrav. Konsekvens for Helse 4.0: kartlegg pilotens datastyring og interoperabilitet mot EHDS-mønstre, og vurder relevante partnerskap før konkrete utlysninger lukkes.",
-        "en": "On 22 October, the Norwegian Directorate of Health reported that the EU4Health 2026 work programme has calls for secondary use of health data in the EHDS (€14.3m) and AI to operationalise the EHDS (€3m). Norwegian professional communities, businesses, and research environments can participate in European collaborative projects; the article does not provide application deadlines or complete eligibility criteria. Health 4.0 consequence: map the pilot's data governance and interoperability to EHDS patterns and assess relevant partnerships before specific calls close."
+        "no": "Helsedirektoratets rapport fra 14 utprøvinger beskriver bedre samhandling, raskere avklaringer og økt trygghet gjennom tverrfaglige team, felles mottak og tettere oppfølging på tvers av kommuner og sykehus. Uklare ansvarsforhold og lite fleksibel finansiering hemmer varig skalering; rapporten etterlyser også bedre digitale verktøy, tilgang til relevant informasjon og systematisk evaluering. Konsekvens for Helse 4.0: knytt horisontal skalering til tydelig ansvar, informasjonsdeling og målbar effekt, ikke bare gjenbruk av den tekniske tvillingmodellen.",
+        "en": "The Norwegian Directorate of Health’s report on 14 pilots describes better coordination, faster decisions, and greater confidence through multidisciplinary teams, shared intake, and closer follow-up across municipalities and hospitals. Unclear responsibilities and inflexible funding hinder sustainable scaling; the report also calls for better digital tools, access to relevant information, and systematic evaluation. Health 4.0 consequence: couple horizontal scaling to clear accountability, information sharing, and measurable outcomes, not only reuse of the technical twin model."
       },
       "source": "Helsedirektoratet",
-      "url": "https://www.helsedirektoratet.no/nyheter/nye-eu-midler-til-helse-bred-satsing-pa-fremtidens-helseberedskap",
-      "date": "2026-10-22",
-      "impact": "medium"
+      "url": "https://www.helsedirektoratet.no/nyheter/lovende-resultater-fra-14-samhandlingsforsok-i-helsetjenesten",
+      "date": "2026-10-27",
+      "impact": "high"
     },
     {
       "title": {
-        "no": "HelseID bytter signeringssertifikat 20. oktober",
-        "en": "HelseID signing certificate rotation on 20 October"
+        "no": "NHN anbefaler API-oppslag framfor lokal kopi av Persontjenesten",
+        "en": "NHN recommends API lookups over local copies of the Person API"
       },
       "summary": {
-        "no": "NHN byttet signeringssertifikat i HelseID-produksjon 20. oktober; etter endringen meldte NHN problemer ved bruk av Kjernejournal. Feilene ble identifisert og rettet, og endringen ble markert fullført kl. 13:29 CEST. Konsekvens for Helse 4.0: hent JWK-nøkler dynamisk, test signaturvalidering med overlappende nøkler og overvåk autentisering ende-til-ende gjennom sertifikatrotasjoner.",
-        "en": "NHN changed the HelseID production signing certificate on 20 October; after the change, NHN reported problems using Kjernejournal. The errors were identified and corrected, and the change was marked complete at 13:29 CEST. Health 4.0 consequence: retrieve JWK keys dynamically, test signature validation with overlapping keys, and monitor end-to-end authentication through certificate rotations."
+        "no": "Norsk helsenetts nye utviklerveiledning anbefaler direkte oppslag i Persontjenesten og bare lokal kopi som reserve, fordi kopier kan bli utdaterte. Virksomheten må begrense person- og informasjonsutvalg, dokumentere formål og rettsgrunnlag, styre tilgang og sletting, og holde kopien oppdatert via hendelsesstrømmen. Konsekvens for Helse 4.0: velg API-først der det er mulig, og krev dataminimering, ferskhetskontroll, sekvens-/hendelsesavstemming og tydelig behandlingsansvar dersom lokal lagring er nødvendig.",
+        "en": "Norsk helsenett’s new developer guidance recommends direct lookups in the Person API and using a local copy only as a fallback, because copies can become stale. The healthcare organisation must minimise the people and information retained, document purpose and legal basis, control access and deletion, and keep any copy current through the event feed. Health 4.0 consequence: prefer API-first access and require data minimisation, freshness checks, sequence/event reconciliation, and clear controller responsibilities whenever local storage is necessary."
       },
-      "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/incidents/4fxjpss8b0ys",
-      "date": "2026-10-20",
+      "source": "Norsk helsenett – Utviklerportal",
+      "url": "https://utviklerportal.nhn.no/en/information-services/persontjenesten/persontjenesten/docs/establish-a-local-copy_gbmd-1",
+      "date": "2026-10-27",
       "impact": "medium"
     }
   ]
