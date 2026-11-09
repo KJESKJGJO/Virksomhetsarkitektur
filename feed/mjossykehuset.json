@@ -4,48 +4,48 @@
     "no": "Mjøssykehuset — utviklingsaktiviteter",
     "en": "Mjøssykehuset — development activity"
   },
-  "updated": "2026-11-02T05:35:19Z",
+  "updated": "2026-11-09T06:39:20Z",
   "items": [
     {
       "title": {
-        "no": "Første store rådgiverkonkurranse for Mjøssykehuset er lyst ut",
-        "en": "First major consultancy competition for Mjøssykehuset is launched"
+        "no": "Søknadsfrist for første Mjøssykehuset-rådgiverpakke er i dag",
+        "en": "Mjøssykehuset adviser prequalification deadline is today"
       },
       "summary": {
-        "no": "Helse Sør-Øst kunngjorde 7. oktober den første anskaffelsen av byggherrerådgiver, arkitekt og rådgivende ingeniører, som skal sikre helhet på tvers av ni delprosjekter. En digital tilbudskonferanse var planlagt 19. oktober; byggestart er planlagt i 2028 og åpning i 2032–2033, forutsatt avklaringer i reguleringen. Konsekvens for prosjektet: samordne informasjonskrav, BIM og tekniske grensesnitt i rådgiverleveransene før designgrunnlaget låses.",
-        "en": "On 7 October, Helse Sør-Øst announced the first procurement for a builder's adviser, architect, and consulting engineers, intended to ensure coherence across nine subprojects. A digital tender conference was scheduled for 19 October; construction is planned for 2028 and opening for 2032–2033, subject to zoning clarifications. Project consequence: align information requirements, BIM, and technical interfaces across advisory deliverables before the design basis is locked."
+        "no": "Doffins konkurranse ble kunngjort 14. oktober; fristen for å be om deltakelse er 9. november kl. 12.00, med anslått utsending av tilbudsinnbydelser 18. november. Pakken gjelder arkitektur, bygg, teknikk og prosessledelse for forprosjektet og eventuelle senere faser. Konsekvens for prosjektet: fullfør kvalifiseringen uten å forskyve valg av rådgivergruppe som skal utvikle et helhetlig designgrunnlag på tvers av delprosjektene.",
+        "en": "The Doffin competition was published on 14 October; the deadline for requests to participate is 9 November at 12:00, with invitations to tender estimated for 18 November. The package covers architecture, construction, engineering and process management for the preliminary project and possible later phases. Project consequence: complete qualification without delaying selection of the advisory team that will develop an integrated design basis across subprojects."
       },
-      "source": "Helse Sør-Øst RHF",
-      "url": "https://www.helse-sorost.no/nyheter/lyser-ut-mjossykehusets-forste-anskaffelse/",
-      "date": "2026-10-07",
-      "impact": "high"
+      "source": "Doffin (Sykehusbygg HF / Helse Sør-Øst RHF)",
+      "url": "https://doffin.no/notices/2026-116004",
+      "date": "2026-11-09",
+      "impact": "medium"
     },
     {
       "title": {
-        "no": "Reguleringsplanen legger til rette for sykehuset og E6-adkomst",
-        "en": "Zoning plan enables the hospital and E6 access"
+        "no": "Styret varsler novembergjennomgang av høringssvar og utviklingsplan",
+        "en": "Board schedules November review of consultation responses and development plan"
       },
       "summary": {
-        "no": "Helse Sør-Øst oversendte reguleringsplanforslaget til Ringsaker kommune, med offentlig ettersyn og frist for innspill 3. juli 2026. Planen legger til rette for sykehuset, E6-adkomst og forbindelser til Moelv sentrum og stasjon; prosjektplanen forutsatte vedtak høsten 2026 og byggestart i 2028. Konsekvens for prosjektet: følg kommunal planbehandling som kritisk port, og koordiner adkomst, mobilitet og lokale infrastrukturgrep med sykehusets fremdriftsplan.",
-        "en": "Helse Sør-Øst submitted the proposed zoning plan to Ringsaker Municipality for public inspection, with a comment deadline of 3 July 2026. The plan enables the hospital, E6 access, and connections to Moelv centre and station; the project schedule assumed adoption in autumn 2026 and construction starting in 2028. Project consequence: track municipal planning as a critical gate and coordinate access, mobility, and local infrastructure with the hospital schedule."
+        "no": "Sykehuset Innlandets foreløpige styreprotokoll fra 21. oktober sier at status for Mjøssykehusets forprosjekt ble tatt til orientering, og at styret skulle gjennomgå høringssvar til utviklingsplanen i november før oppdatert plan behandles i desember. Protokollen dokumenterer ikke et nytt investeringsvedtak for Mjøssykehuset. Konsekvens for prosjektet: følg styrets avklaringer av framtidig sykehusstruktur og bruk dem til å kontrollere mottaksprosjektets funksjons- og kapasitetsforutsetninger.",
+        "en": "Sykehuset Innlandet's preliminary board protocol from 21 October says the Mjøssykehuset preliminary-project status was noted, and that the board was to review consultation responses to the development plan in November before considering an updated plan in December. The protocol records no new investment decision for Mjøssykehuset. Project consequence: track board clarifications on the future hospital structure and use them to validate the receiving project's functional and capacity assumptions."
       },
-      "source": "Helse Sør-Øst RHF",
-      "url": "https://www.helse-sorost.no/nyheter/reguleringsplan-for-mjossykehuset/",
-      "date": "2026-05-28",
-      "impact": "high"
+      "source": "Sykehuset Innlandet HF",
+      "url": "https://www.sykehuset-innlandet.no/4aa8af/siteassets/om-oss/styret/protokoller/2026-10-21-protokoll-forelopig.pdf",
+      "date": "2026-10-21",
+      "impact": "medium"
     },
     {
       "title": {
-        "no": "Risikoen for regionale byggeprosjekter økte; Mjø-tiltak har frist 31. oktober",
-        "en": "Regional construction-project risk increased; Mjø actions are due 31 October"
+        "no": "Reguleringsinnsigelser er fortsatt hovedrisiko for framdriften",
+        "en": "Zoning objections remain the main schedule risk"
       },
       "summary": {
-        "no": "Helse Sør-Østs risikovurdering etter andre tertial løfter risikoen for regionale byggeprosjekter fra moderat (3×4) etter første tertial til høy (4×4), men gir ingen egen risikoscore for Mjøssykehuset. For Mjøssykehuset angir rapporten 31. oktober som frist for hensiktsmessig oppdeling i delprosjekter med gjennomføringsstrategi og effektiv håndtering/konsekvensvurdering av reguleringsinnsigelser. Konsekvens for prosjektet: eskaler begge avklaringer som tidskritiske styringspunkter og synliggjør virkningen på regulerings- og kontraktsplanen.",
-        "en": "Helse Sør-Øst's second-tertial risk assessment raises the risk for regional construction projects from moderate (3×4) after the first tertial to high (4×4), but assigns no separate risk score to Mjøssykehuset. For Mjøssykehuset, the report sets 31 October deadlines for appropriate subproject division with an implementation strategy and for effective handling and impact assessment of zoning objections. Project consequence: escalate both as time-critical control points and show their effects on the zoning and contracting schedule."
+        "no": "Helse Sør-Østs tertialrapport, datert 15. oktober og behandlet 22. oktober, beskriver reguleringsprosessen som prosjektets største usikkerhet for framdriften. Innsigelsene gjelder særlig samferdsel, flom- og skredsikkerhet, parkering og planbestemmelser, men ikke de planlagte sykehusbyggene; forsinkelse kan påvirke beslutningsplan, anskaffelser og gjennomføring. Konsekvens for prosjektet: løs innsigelsene med Ringsaker kommune og myndighetene før entreprisekontrakter låses, og mål effekten mot planlagt byggestart i 2028.",
+        "en": "Helse Sør-Øst's second-tertial report, dated 15 October and considered on 22 October, describes the regulatory process as the project's main schedule uncertainty. Objections mainly concern transport, flood and landslide safety, parking and planning provisions, but not the planned hospital buildings; delay could affect decisions, procurement and implementation. Project consequence: resolve objections with Ringsaker Municipality and the authorities before construction contracts are locked, and assess effects against the planned 2028 start."
       },
       "source": "Helse Sør-Øst RHF",
-      "url": "https://www.helse-sorost.no/4a9697/siteassets/documents/styret/styremoter/2026/1022/120-2026-vedlegg-risikovurdering-etter-andre-tertial-2026.pdf",
-      "date": "2026-10-22",
+      "url": "https://www.helse-sorost.no/4a966d/siteassets/documents/styret/styremoter/2026/1022/125-2026-tertialrapport-t2-2026-for-regionale-byggeprosjekter.pdf",
+      "date": "2026-10-15",
       "impact": "high"
     }
   ]
