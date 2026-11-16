@@ -4,49 +4,49 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-11-09T06:39:20Z",
+  "updated": "2026-11-16T06:37:22Z",
   "items": [
     {
       "title": {
-        "no": "Helsedirektoratet avdekker styrings- og datakvalitetsrisiko i Reseptformidleren",
-        "en": "Norwegian Directorate of Health flags governance and data-quality risks in e-prescriptions"
+        "no": "NHN åpner FHIR-basert pasientoppsummering i test og QA",
+        "en": "NHN opens FHIR-based patient summary in test and QA"
       },
       "summary": {
-        "no": "Helsedirektoratets risikoanalyse av e-resept, e-multidose og Pasientens legemiddelliste peker på styring, rolle- og ansvarsdeling, datakvalitet, informasjonsflyt, avvikshåndtering og beredskap som risikoområder. Oppfølgingen er i gang sammen med Norsk helsenett og øvrige aktører i sektoren. Konsekvens for Helse 4.0: gjør dataansvar, kvalitetsregler, tilgang og avvikshåndtering eksplisitt i integrasjonskontraktene før tvillingene skaleres til flere forløp.",
-        "en": "The Directorate's risk analysis of e-prescriptions, electronic multidose and the Patient's Medication List identifies governance, role and responsibility allocation, data quality, information flow, incident handling and preparedness as risk areas. Follow-up is underway with Norsk helsenett and other sector actors. Health 4.0 consequence: make data accountability, quality rules, access and exception handling explicit in integration contracts before scaling the digital twins to more care pathways."
+        "no": "NHNs utviklerportal publiserte 12. november dokumentasjon for å hente en MyHealth@EU-pasientoppsummering gjennom det eksisterende FHIR R4 Patient/$everything-endepunktet i test- og QA-miljø, ikke produksjon. Foreløpig støttes bare allergi- og intoleransedata; fire andre kliniske seksjoner er eksplisitt markert som ikke levert i denne versjonen. Konsekvens for Helse 4.0: behandle dette som en avgrenset testintegrasjon, lås profil- og terminologiversjoner for validering, og ikke forutsett et produksjonsklart eller komplett forløpsgrunnlag.",
+        "en": "NHN's developer portal published documentation on 12 November for requesting a MyHealth@EU patient summary through the existing FHIR R4 Patient/$everything endpoint in test and QA, not production. Only allergy and intolerance data are currently supported; four other clinical sections are explicitly marked as not supplied in this version. Health 4.0 consequence: treat this as a limited test integration, pin profile and terminology versions for validation, and do not assume a production-ready or complete care-pathway dataset."
       },
-      "source": "Helsedirektoratet",
-      "url": "https://www.helsedirektoratet.no/nyheter/risikoanalyse-av-pasientsikkerhet-i-digital-samhandling-gjennom-reseptformidleren",
-      "date": "2026-11-06",
-      "impact": "high"
-    },
-    {
-      "title": {
-        "no": "EU4Health oppdaterer utlysninger for EHDS og kunstig intelligens",
-        "en": "EU4Health updates calls for EHDS and artificial intelligence"
-      },
-      "summary": {
-        "no": "Helsedirektoratets side om åpne EU4Health-utlysninger ble sist faglig endret 5. november. Den omtaler blant annet 14,3 millioner euro til tilrettelegging for sekundærbruk av helsedata i EHDS og 3 millioner euro til KI-støttet operasjonalisering av EHDS; siden oppgir ikke konkrete søknadsfrister for disse utlysningene. Konsekvens for Helse 4.0: kartlegg mulige partnerskap og hvordan dataforvaltning, interoperabilitet og KI-piloter kan passe inn i EHDS-arbeidet, men verifiser fristene i den foreløpige kalenderen før tiltak planlegges.",
-        "en": "The Norwegian Directorate of Health's open EU4Health calls page was last professionally updated on 5 November. It lists, among other calls, EUR 14.3 million for EHDS secondary-use readiness and EUR 3 million for AI supporting EHDS implementation; the page does not state exact application deadlines for these calls. Health 4.0 consequence: assess partnerships and how data governance, interoperability and AI pilots could fit EHDS work, but verify deadlines in the tentative calendar before planning action."
-      },
-      "source": "Helsedirektoratet",
-      "url": "https://www.helsedirektoratet.no/om-oss/internasjonalt-samarbeid/eu4health/eu4health-apne-utlysninger-2026",
-      "date": "2026-11-05",
+      "source": "Norsk helsenett – Utviklerportal",
+      "url": "https://utviklerportal.nhn.no/informasjonstjenester/kjernejournal/kritisk-informasjon/kritisk-info-fhir-api/hit-critical-information/docs/fhir-resources/patient-everything-myhealthmd",
+      "date": "2026-11-12",
       "impact": "medium"
     },
     {
       "title": {
-        "no": "NHN setter strukturert helsedata, deling og KI på EHiN-agendaen",
-        "en": "NHN puts structured health data, sharing and AI on the EHiN agenda"
+        "no": "EHDS-høring om maler for sekundærbruk lukket 13. november",
+        "en": "EHDS consultation on templates for secondary use closed on 13 November"
       },
       "summary": {
-        "no": "NHNs informasjon om deltakelse på EHiN 2026 ble publisert 2. november; konferansen arrangeres 10.-11. november. Agendaen omfatter strukturering og standardisering av helsedata for KI og gjenbruk, deling mellom sykehus, primærhelsetjeneste og kommuner, trygge KI-helseråd og digital motstandsdyktighet. Konsekvens for Helse 4.0: bruk diskusjonene til å teste arkitekturforutsetninger om standarder, deling og robusthet, men behandle ikke en konferanseagenda som vedtatte krav.",
-        "en": "NHN's information about its participation in EHiN 2026 was published on 2 November; the conference takes place on 10-11 November. Its agenda covers structuring and standardising health data for AI and reuse, sharing between hospitals, primary care and municipalities, safe AI health advice, and digital resilience. Health 4.0 consequence: use the discussions to test architecture assumptions on standards, sharing and resilience, but do not treat a conference agenda as adopted requirements."
+        "no": "Helsedirektoratet oppdaterte høringssiden 13. november; EU-kommisjonens offentlige høring om artikkel 70-maler for sekundærbruk av helsedata løp fra 16. oktober til 13. november 2026. Høringen er lukket, og siden beskriver en prosess for gjennomføringsrettsakter, ikke endelige vedtatte krav. Konsekvens for Helse 4.0: følg med på vedtatte maler og bruk dem til å justere metadata, tilgangs- og datakatalogarkitektur før sekundærbruk skaleres på tvers av sykdomsforløp.",
+        "en": "The Norwegian Directorate of Health updated its consultation page on 13 November; the European Commission's public consultation on Article 70 templates for secondary use of health data ran from 16 October to 13 November 2026. The consultation is closed, and the page describes a process for implementing acts, not final adopted requirements. Health 4.0 consequence: monitor the adopted templates and use them to adjust metadata, access and data-catalogue architecture before scaling secondary use across care pathways."
       },
-      "source": "Norsk helsenett",
-      "url": "https://www.nhn.no/nyheter/mot-norsk-helsenett-pa-ehin-2026",
-      "date": "2026-11-02",
-      "impact": "low"
+      "source": "Helsedirektoratet",
+      "url": "https://www.helsedirektoratet.no/digitalisering-og-e-helse/det-europeiske-helsedataomradet-ehds/horinger-ehds",
+      "date": "2026-11-13",
+      "impact": "medium"
+    },
+    {
+      "title": {
+        "no": "Kortvarig ustabilitet rammet sentrale NHN-tjenester",
+        "en": "Brief instability affected core NHN services"
+      },
+      "summary": {
+        "no": "NHNs statusside registrerte 14. november tre korte perioder med ustabilitet som berørte Helsenorge, Reseptformidleren, Kjernejournal, Orion og Sentral forskrivningsmodul; alle tjenester var meldt normale igjen kl. 19.22 CET. Dette var en avgrenset driftsforstyrrelse, ikke et langvarig bortfall. Konsekvens for Helse 4.0: bygg inn robust håndtering av utilgjengelige nasjonale avhengigheter, forsinkede oppdateringer og kontrollert gjenoppretting av tvillingens hendelses- og legemiddeldata.",
+        "en": "NHN's status page recorded three brief periods of instability on 14 November affecting Helsenorge, the Prescription Intermediary, the Summary Care Record, Orion and the Central Prescribing Module; all services were reported normal again at 19:22 CET. This was a limited service disruption, not a prolonged outage. Health 4.0 consequence: design for unavailable national dependencies, delayed updates and controlled reconciliation of the twin's event and medication data."
+      },
+      "source": "Norsk helsenett Status",
+      "url": "https://status.nhn.no/incidents/zw47t3lzry2z",
+      "date": "2026-11-14",
+      "impact": "medium"
     }
   ]
 }

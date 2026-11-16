@@ -4,34 +4,34 @@
     "no": "Mjøssykehuset — utviklingsaktiviteter",
     "en": "Mjøssykehuset — development activity"
   },
-  "updated": "2026-11-09T06:39:20Z",
+  "updated": "2026-11-16T06:37:22Z",
   "items": [
     {
       "title": {
-        "no": "Søknadsfrist for første Mjøssykehuset-rådgiverpakke er i dag",
-        "en": "Mjøssykehuset adviser prequalification deadline is today"
+        "no": "Ringsaker starter planarbeid for Industrivegen i Moelv nordvest",
+        "en": "Ringsaker starts area planning for Industrivegen in north-west Moelv"
       },
       "summary": {
-        "no": "Doffins konkurranse ble kunngjort 14. oktober; fristen for å be om deltakelse er 9. november kl. 12.00, med anslått utsending av tilbudsinnbydelser 18. november. Pakken gjelder arkitektur, bygg, teknikk og prosessledelse for forprosjektet og eventuelle senere faser. Konsekvens for prosjektet: fullfør kvalifiseringen uten å forskyve valg av rådgivergruppe som skal utvikle et helhetlig designgrunnlag på tvers av delprosjektene.",
-        "en": "The Doffin competition was published on 14 October; the deadline for requests to participate is 9 November at 12:00, with invitations to tender estimated for 18 November. The package covers architecture, construction, engineering and process management for the preliminary project and possible later phases. Project consequence: complete qualification without delaying selection of the advisory team that will develop an integrated design basis across subprojects."
+        "no": "Ringsaker kommune varslet 13. november oppstart av områderegulering for å forlenge Industrivegen med planskilt jernbanekryssing og kobling til fv. 213. Kunngjøringen knytter ikke planen direkte til Mjøssykehuset, så dette er en mulig mobilitets- og reguleringsgrenseflate i vertskommunen, ikke en bekreftet leveranse i sykehusprosjektet. Konsekvens for prosjektet: avklar trasé, ansvar, rekkefølge og grensesnitt med Ringsaker og Helse Sør-Øst før eksterne adkomstforutsetninger låses.",
+        "en": "On 13 November, Ringsaker Municipality announced the start of an area plan to extend Industrivegen with a grade-separated railway crossing and a connection to county road 213. The notice does not directly link the plan to Mjøssykehuset, so this is a possible mobility and planning interface in the host municipality, not a confirmed hospital-project deliverable. Project consequence: clarify route, responsibility, sequencing and interfaces with Ringsaker and Helse Sør-Øst before external access assumptions are locked."
       },
-      "source": "Doffin (Sykehusbygg HF / Helse Sør-Øst RHF)",
-      "url": "https://doffin.no/notices/2026-116004",
-      "date": "2026-11-09",
+      "source": "Ringsaker kommune",
+      "url": "https://www.ringsaker.kommune.no/kunngjoringer/kunngjoringer/2026-11-13-industrivegen-moelv-nordvest-omradereguleringsplan",
+      "date": "2026-11-13",
       "impact": "medium"
     },
     {
       "title": {
-        "no": "Styret varsler novembergjennomgang av høringssvar og utviklingsplan",
-        "en": "Board schedules November review of consultation responses and development plan"
+        "no": "Rådgiveranskaffelsen går videre: tilbudsinnbydelser ventes 18. november",
+        "en": "Adviser procurement moves forward: invitations to tender expected on 18 November"
       },
       "summary": {
-        "no": "Sykehuset Innlandets foreløpige styreprotokoll fra 21. oktober sier at status for Mjøssykehusets forprosjekt ble tatt til orientering, og at styret skulle gjennomgå høringssvar til utviklingsplanen i november før oppdatert plan behandles i desember. Protokollen dokumenterer ikke et nytt investeringsvedtak for Mjøssykehuset. Konsekvens for prosjektet: følg styrets avklaringer av framtidig sykehusstruktur og bruk dem til å kontrollere mottaksprosjektets funksjons- og kapasitetsforutsetninger.",
-        "en": "Sykehuset Innlandet's preliminary board protocol from 21 October says the Mjøssykehuset preliminary-project status was noted, and that the board was to review consultation responses to the development plan in November before considering an updated plan in December. The protocol records no new investment decision for Mjøssykehuset. Project consequence: track board clarifications on the future hospital structure and use them to validate the receiving project's functional and capacity assumptions."
+        "no": "Doffins versjon 2 av konkurransen er datert 14. oktober; fristen for å be om deltakelse passerte 9. november, og det er ennå ikke publisert noe anskaffelsesresultat. Doffin oppgir 18. november som estimert dato for utsending av tilbudsinnbydelser for rådgivertjenester innen arkitektur, bygg, teknikk og prosessledelse. Konsekvens for prosjektet: følg kvalifisering og utsending tett, siden rådgivergruppen skal etablere et helhetlig designgrunnlag og premisser for de ni delprosjektene.",
+        "en": "Doffin's version 2 of the competition is dated 14 October; the deadline to request participation passed on 9 November, and no procurement result has yet been published. Doffin lists 18 November as the estimated date for invitations to tender for architecture, construction, engineering and process-management advisory services. Project consequence: track qualification and invitations closely, as the advisory team is to establish an integrated design basis and premises for the nine subprojects."
       },
-      "source": "Sykehuset Innlandet HF",
-      "url": "https://www.sykehuset-innlandet.no/4aa8af/siteassets/om-oss/styret/protokoller/2026-10-21-protokoll-forelopig.pdf",
-      "date": "2026-10-21",
+      "source": "Doffin (Sykehusbygg HF / Helse Sør-Øst RHF)",
+      "url": "https://doffin.no/notices/2026-116004",
+      "date": "2026-11-09",
       "impact": "medium"
     },
     {
