@@ -4,48 +4,48 @@
     "no": "Mjøssykehuset — utviklingsaktiviteter",
     "en": "Mjøssykehuset — development activity"
   },
-  "updated": "2026-11-16T06:37:22Z",
+  "updated": "2026-11-23T06:40:03Z",
   "items": [
     {
       "title": {
-        "no": "Ringsaker starter planarbeid for Industrivegen i Moelv nordvest",
-        "en": "Ringsaker starts area planning for Industrivegen in north-west Moelv"
+        "no": "Gjøvik kommune varsler møte om leverandørprogrammet 27. november",
+        "en": "Gjøvik Municipality announces a supplier-program meeting on 27 November"
       },
       "summary": {
-        "no": "Ringsaker kommune varslet 13. november oppstart av områderegulering for å forlenge Industrivegen med planskilt jernbanekryssing og kobling til fv. 213. Kunngjøringen knytter ikke planen direkte til Mjøssykehuset, så dette er en mulig mobilitets- og reguleringsgrenseflate i vertskommunen, ikke en bekreftet leveranse i sykehusprosjektet. Konsekvens for prosjektet: avklar trasé, ansvar, rekkefølge og grensesnitt med Ringsaker og Helse Sør-Øst før eksterne adkomstforutsetninger låses.",
-        "en": "On 13 November, Ringsaker Municipality announced the start of an area plan to extend Industrivegen with a grade-separated railway crossing and a connection to county road 213. The notice does not directly link the plan to Mjøssykehuset, so this is a possible mobility and planning interface in the host municipality, not a confirmed hospital-project deliverable. Project consequence: clarify route, responsibility, sequencing and interfaces with Ringsaker and Helse Sør-Øst before external access assumptions are locked."
+        "no": "Gjøvik kommunes side ble sist endret 19. november og inviterer bedrifter til et møte om Leverandørprogrammet for Mjøssykehuset 27. november. Møtet skal dekke prosjektstatus, kommende muligheter og hvordan små og mellomstore virksomheter kan forberede seg på anbud; det er ikke en kontraktstildeling eller prosjektbeslutning. Konsekvens for prosjektet: møtet kan styrke regional leverandørberedskap, men gir i seg selv ingen endring i kritisk linje eller kontraktsstatus.",
+        "en": "Gjøvik Municipality's page was last changed on 19 November and invites businesses to a meeting about Mjøssykehuset's supplier programme on 27 November. It will cover project status, upcoming opportunities and how small and medium-sized businesses can prepare for tenders; it is not a contract award or project decision. Project consequence: the meeting may improve regional supplier readiness, but does not itself change the critical path or contract status."
       },
-      "source": "Ringsaker kommune",
-      "url": "https://www.ringsaker.kommune.no/kunngjoringer/kunngjoringer/2026-11-13-industrivegen-moelv-nordvest-omradereguleringsplan",
-      "date": "2026-11-13",
-      "impact": "medium"
+      "source": "Gjøvik kommune",
+      "url": "https://www.gjovik.kommune.no/aktuelt/informasjonsmote-hvordan-kan-din-bedrift-bli-leverandor-til-mjossykehuset.66151.aspx",
+      "date": "2026-11-19",
+      "impact": "low"
     },
     {
       "title": {
-        "no": "Rådgiveranskaffelsen går videre: tilbudsinnbydelser ventes 18. november",
-        "en": "Adviser procurement moves forward: invitations to tender expected on 18 November"
+        "no": "Rådgiveranskaffelsen: estimert invitasjonsdato er passert, tilbudsfrist 16. desember",
+        "en": "Adviser procurement: estimated invitation date has passed; bids are due 16 December"
       },
       "summary": {
-        "no": "Doffins versjon 2 av konkurransen er datert 14. oktober; fristen for å be om deltakelse passerte 9. november, og det er ennå ikke publisert noe anskaffelsesresultat. Doffin oppgir 18. november som estimert dato for utsending av tilbudsinnbydelser for rådgivertjenester innen arkitektur, bygg, teknikk og prosessledelse. Konsekvens for prosjektet: følg kvalifisering og utsending tett, siden rådgivergruppen skal etablere et helhetlig designgrunnlag og premisser for de ni delprosjektene.",
-        "en": "Doffin's version 2 of the competition is dated 14 October; the deadline to request participation passed on 9 November, and no procurement result has yet been published. Doffin lists 18 November as the estimated date for invitations to tender for architecture, construction, engineering and process-management advisory services. Project consequence: track qualification and invitations closely, as the advisory team is to establish an integrated design basis and premises for the nine subprojects."
+        "no": "Doffin oppga 18. november som estimert dato for å sende tilbudsinnbydelser etter prekvalifiseringsfristen 9. november, men den kontrollerte Doffin-siden viser ingen tildeling og bekrefter ikke at invitasjonene faktisk ble sendt. Mercell lister konkurransens trinn 2 med tilbudsfrist 16. desember for arkitektur, bygg, teknikk og prosessledelse. Konsekvens for prosjektet: bekreft utsendelse og frist direkte i anskaffelsen før rådgiveroppstart og designgrunnlag legges inn som sikre milepæler.",
+        "en": "Doffin gave 18 November as the estimated date for sending invitations to tender after the 9 November prequalification deadline, but the checked Doffin page shows no award and does not confirm that invitations were actually sent. Mercell lists stage 2 with a 16 December deadline across architecture, building, engineering and process management. Project consequence: confirm dispatch and the deadline directly in the procurement before treating adviser mobilisation and the design basis as committed milestones."
       },
-      "source": "Doffin (Sykehusbygg HF / Helse Sør-Øst RHF)",
+      "source": "Doffin / Mercell — Sykehusbygg HF og Helse Sør-Øst RHF",
       "url": "https://doffin.no/notices/2026-116004",
-      "date": "2026-11-09",
+      "date": "2026-11-18",
       "impact": "medium"
     },
     {
       "title": {
-        "no": "Reguleringsinnsigelser er fortsatt hovedrisiko for framdriften",
-        "en": "Zoning objections remain the main schedule risk"
+        "no": "Reguleringsavklaringer er fortsatt en sentral framdriftsforutsetning",
+        "en": "Zoning clarifications remain a key schedule prerequisite"
       },
       "summary": {
-        "no": "Helse Sør-Østs tertialrapport, datert 15. oktober og behandlet 22. oktober, beskriver reguleringsprosessen som prosjektets største usikkerhet for framdriften. Innsigelsene gjelder særlig samferdsel, flom- og skredsikkerhet, parkering og planbestemmelser, men ikke de planlagte sykehusbyggene; forsinkelse kan påvirke beslutningsplan, anskaffelser og gjennomføring. Konsekvens for prosjektet: løs innsigelsene med Ringsaker kommune og myndighetene før entreprisekontrakter låses, og mål effekten mot planlagt byggestart i 2028.",
-        "en": "Helse Sør-Øst's second-tertial report, dated 15 October and considered on 22 October, describes the regulatory process as the project's main schedule uncertainty. Objections mainly concern transport, flood and landslide safety, parking and planning provisions, but not the planned hospital buildings; delay could affect decisions, procurement and implementation. Project consequence: resolve objections with Ringsaker Municipality and the authorities before construction contracts are locked, and assess effects against the planned 2028 start."
+        "no": "Sykehuset Innlandets styrepapir fra 21. oktober beskriver at flere av de 14 innsigelsene er løst eller trukket etter dialog, mens gjenstående avklaringer fortsatt arbeides med før reguleringsplanen kan sluttbehandles. Dokumentet sier at målet er å opprettholde planlagt framdrift, men ingen nyere offisiell status ble funnet i denne ukeskanningen. Konsekvens for prosjektet: følg formell lukking av innsigelser og kommunal sluttbehandling som kritiske porter for senere anskaffelser og byggestart.",
+        "en": "Sykehuset Innlandet's board paper from 21 October says several of the 14 objections had been resolved or withdrawn after stakeholder dialogue, while remaining clarifications were still being worked through before final zoning-plan treatment. It says the aim is to maintain the planned schedule, but no newer official status was found in this weekly scan. Project consequence: track formal closure of objections and municipal final treatment as critical gates for later procurements and construction start."
       },
-      "source": "Helse Sør-Øst RHF",
-      "url": "https://www.helse-sorost.no/4a966d/siteassets/documents/styret/styremoter/2026/1022/125-2026-tertialrapport-t2-2026-for-regionale-byggeprosjekter.pdf",
-      "date": "2026-10-15",
+      "source": "Sykehuset Innlandet HF — styrepapir",
+      "url": "https://www.sykehuset-innlandet.no/4a9a18/siteassets/om-oss/styret/2026/2026-10-21/096-2026-videreutvikling-av-sykehuset-innlandet---orienteringer-om-status-i-prosjektfasen.pdf",
+      "date": "2026-10-21",
       "impact": "high"
     }
   ]

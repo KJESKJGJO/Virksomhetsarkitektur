@@ -4,48 +4,48 @@
     "no": "Helse 4.0 — siste signaler",
     "en": "Health 4.0 — latest signals"
   },
-  "updated": "2026-11-16T06:37:22Z",
+  "updated": "2026-11-23T06:40:03Z",
   "items": [
     {
       "title": {
-        "no": "NHN åpner FHIR-basert pasientoppsummering i test og QA",
-        "en": "NHN opens FHIR-based patient summary in test and QA"
+        "no": "NHN dokumenterer MyHealth@EU-pasientoppsummering i test og QA",
+        "en": "NHN documents a MyHealth@EU patient summary in test and QA"
       },
       "summary": {
-        "no": "NHNs utviklerportal publiserte 12. november dokumentasjon for å hente en MyHealth@EU-pasientoppsummering gjennom det eksisterende FHIR R4 Patient/$everything-endepunktet i test- og QA-miljø, ikke produksjon. Foreløpig støttes bare allergi- og intoleransedata; fire andre kliniske seksjoner er eksplisitt markert som ikke levert i denne versjonen. Konsekvens for Helse 4.0: behandle dette som en avgrenset testintegrasjon, lås profil- og terminologiversjoner for validering, og ikke forutsett et produksjonsklart eller komplett forløpsgrunnlag.",
-        "en": "NHN's developer portal published documentation on 12 November for requesting a MyHealth@EU patient summary through the existing FHIR R4 Patient/$everything endpoint in test and QA, not production. Only allergy and intolerance data are currently supported; four other clinical sections are explicitly marked as not supplied in this version. Health 4.0 consequence: treat this as a limited test integration, pin profile and terminology versions for validation, and do not assume a production-ready or complete care-pathway dataset."
+        "no": "NHNs utviklerportal publiserte 16. november dokumentasjon for en MyHealth@EU-pasientoppsummering via Patient/$everything i FHIR R4 4.0.1; løsningen er bare tilgjengelig i test og QA. Versjonen omfatter allergier og kritiske medisinske tilstander, mens legemidler, prosedyrer og medisinsk utstyr ikke leveres i disse seksjonene. Konsekvens for Helse 4.0: bruk dette som en avgrenset integrasjons- og profilvalidering, ikke som produksjonsklart eller komplett forløpsgrunnlag.",
+        "en": "NHN's developer portal published documentation on 16 November for a MyHealth@EU patient summary through Patient/$everything in FHIR R4 4.0.1; it is available only in test and QA. This version covers allergies and critical medical conditions, while medications, procedures and medical devices are not supplied in those sections. Health 4.0 consequence: use it for bounded integration and profile validation, not as a production-ready or complete care-pathway data source."
       },
-      "source": "Norsk helsenett – Utviklerportal",
+      "source": "Norsk helsenett — Utviklerportal",
       "url": "https://utviklerportal.nhn.no/informasjonstjenester/kjernejournal/kritisk-informasjon/kritisk-info-fhir-api/hit-critical-information/docs/fhir-resources/patient-everything-myhealthmd",
-      "date": "2026-11-12",
+      "date": "2026-11-16",
       "impact": "medium"
     },
     {
       "title": {
-        "no": "EHDS-høring om maler for sekundærbruk lukket 13. november",
-        "en": "EHDS consultation on templates for secondary use closed on 13 November"
+        "no": "MyHealth-profilen for kritisk medisinsk tilstand er spesifisert",
+        "en": "The MyHealth profile for critical medical conditions is specified"
       },
       "summary": {
-        "no": "Helsedirektoratet oppdaterte høringssiden 13. november; EU-kommisjonens offentlige høring om artikkel 70-maler for sekundærbruk av helsedata løp fra 16. oktober til 13. november 2026. Høringen er lukket, og siden beskriver en prosess for gjennomføringsrettsakter, ikke endelige vedtatte krav. Konsekvens for Helse 4.0: følg med på vedtatte maler og bruk dem til å justere metadata, tilgangs- og datakatalogarkitektur før sekundærbruk skaleres på tvers av sykdomsforløp.",
-        "en": "The Norwegian Directorate of Health updated its consultation page on 13 November; the European Commission's public consultation on Article 70 templates for secondary use of health data ran from 16 October to 13 November 2026. The consultation is closed, and the page describes a process for implementing acts, not final adopted requirements. Health 4.0 consequence: monitor the adopted templates and use them to adjust metadata, access and data-catalogue architecture before scaling secondary use across care pathways."
+        "no": "NHN publiserte 18. november detaljert dokumentasjon for MyHealth Condition-profilen, basert på FHIR R4 og MyHealth EPS 1.0.0-poc. Profilen krever koding som følger eHDSIProblemWithExceptions; Kjernejournal-koder og ICD-10-behandling beskrives, og fritekst beholdes uten automatisk oversettelse. Konsekvens for Helse 4.0: versjoner kodeverk og valideringsregler eksplisitt, og ikke anta at nasjonale kritisk-informasjon-koder kan mappes direkte til SNOMED CT.",
+        "en": "On 18 November, NHN published detailed documentation for the MyHealth Condition profile, based on FHIR R4 and MyHealth EPS 1.0.0-poc. The profile requires coding compatible with eHDSIProblemWithExceptions; Kjernejournal codes and ICD-10 handling are described, and free text is retained without automatic translation. Health 4.0 consequence: version terminology and validation rules explicitly, and do not assume national critical-information codes map directly to SNOMED CT."
       },
-      "source": "Helsedirektoratet",
-      "url": "https://www.helsedirektoratet.no/digitalisering-og-e-helse/det-europeiske-helsedataomradet-ehds/horinger-ehds",
-      "date": "2026-11-13",
+      "source": "Norsk helsenett — Utviklerportal",
+      "url": "https://utviklerportal.nhn.no/informasjonstjenester/kjernejournal/kritisk-informasjon/kritisk-info-fhir-api/hit-critical-information/docs/fhir-resources/myhealth/myhealthconditioncriticalmedicalconditionmd",
+      "date": "2026-11-18",
       "impact": "medium"
     },
     {
       "title": {
-        "no": "Kortvarig ustabilitet rammet sentrale NHN-tjenester",
-        "en": "Brief instability affected core NHN services"
+        "no": "NHN legger til en skrivebeskyttet FHIR R4-visning av legemiddelgrunndata",
+        "en": "NHN adds a read-only FHIR R4 view of medicinal product data"
       },
       "summary": {
-        "no": "NHNs statusside registrerte 14. november tre korte perioder med ustabilitet som berørte Helsenorge, Reseptformidleren, Kjernejournal, Orion og Sentral forskrivningsmodul; alle tjenester var meldt normale igjen kl. 19.22 CET. Dette var en avgrenset driftsforstyrrelse, ikke et langvarig bortfall. Konsekvens for Helse 4.0: bygg inn robust håndtering av utilgjengelige nasjonale avhengigheter, forsinkede oppdateringer og kontrollert gjenoppretting av tvillingens hendelses- og legemiddeldata.",
-        "en": "NHN's status page recorded three brief periods of instability on 14 November affecting Helsenorge, the Prescription Intermediary, the Summary Care Record, Orion and the Central Prescribing Module; all services were reported normal again at 19:22 CET. This was a limited service disruption, not a prolonged outage. Health 4.0 consequence: design for unavailable national dependencies, delayed updates and controlled reconciliation of the twin's event and medication data."
+        "no": "NHNs utviklerportal publiserte 20. november en skrivebeskyttet FHIR R4-visning av data fra Legemiddelgrunndata på /fhir/r4, ved siden av REST-API-et. Dette er en minimal førsteversjon, ikke full kompatibilitet med NoMA- eller H-resept-profiler; NHN anbefaler fortsatt REST-API-et for videre utvikling. Konsekvens for Helse 4.0: bruk en isolert FHIR-adapter for lesetilgang og behold eksplisitt profiltilpasning og REST som referanse for videre funksjoner.",
+        "en": "NHN's developer portal published a read-only FHIR R4 view of Legemiddelgrunndata on 20 November at /fhir/r4, alongside the REST API. This is a minimal first version, not full compatibility with NoMA or H-resept profiles; NHN still recommends the REST API for future development. Health 4.0 consequence: use an isolated FHIR adapter for read access and retain explicit profile mapping and the REST API as the reference for future functions."
       },
-      "source": "Norsk helsenett Status",
-      "url": "https://status.nhn.no/incidents/zw47t3lzry2z",
-      "date": "2026-11-14",
+      "source": "Norsk helsenett — Utviklerportal",
+      "url": "https://utviklerportal.nhn.no/informasjonstjenester/legemiddelgrunndata/nompd/docs/developer/fhir/fhir-r4md",
+      "date": "2026-11-20",
       "impact": "medium"
     }
   ]
